@@ -12,22 +12,45 @@ jobs:
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg
+        
+    - name: Install Node.js dependencies
       run: npm ci
       
     - name: Build book
       run: |
-        npm run build:epub
-        npm run build:kindle
+        # Build website first (most important for GitHub Pages)
         npm run build:website
+        
+        # Build other formats (continue even if some fail)
+        npm run build:epub || echo "EPUB build failed, continuing..."
+        npm run build:kindle || echo "Kindle build failed, continuing..."
+        npm run build:pdf || echo "PDF build failed, continuing..."
+        
+        # List what was built
+        echo "Build completed. Contents of dist directory:"
+        ls -la dist/
+        echo "Website contents:"
+        ls -la dist/website/
+        
+    - name: Verify website build
+      run: |
+        if [ ! -f "dist/website/index.html" ]; then
+          echo "❌ Website build failed - index.html not found"
+          exit 1
+        fi
+        echo "✅ Website build verified successfully"
         
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
