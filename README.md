@@ -1,6 +1,6 @@
 # Watt's Wrong?
 
-*A book about [your book's topic/theme]*
+*A comprehensive guide to what's wrong with Britain's electricity and energy system - perfect for newcomers seeking context and experts wanting to explore beyond their specialty*
 
 ## 📖 Read Online
 
@@ -8,11 +8,39 @@ This book is available to read online at: [https://benjaminwatts.github.io/watts
 
 ## 📚 Table of Contents
 
-- [Chapter 1: Introduction](chapters/01-introduction.md)
-- [Chapter 2: Getting Started](chapters/02-getting-started.md)
-- [Chapter 3: Core Concepts](chapters/03-core-concepts.md)
-- [Chapter 4: Advanced Topics](chapters/04-advanced-topics.md)
-- [Chapter 5: Conclusion](chapters/05-conclusion.md)
+### Introduction
+- [Chapter 1: What's Wrong with Britain's Energy?](chapters/01-introduction.md)
+
+### Part 1: The Generation Mess
+- [Chapter 2: Biomass - The Wood Pellet Problem](chapters/02-biomass.md)
+- [Chapter 3: Feed-in Tariffs & RO - How Subsidies Went Wrong](chapters/03-feed-in-tariffs.md)
+- [Chapter 4: NIMBYs & Onshore Wind Ban - The Planning Disaster](chapters/04-nimbys-wind-ban.md)
+- [Chapter 5: Political Instability - Nuclear Flip-Flopping and Policy Chaos](chapters/05-political-instability.md)
+
+### Part 2: The Grid & Infrastructure Problems
+- [Chapter 6: Transmission Constraints - Bottlenecks and Bottlenecks](chapters/06-transmission-constraints.md)
+- [Chapter 7: Scotland - The North-South Divide](chapters/07-scotland.md)
+- [Chapter 8: Regional Privatisation Model - How Fragmentation Hurts](chapters/08-regional-privatisation.md)
+
+### Part 3: The Consumer & Market Failures
+- [Chapter 9: Smart Meters Optional - Why the Rollout Failed](chapters/09-smart-meters.md)
+- [Chapter 10: Electricity Levies - Hidden Costs Everywhere](chapters/10-electricity-levies.md)
+- [Chapter 11: Price Cap - The Sticking Plaster Solution](chapters/11-price-cap.md)
+- [Chapter 12: EPCs - Energy Performance Certificates That Don't Work](chapters/12-epcs.md)
+- [Chapter 13: RHI vs BUS - Heating Policy Confusion](chapters/13-rhi-vs-bus.md)
+
+### Part 4: The Policy & Pricing Chaos
+- [Chapter 14: CfD vs Marginal Pricing - Market Design Disasters](chapters/14-cfd-vs-marginal-pricing.md)
+- [Chapter 15: 2022 Subsidies - Emergency Measures That Became Permanent](chapters/15-2022-subsidies.md)
+- [Chapter 16: Exercise Duty & Road Pricing - Transport Energy Policy](chapters/16-exercise-duty-road-pricing.md)
+- [Chapter 17: Brexit Friction - How Leaving the EU Made Energy Harder](chapters/17-brexit-friction.md)
+
+### Part 5: The Human Factor
+- [Chapter 18: 9-5 & School Holidays - Why Timing Matters for Energy](chapters/18-9-5-school-holidays.md)
+- [Chapter 19: The Planning Problem - Why Nothing Gets Built](chapters/19-planning-problem.md)
+
+### Conclusion
+- [Chapter 20: How to Fix Britain's Energy System](chapters/20-conclusion.md)
 
 ## 🚀 Quick Start
 

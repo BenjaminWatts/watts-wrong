@@ -8,7 +8,7 @@ const marked = require('marked');
 // Configuration
 const BOOK_TITLE = "Watt's Wrong?";
 const BOOK_AUTHOR = "Your Name";
-const BOOK_SUBTITLE = "What's Wrong with Electricity and Energy in Britain?";
+const BOOK_SUBTITLE = "A comprehensive guide to what's wrong with Britain's electricity and energy system";
 const OUTPUT_DIR = path.join(__dirname, '..', 'dist');
 const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
 const WEBSITE_DIR = path.join(OUTPUT_DIR, 'website');
@@ -154,6 +154,18 @@ body {
 
 .navigation a:hover {
     background-color: var(--border-color);
+}
+
+.part-section {
+    margin-bottom: 2rem;
+}
+
+.part-section h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .chapter {
@@ -315,7 +327,8 @@ async function generateChapterFiles(markdownFiles) {
             htmlContent,
             i,
             markdownFiles.length,
-            chapters
+            chapters,
+            getChapterPart(i)
         );
         
         const outputFile = path.join(WEBSITE_DIR, `${chapterNumber}-${chapterName}.html`);
@@ -333,7 +346,17 @@ async function generateChapterFiles(markdownFiles) {
     return chapters;
 }
 
-function generateChapterHTML(title, content, currentIndex, totalChapters, chapters) {
+function getChapterPart(chapterIndex) {
+    if (chapterIndex === 0) return 'Introduction';
+    if (chapterIndex <= 4) return 'Part 1: The Generation Mess';
+    if (chapterIndex <= 7) return 'Part 2: The Grid & Infrastructure Problems';
+    if (chapterIndex <= 12) return 'Part 3: The Consumer & Market Failures';
+    if (chapterIndex <= 16) return 'Part 4: The Policy & Pricing Chaos';
+    if (chapterIndex <= 18) return 'Part 5: The Human Factor';
+    return 'Conclusion';
+}
+
+function generateChapterHTML(title, content, currentIndex, totalChapters, chapters, part) {
     const prevChapter = currentIndex > 0 ? chapters[currentIndex - 1] : null;
     const nextChapter = currentIndex < totalChapters - 1 ? chapters[currentIndex + 1] : null;
     
@@ -355,11 +378,14 @@ function generateChapterHTML(title, content, currentIndex, totalChapters, chapte
         
         <nav class="navigation">
             <h2>Table of Contents</h2>
-            <ul>
-                ${chapters.map(ch => 
-                    `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                ).join('')}
-            </ul>
+            <div class="part-section">
+                <h3>${part}</h3>
+                <ul>
+                    ${chapters.map(ch => 
+                        `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                    ).join('')}
+                </ul>
+            </div>
         </nav>
         
         <main class="chapter">
@@ -409,22 +435,76 @@ async function generateIndexHTML(chapters) {
         <main>
             <section class="introduction">
                 <h2>Welcome to ${BOOK_TITLE}</h2>
-                <p>This book explores the challenges and issues facing electricity and energy in Britain. 
+                <p>This book is your comprehensive guide to understanding what's wrong with Britain's electricity and energy system. 
                 From grid infrastructure to renewable energy policies, we'll examine what's working, 
                 what's not, and what needs to change.</p>
                 
-                <p>Whether you're interested in energy policy, infrastructure, or simply want to understand 
-                the current state of Britain's energy system, this book provides a comprehensive overview 
-                written in accessible language.</p>
+                <p>Perfect for newcomers seeking context across every subsector, or experts wanting to explore 
+                areas beyond their specialty. Written in accessible language that cuts through the complexity 
+                to give you the full picture.</p>
             </section>
             
             <nav class="navigation">
                 <h2>Start Reading</h2>
-                <ul>
-                    ${chapters.map(ch => 
-                        `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                    ).join('')}
-                </ul>
+                
+                <div class="part-section">
+                    <h3>Introduction</h3>
+                    <ul>
+                        <li><a href="${chapters[0].filename}">Chapter ${chapters[0].number}: ${chapters[0].title}</a></li>
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Part 1: The Generation Mess</h3>
+                    <ul>
+                        ${chapters.slice(1, 5).map(ch => 
+                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                        ).join('')}
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Part 2: The Grid & Infrastructure Problems</h3>
+                    <ul>
+                        ${chapters.slice(5, 8).map(ch => 
+                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                        ).join('')}
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Part 3: The Consumer & Market Failures</h3>
+                    <ul>
+                        ${chapters.slice(8, 13).map(ch => 
+                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                        ).join('')}
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Part 4: The Policy & Pricing Chaos</h3>
+                    <ul>
+                        ${chapters.slice(13, 17).map(ch => 
+                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                        ).join('')}
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Part 5: The Human Factor</h3>
+                    <ul>
+                        ${chapters.slice(17, 19).map(ch => 
+                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
+                        ).join('')}
+                    </ul>
+                </div>
+                
+                <div class="part-section">
+                    <h3>Conclusion</h3>
+                    <ul>
+                        <li><a href="${chapters[19].filename}">Chapter ${chapters[19].number}: ${chapters[19].title}</a></li>
+                    </ul>
+                </div>
             </nav>
             
             <section class="downloads">

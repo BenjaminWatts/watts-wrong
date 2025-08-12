@@ -1,18 +1,18 @@
-# Chapter 1: Introduction
+# Chapter 1: What's Wrong with Britain's Energy?
 
 ## Welcome to Watt's Wrong?
 
-Welcome to *Watt's Wrong?*, a book that explores [your book's main topic or theme]. Whether you're a beginner looking to understand the fundamentals or an experienced practitioner seeking deeper insights, this book is designed to guide you through the journey.
+Welcome to *Watt's Wrong?*, a comprehensive guide to understanding what's wrong with Britain's electricity and energy system. Whether you're new to energy policy or an expert in one area wanting to explore others, this book will give you the full picture of Britain's energy dysfunction.
 
 ## What This Book Covers
 
-This book is structured to take you from the basics to advanced concepts, with each chapter building upon the previous one. We'll cover:
+This book is structured to take you through Britain's energy system problems systematically, organized into five main parts:
 
-- **Fundamental concepts** that form the foundation
-- **Practical applications** you can implement immediately
-- **Advanced techniques** for experienced users
-- **Real-world examples** and case studies
-- **Common pitfalls** and how to avoid them
+- **Part 1: The Generation Mess** - How Britain's power generation went wrong
+- **Part 2: The Grid & Infrastructure Problems** - Why the system can't deliver
+- **Part 3: The Consumer & Market Failures** - How customers and markets are failing
+- **Part 4: The Policy & Pricing Chaos** - Why energy policy is in disarray
+- **Part 5: The Human Factor** - How human behavior and planning affect energy
 
 ## How to Use This Book
 
@@ -29,9 +29,10 @@ Use this book as a reference and focus on the advanced chapters. The earlier cha
 
 To get the most out of this book, you'll need:
 
-- [List any prerequisites, tools, or software]
-- [Any specific knowledge or experience]
-- [Hardware or system requirements if applicable]
+- **Basic understanding** of how electricity works (we'll explain the rest)
+- **Interest in policy** and how government decisions affect daily life
+- **Curiosity** about why Britain's energy system seems so dysfunctional
+- **Patience** - we're going deep into some complex topics
 
 ## Getting Help
 
@@ -52,7 +53,7 @@ Throughout this book, you'll find numerous examples and code snippets. I encoura
 
 ## What's Next?
 
-In the next chapter, we'll dive into [brief preview of Chapter 2]. We'll start with the fundamentals and build a solid foundation that will support everything else in this book.
+In the next chapter, we'll dive into **Biomass - The Wood Pellet Problem**. We'll explore how Britain ended up burning wood pellets from America to meet renewable energy targets, and why this is both environmentally questionable and economically unsustainable.
 
 ---
 
