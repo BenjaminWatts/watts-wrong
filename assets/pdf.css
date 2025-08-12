@@ -1,0 +1,235 @@
+/* PDF Styling for Watt's Wrong? */
+
+@page {
+    margin: 2cm;
+    size: A4;
+}
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #000;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    page-break-before: always;
+    page-break-after: avoid;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-size: 14pt;
+    color: #000;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    page-break-after: avoid;
+}
+
+h4 {
+    font-size: 12pt;
+    color: #000;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+li {
+    margin-bottom: 0.4em;
+}
+
+blockquote {
+    margin: 1.5em 0;
+    padding: 0.8em 1.2em;
+    font-style: italic;
+    border-left: 4px solid #000;
+    background-color: #f8f8f8;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 10pt;
+    background-color: #f0f0f0;
+    padding: 0.1em 0.3em;
+    border-radius: 2px;
+}
+
+pre {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.8em;
+    margin: 1.5em 0;
+    overflow-x: auto;
+    page-break-inside: avoid;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 0.4em;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Chapter breaks */
+hr {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 2em 0;
+    page-break-after: avoid;
+}
+
+/* Special formatting */
+.important {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 0.8em;
+    margin: 1.5em 0;
+}
+
+.warning {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 0.8em;
+    margin: 1.5em 0;
+}
+
+.tip {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 0.8em;
+    margin: 1.5em 0;
+}
+
+/* Page breaks */
+div.chapter {
+    page-break-before: always;
+}
+
+/* Avoid orphaned headings */
+h1, h2, h3, h4 {
+    orphans: 3;
+    widows: 3;
+}
+
+/* Ensure code blocks don't break across pages */
+pre, code {
+    page-break-inside: avoid;
+}
+
+/* Title page styling */
+.title-page {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.title-page h1 {
+    font-size: 36pt;
+    margin-bottom: 2em;
+}
+
+.title-page p {
+    font-size: 16pt;
+    margin-bottom: 1em;
+    text-align: center;
+    text-indent: 0;
+}
+
+/* Table of contents */
+.toc {
+    page-break-before: always;
+}
+
+.toc h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc li {
+    margin-bottom: 0.5em;
+    padding-left: 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Print optimizations */
+@media print {
+    body {
+        font-size: 11pt;
+        line-height: 1.4;
+    }
+    
+    h1 {
+        font-size: 20pt;
+    }
+    
+    h2 {
+        font-size: 16pt;
+    }
+    
+    h3 {
+        font-size: 14pt;
+    }
+} 

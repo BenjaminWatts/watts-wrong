@@ -1,0 +1,41 @@
+{
+  "name": "watts-wrong",
+  "version": "1.0.0",
+  "description": "A book about [your book's topic] - available online and as EPUB/Kindle formats",
+  "main": "index.js",
+  "scripts": {
+    "build:epub": "node scripts/build-epub.js",
+    "build:kindle": "node scripts/build-kindle.js",
+    "build:audiobook": "node scripts/build-audiobook.js",
+    "build:pdf": "node scripts/build-pdf.js",
+    "build:website": "node scripts/build-website.js",
+    "build:all": "npm run build:epub && npm run build:kindle",
+    "build:complete": "npm run build:epub && npm run build:kindle && npm run build:pdf && npm run build:audiobook && npm run build:website",
+    "preview": "node scripts/preview.js",
+    "clean": "rm -rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "book",
+    "markdown",
+    "epub",
+    "kindle",
+    "publishing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "marked": "^9.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminwatts/watts-wrong.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminwatts/watts-wrong/issues"
+  },
+  "homepage": "https://benjaminwatts.github.io/watts-wrong/"
+} 
