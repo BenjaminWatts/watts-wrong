@@ -1,4 +1,4 @@
-# Chapter 1: What's Wrong with Britain's Energy?
+# Chapter 01: What's Wrong with Britain's Energy?
 
 ## Welcome to Watt's Wrong?
 
@@ -8,11 +8,12 @@ Welcome to *Watt's Wrong?*, a comprehensive guide to understanding what's wrong 
 
 This book is structured to take you through Britain's energy system problems systematically, organized into five main parts:
 
-- **Part 1: The Generation Mess** - How Britain's power generation went wrong
-- **Part 2: The Grid & Infrastructure Problems** - Why the system can't deliver
-- **Part 3: The Consumer & Market Failures** - How customers and markets are failing
-- **Part 4: The Policy & Pricing Chaos** - Why energy policy is in disarray
-- **Part 5: The Human Factor** - How human behavior and planning affect energy
+- **Part 1: The Generation Mess** (Chapters 2-5) - How Britain's power generation went wrong
+- **Part 2: The Grid & Infrastructure Problems** (Chapters 6-8) - Why the system can't deliver
+- **Part 3: The Consumer & Market Failures** (Chapters 9-13) - How customers and markets are failing
+- **Part 4: The Policy & Pricing Chaos** (Chapters 14-17) - Why energy policy is in disarray
+- **Part 5: The Human Factor** (Chapters 18-19) - How human behavior and planning affect energy
+- **Conclusion** (Chapter 20) - How to fix Britain's energy system
 
 ## How to Use This Book
 
@@ -42,18 +43,6 @@ If you encounter difficulties or have questions:
 2. **Review the previous chapters** - the answer might be there
 3. **Use the online version** at [GitHub Pages link] for interactive reading
 4. **Contribute improvements** by submitting pull requests to the repository
-
-## A Note on Examples
-
-Throughout this book, you'll find numerous examples and code snippets. I encourage you to:
-
-- **Type them out** rather than copy-pasting (you'll learn more)
-- **Experiment with variations** to deepen your understanding
-- **Apply them to your own projects** to see how they work in practice
-
-## What's Next?
-
-In the next chapter, we'll dive into **Biomass - The Wood Pellet Problem**. We'll explore how Britain ended up burning wood pellets from America to meet renewable energy targets, and why this is both environmentally questionable and economically unsustainable.
 
 ---
 
