@@ -1,4 +1,4 @@
-# Chapter 09: Smart Meters Optional - Why the Rollout Failed
+# Chapter 9: Smart Meters Optional - Why the Rollout Failed
 
 ## Introduction
 

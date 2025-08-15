@@ -1,158 +1,45 @@
-# Chapter 2: Biomass - The Wood Pellet Problem
+# Chapter 2: Biomass 
 
 ## Introduction
 
-Britain's love affair with biomass energy is a perfect example of how good intentions can lead to terrible outcomes. In our quest to meet renewable energy targets, we've created a system that's both environmentally questionable and economically unsustainable.
+Biomass is the burning of wood or crops for energy. Mankind has relied on it since first burning firewood. With industrialisation in the 19th and 20th centuries, it got displaced by more abundant and energy dense fossil fuels like coal (and later oil and gas). In Britain today, the mostly use biomass in wood fires stoves heating homes and at the massive Drax power station.
 
-## What is Biomass Energy?
+## What's good about biomass?
 
-Biomass energy involves burning organic materials to generate electricity. In Britain, this primarily means wood pellets - compressed sawdust and wood waste that gets burned in power stations.
+Before slating it, it's worth noting biomass technologies have a number of advantages:
 
-### The Scale of the Problem
+- **Flexible storage**: biomass fuels such as wood pellets, biodiesel/ethanol can be stored in silos or big tanks just like fossil fuels, ready to be burnt when they're needed. Compared to electrified renewable technologies like wind and solar, they don't necessitate storing energy in batteries 
+- **Conversion**: you can often repurpose or convert existing fossil fuel appliances to run on biomass fuels. Drax power station previously burnt coal, diesel cars and trucks can be converted to run on vegetable oil derived biodiesel, coal fireplaces can be retrofitted with a wooden stove.
+- **Consumer Adoption**: because they're tangible and similar to fossil fuels, they're often easier to persuade consumers to switch to. Biodiesel and bioethanol fuelled cars engender less range anxiety than EVs. Biomass boilers require less modification to home radiators than heatpumps. 
 
-Britain burns more wood pellets than any other country in Europe. Our largest biomass power station, Drax in Yorkshire, consumes around 7 million tonnes of wood pellets annually - equivalent to cutting down a forest the size of Wales every year.
+## So what's the problem with Biomass?
 
-## Why Britain Turned to Biomass
+In a nutshell, biomass isn't efficient. It's a very old technology, dating to cavepeople's first use of firewood, and we have to rely on some plant's growth cycle to capture stored energy. Plants aren't that efficient at storing the energy they photosynthesize from sunlight. To get any meaningful contribution to our energy needs from biomass requires large scale cultivation of crops and plants. And when we burn biomass fuels in power stations or stoves, we are lucky to usefully extract 30 or 40% of the energy the plants have captured. All together, this means to get any siginificant proportion of our energy from biomass requires converting massive tracts of land to growing large numbers of similar plants or crops. Such monocultures can't fail to have profound impacts on ecosystems affecting other wildlife, and competing with use of land for food production.
 
-### Renewable Energy Targets
+## How do you solve a problem like Drax?
 
-The 2009 EU Renewable Energy Directive required Britain to generate 15% of its energy from renewable sources by 2020. Biomass offered a quick fix - existing coal power stations could be converted relatively easily.
+Drax is massive. It is the largest power station the UK has ever had, with a capacity of 3,960 megawatts - enough to power over 6 million homes. It was built in 1974 in Yorkshire on the banks of the River Ouse, to burn coal sourced from the nearby Yorkshire coal fields. At the time, almost all Britain's power came from coal, and there were many other power stations like Drax. In the rivers like the Ouse, Trent, and Aire that empty into the River Humber, the area was nicknamed "megawatt valley" and accounted for over 40% of Britain's power generation at its peak. When Drax opened in 1974, it was the largest coal-fired power station in Europe and one of the biggest in the world - a symbol of Britain's industrial might and energy ambitions. At its peak, Drax was one of the largest carbon emitters in Europe, releasing over 20 million tonnes of CO2 annually - more than many entire countries. While there are larger coal plants in Germany and Eastern Europe, Drax was certainly among the biggest emitters in Western Europe.
 
-### The "Carbon Neutral" Myth
+When the UK signed up to the EU Renewable Energy Directive in 2009, it committed to generate 15% of its energy from renewable sources by 2020. At the time, only around 3% of Britain's power was from renewables, and the challenge seemed daunting, especially as Britain's most established low carbon generation technology, nuclear power, couldn't be used toward the target. Now as it turned out, in 2020 Britain generated 24% of its power from wind and a further 4% from solar, because these technologies fell drastically in price and were deployed at scale around the country in a way that exceeded earlier expectations. So Britain never needed Drax to meet this target. Britain also left the EU in 2020-1, which certainly wasn't expected in 2009! 
 
-Biomass was classified as "carbon neutral" under EU rules, based on the assumption that trees would regrow and reabsorb the carbon dioxide released when burning wood. This ignored several critical factors:
+Successive governments and energy ministers have been terrified of losing Drax's generation capacity. The spectre of 1970s blackouts haunted Conservative administrations from 2010-2024, creating a political climate where keeping the lights on trumped environmental concerns. So when Drax's owners proposed converting initially two generating units in 2012, and then two more in 2016 and 2018, ministers decided to bend the rules for subsidising renewable technologies to include biomass. For the first few units, they even created a separate non-competitive arrangement called a "Final Investment Decision" (FiD) enabling contract, which unlike the transparent auctions for wind and solar wasn't a very open or competitive process. Instead, it was more of a direct negotiation between Drax's private owners and government ministers and civil servants. The guaranteed prices Drax gets for its power are around £150-170/MWh today, and are guaranteed to increase each year in-line with inflation for 15 years after the conversion process, meaning between 2027 and 2033.
 
-- **Time lag**: It takes decades for trees to regrow
-- **Transport emissions**: Wood pellets are shipped from America
-- **Forest destruction**: Old-growth forests are being clear-cut
-- **Carbon debt**: We're releasing carbon now that won't be absorbed for years
+Given the quantity of wood pellets Drax needs to meet its annual energy requirement of around 20,000 GWh, it couldn't rely on British (or even European) sourced wood. So it turned to North America. The environmental and social impacts of this large-scale wood pellet industry have been extensively documented, including in a [BBC documentary](https://www.bbc.co.uk/programmes/m0018q8k).
 
-## The American Connection
+Despite the concerns with Biomass, the price paid for Drax's power is significantly more than other power generators:
 
-### Where the Wood Comes From
+**Conventional power plants** receive only the wholesale electricity price, currently around £50-80 per MWh depending on market conditions.
+**New wind projects** those under consideration today (for the upcoming AR6 subsidy round) are expected to get £110-150/MWh in today's prices. 
 
-Most of Britain's wood pellets come from the southeastern United States, particularly:
+## Wood stoves and pellet boilers - smoke and subsidies
 
-- **North Carolina**: Clear-cutting of hardwood forests
-- **Georgia**: Pine plantations replacing natural ecosystems
-- **Alabama**: Destruction of wetland forests
+As well as being used in the largest power station in the country, biomass is well established for heating homes and buildings. Wood fires are aesthetically pleasing, and stoves and biomass boilers can achieve 70-85% efficiency, comparing favourably with gas and oil boilers which typically achieve 85-95% efficiency. In many rural areas, routine tree surgery creates a ready supply of timber, making biomass an attractive local energy source. Wood stoves are resilient to blackouts too.
 
-### The Supply Chain Problem
+However, the growth of wood burning in urban areas, particularly during the 2022 energy crisis, has created significant air pollution problems. Wood stoves and open fires emit high levels of particulate matter (PM2.5 and PM10), nitrogen oxides, and other harmful pollutants that contribute to poor air quality and respiratory health issues. These are localised pollution problems, in contrast to the global nature of climate change. In response, the government has introduced regulations to phase out the sale of the most polluting fuels and stoves, with new restrictions on wet wood and coal sales coming into effect in recent years.
 
-The wood pellet industry has created a complex supply chain that's both environmentally destructive and economically fragile:
+In Northern Ireland, subsidies for Biomass became particularly controversial when the Northern Ireland Audit Office revealed in 2016 that a subsidy to promote biomass use in smaller businesses (like farms) had been overly generous. Because the subsidy offered exceeded the cost of wood pellets, businesses had an incentive to burn as much biomass as possible. This experience has rightly made subsequent governments around the UK more critical
 
-1. **Forest clear-cutting** in America
-2. **Processing** into pellets at local facilities
-3. **Transport** by truck to ports
-4. **Shipping** across the Atlantic
-5. **Burning** in British power stations
+## Biofuels
 
-## Environmental Impact
+Less topical of late, petrol and diesel are required to contain 5-10% of biofuel, typically derived from crops like corn, sugarcane, and palm oil. This creates a direct competition between fuel and food production, as agricultural land is converted from growing food to growing energy crops. The result is often large-scale monoculture plantations that replace diverse ecosystems, reduce biodiversity, and can drive up food prices in regions where these crops are grown. In some cases, the environmental impact of clearing forests for biofuel plantations has been so severe that the carbon emissions from land-use change exceed the carbon savings from using biofuels instead of fossil fuels. The cost of manufacturing biofuels significantly higher than fossil fuel derived petrol and diesel too, at least before taxes are added.
 
-### Carbon Emissions
-
-Burning wood releases more carbon dioxide per unit of energy than burning coal. The "carbon neutral" classification is based on flawed accounting that doesn't consider:
-
-- **Immediate emissions**: CO2 released when burning
-- **Transport emissions**: Diesel trucks and ships
-- **Processing emissions**: Energy used to compress wood into pellets
-- **Forest degradation**: Loss of carbon-sequestering ecosystems
-
-### Biodiversity Loss
-
-The conversion of natural forests to industrial plantations has devastating effects on wildlife:
-
-- **Habitat destruction** for native species
-- **Monoculture plantations** replacing diverse ecosystems
-- **Water quality degradation** from clear-cutting
-- **Soil erosion** and nutrient loss
-
-## Economic Problems
-
-### Subsidy Dependence
-
-Biomass power stations in Britain receive massive subsidies through the Renewables Obligation scheme:
-
-- **Drax alone** receives over £800 million annually in subsidies
-- **Total biomass subsidies** exceed £1 billion per year
-- **Electricity consumers** pay these costs through their bills
-
-### Market Distortion
-
-The biomass subsidy regime has created several market problems:
-
-- **Over-investment** in biomass capacity
-- **Displacement** of genuinely renewable energy
-- **Price inflation** in the wood pellet market
-- **Dependency** on foreign suppliers
-
-## The Policy Failure
-
-### Regulatory Capture
-
-The biomass industry has successfully lobbied for favorable treatment:
-
-- **Carbon accounting rules** that ignore real emissions
-- **Subsidy schemes** that reward burning wood
-- **Planning permissions** for large-scale facilities
-- **Environmental assessments** that downplay impacts
-
-### Short-term Thinking
-
-Britain's biomass policy reflects a broader problem in energy policy:
-
-- **Quick fixes** over long-term solutions
-- **Target chasing** without considering consequences
-- **Industry lobbying** over public interest
-- **International pressure** to meet EU targets
-
-## What Should Happen Instead
-
-### Immediate Actions
-
-1. **End biomass subsidies** for large-scale power generation
-2. **Implement proper carbon accounting** that includes transport and processing
-3. **Protect existing forests** from industrial exploitation
-4. **Support genuine renewables** like wind and solar
-
-### Long-term Solutions
-
-1. **Energy efficiency** as the primary renewable energy source
-2. **Local energy systems** that reduce transmission needs
-3. **Demand management** to reduce peak energy requirements
-4. **Storage solutions** for intermittent renewable energy
-
-## The Bigger Picture
-
-Britain's biomass problem illustrates several broader issues in our energy system:
-
-- **Policy making in silos** without considering wider impacts
-- **International supply chains** that hide environmental costs
-- **Subsidy addiction** that prevents market innovation
-- **Short-term targets** that create long-term problems
-
-## Summary
-
-Biomass energy in Britain is a case study in how not to do renewable energy policy. We've created a system that:
-
-- ✅ **Meets renewable targets** (on paper)
-- ❌ **Increases carbon emissions** (in reality)
-- ❌ **Destroys forests** (in America)
-- ❌ **Costs consumers billions** (in subsidies)
-- ❌ **Creates dependency** (on foreign suppliers)
-
-## Next Steps
-
-In the next chapter, we'll explore **Feed-in Tariffs & RO - How Subsidies Went Wrong**, examining how Britain's renewable energy subsidy schemes created similar problems across the energy sector.
-
-## Key Takeaways
-
-1. **Biomass is not carbon neutral** - the accounting is fundamentally flawed
-2. **Britain's biomass policy** is environmentally destructive and economically wasteful
-3. **Subsidy schemes** can create perverse incentives that harm the environment
-4. **International supply chains** often hide the true environmental costs
-5. **Policy making needs to consider** the full lifecycle impacts of energy choices
-
----
-
-*Britain's biomass experiment shows how renewable energy targets can lead to renewable energy disasters.* 

@@ -1,4 +1,4 @@
-# Chapter 01: What's Wrong with Britain's Energy?
+# Chapter 1: Watt's Wrong with Britain's Energy?
 
 ## Welcome to Watt's Wrong?
 

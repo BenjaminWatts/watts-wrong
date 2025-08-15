@@ -1,4 +1,4 @@
-# Chapter 08: Regional Privatisation Model - How Fragmentation Hurts
+# Chapter 8: Regional Privatisation Model - How Fragmentation Hurts
 
 ## Introduction
 

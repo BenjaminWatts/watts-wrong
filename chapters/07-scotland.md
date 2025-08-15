@@ -1,4 +1,4 @@
-# Chapter 07: Scotland - The North-South Divide
+# Chapter 7: Scotland - The North-South Divide
 
 ## Introduction
 

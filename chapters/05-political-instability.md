@@ -1,4 +1,4 @@
-# Chapter 05: Political Instability - Nuclear Flip-Flopping and Policy Chaos
+# Chapter 5: Political Instability - Nuclear Flip-Flopping and Policy Chaos
 
 ## Introduction
 

@@ -315,6 +315,7 @@ async function generateChapterFiles(markdownFiles) {
         const file = markdownFiles[i];
         const chapterName = path.basename(file, '.md');
         const chapterNumber = (i + 1).toString().padStart(2, '0');
+        const actualChapterNumber = (i + 1).toString().padStart(2, '0');
         const chapterTitle = chapterName.replace(/^\d+-/, '').replace(/-/g, ' ');
         
         // Read and parse markdown
@@ -335,7 +336,7 @@ async function generateChapterFiles(markdownFiles) {
         await fs.writeFile(outputFile, chapterHTML);
         
         chapters.push({
-            number: chapterNumber,
+            number: actualChapterNumber,
             name: chapterName,
             title: chapterTitle,
             filename: `${chapterNumber}-${chapterName}.html`,

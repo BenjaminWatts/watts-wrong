@@ -1,4 +1,4 @@
-# Chapter 04: NIMBYs & Onshore Wind Ban - The Planning Disaster
+# Chapter 4: NIMBYs & Onshore Wind Ban - The Planning Disaster
 
 ## Introduction
 

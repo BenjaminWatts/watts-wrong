@@ -1,4 +1,4 @@
-# Chapter 06: Transmission Constraints - Bottlenecks and Bottlenecks
+# Chapter 6: Transmission Constraints - Bottlenecks and Bottlenecks
 
 ## Introduction
 
