@@ -13,7 +13,7 @@ This book is available to read online at: [https://benjaminwatts.github.io/watts
 
 ### Part 1: The Generation Mess
 - [Chapter 2: Biomass - The Wood Pellet Problem](chapters/02-biomass.md)
-- [Chapter 3: Feed-in Tariffs & RO - How Subsidies Went Wrong](chapters/03-feed-in-tariffs.md)
+        - [Chapter 3: Feed-in Tariffs and ROCs - How Subsidies Went Wrong](chapters/03-feed-in-tariffs-and-rocs.md)
 - [Chapter 4: NIMBYs & Onshore Wind Ban - The Planning Disaster](chapters/04-nimbys-wind-ban.md)
 - [Chapter 5: Political Instability - Nuclear Flip-Flopping and Policy Chaos](chapters/05-political-instability.md)
 
