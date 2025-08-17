@@ -1,35 +1,7 @@
 # Chapter 7: Scotland - The North-South Divide
 
-## Introduction
+If you start studying or working in the British energy market today, there's little to formally distinguish the energy system in Scotland from the rest of England and Wales. It's part of the same wholesale market, retail consumers north and south of the border choose between the same suppliers. Regulation on competition is identical. And while the Scottish Government is devolved some powers in the energy space, which it has used to permit more onshore wind development and top-up support for heatpumps and insulation over the years compared with Westminster administrations, this understanding misses 
 
-[This chapter will explore scotland - the north-south divide in Britain's energy system.]
+In England, the electricity grid started in major cities in the late 19th century, with coal power stations build to serve nearby factories and housing. The first National Grid wasn't built until the 1920s/30s. Even then, it didn't extend north of central Scotland (Glasgow and Edinburgh). Electricity in the north of Scotland followed later, and focussed more at localised hydro schemes, where the region's unique geography and population density compared to the rest of the country created a radically different grid setup. However, after 1945 the electricity systems were largely separated and given different structures. In England, all the power stations (generators) were grouped together with the tranmission grid, with separate regional electricity companies doing the local distribution and retail to end consumers. In Scotland, two vertically integrated companies were created to cover north and south Scotland, both spanning everything from generating power to retail. There was a small amount of capacity between Central Scotland and Northern England to move electricity north or south, but these links were not radically expanded over the decades even as electricity usage grew.
 
-## Key Issues
-
-- [Issue 1]
-- [Issue 2]
-- [Issue 3]
-
-## What Went Wrong
-
-[Analysis of the problem and its causes.]
-
-## The Impact
-
-[How this affects consumers, the economy, and the environment.]
-
-## What Should Happen
-
-[Potential solutions and policy recommendations.]
-
-## Summary
-
-[Key takeaways from this chapter.]
-
-## Next Steps
-
-[What the next chapter will cover.]
-
----
-
-*This chapter is a placeholder and will be expanded with full content.*
+Fast forwarding to the privatisation of the 1990s, and the model adopted reflected the setup in England and Wales, rather than Scotland. Whereas in England there had long been a distinction between the transmission grid (which became National Grid) and siloed regional distribution grids, in Scotland such barriers were less distinct. In very rural areas, it didn't make sense to have distinct organisations strictly focussed at different voltage levels because the distances between settlements were so great and the population density so low that maintaining separate transmission and distribution networks would have been economically inefficient. Scotland was also more self-sufficient and contained, it wasn't as important to the national generation strategy. It would have been considered quite strange to try and transmit large amounts of electricity from the Highlands all the way to the south of England when there was so much coal generation capacity already located in the industrial heartlands of the Midlands and South.
