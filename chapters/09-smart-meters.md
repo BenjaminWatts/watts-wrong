@@ -1,35 +1,54 @@
 # Chapter 9: Smart Meters Optional - Why the Rollout Failed
 
-## Introduction
+The UK smart meter rollout is unparalleled in its failure, and what's most surprising is how few people know just how bad we are compared to similar countries. To put this in perspective, the smart meter rollout has cost taxpayers and billpayers over £13 billion - more than the London 2012 Olympics (£8.8 billion), approaching the cost of Hinkley Point C nuclear power station (£25-30 billion), and a significant fraction of the HS2 rail project (£100+ billion). Yet unlike these other major infrastructure projects, the smart meter rollout affects 20-30 million homes and businesses across the entire country, making it one of the most widespread government programmes ever attempted. This works out to an average cost of around £500-650 per home or business - a substantial sum that has been added to everyone's energy bills. Despite this massive scale and cost, regulatory and bureaucratic blunders mean we aren't getting the return on investment we should from it.
 
-[This chapter will explore smart meters optional - why the rollout failed in Britain's energy system.]
+One of the reasons why it has been so expensive is that it has gone on for such a long time. Indeed, it's gone on for so long that the original minister who agreed to the smart meter rollout back in 2009 was Ed Miliband - a reminder of just how many governments and energy ministers have presided over this project without managing to complete it. The extended timeline has allowed costs to escalate dramatically, with each delay and restart adding millions to the final bill. The irony is that Miliband is now back in the same job as Energy Secretary, having returned to the department where he launched this troubled project 16 years ago.
 
-## Key Issues
+To understand the root of the problems, it's important to understand some of the mistakes made during the privatisation of our energy market, which are explained in further detail in Chapter 8. The smart meter rollout's failures are not isolated incidents but symptoms of deeper structural problems in how Britain's energy system was designed and regulated. 
 
-- [Issue 1]
-- [Issue 2]
-- [Issue 3]
+Back in 2009, the government decided on a complex ownership model for smart meters. It was felt that electricity suppliers (retailers) should own as much as possible of the relationship with energy customers. At the same time, it was decided that meter ownership should be outsourced to a separate group of competing private companies that could own and operate them as infrastructure assets. This was seen as preferable to the previous arrangement, where regional electricity companies had maintained and owned meters, or to the approach used in other countries like France, Germany, and the Netherlands, where meters continue to be owned and operated by the network companies. It was also felt that there were significant benefits to having smart meters for gas (as well as electricity), and given that many customers had "dual fuel" energy contracts with the same supplier for electricity and gas that by putting suppliers in charge, this would enable synergies between electricity and gas. This feeling was held strongly by energy companies with lots of gas customers, who felt it might make it more difficult and expensive to sell gas.
 
-## What Went Wrong
+The theory was that this model, where electricity suppliers appoint meter companies to install meters on their behalf, would make it easier for customers to switch between suppliers in the competitive retail market. Suppliers could simply transfer the meter lease from one metering company to another when a customer changed providers.
 
-[Analysis of the problem and its causes.]
+1. Every electricity and gas supplier (there are x operating in the market today) have had to build and maintain their own departments, systems and platforms to procure install and maintain smart meters
+2. Appointments have to be per customer, not per street.
+3. Gas meters are often separate from electricity meters. Old gas meters don't need an electricity supply, and so there is often not an electricity supply to connect a smart gas meter to. 
+4. Whenever a smart meter is installed and there is a wider problem with the electricity supply coming into the property, the metering company and supplier then have to negotiate with the electricity network anyway. It also removes accountability from a single company for the smart meter rollout. 
 
-## The Impact
+However, there are broader problems too:
 
-[How this affects consumers, the economy, and the environment.]
+**Pandering to conspiracy theorists**
 
-## What Should Happen
+A niche group of energy consumers believe that smart meters have publicly unacknowledged downsides, such as affecting human health or facilitating some dystopian or Orwellian future. To placate such groups, the Government built in safeguards to allow energy consumers the right to opt out of smart meter installation. However, this opt-out provision has created additional complexity and cost, as suppliers must maintain separate systems for customers with traditional meters while also ensuring that the smart meter network can still function effectively. The irony is that these conspiracy theories, while unfounded, have actually contributed to the rollout's failure by creating a system that's more complex and expensive than it needed to be. 
 
-[Potential solutions and policy recommendations.]
+Moreover, until recently, suppliers were generally not allowed to offer cheaper tariffs specifically to smart meter customers, as this could be seen as discriminatory against those who have opted out or cannot have smart meters installed. This meant that one of the key benefits of smart meters - the ability to offer more sophisticated and potentially cheaper time-of-use tariffs - could not be used to incentivize adoption, further undermining the business case for the rollout. However, this has started to change with the emergence of EV, heat pump, and battery tariffs that do require smart meters, though these remain a small fraction of the market. 
 
-## Summary
+**Gas smart meters never made sense**
 
-[Key takeaways from this chapter.]
+As a country, we're moving away from gas. It makes little sense to make such a colossal investment in our gas system. Unlike electricity, where smart meters allow for more accurate measurement of when power is used and therefore enable time-of-use tariffs for the first time - thus helping cut costs and accelerate the transition to renewables - it matters much less when gas is used. While gas demand peaks in the evening and morning (similar to electricity), there is so much storage capacity in the gas network (called "linepack") that there is no benefit to measuring half-hourly gas usage in the same way as electricity.
 
-## Next Steps
+The practical challenges of gas smart metering are even more significant. Gas meters are often located in different places to electricity meters - typically in cellars, garages, or external meter boxes. A large part of the cost of smart metering for gas involves establishing communication links between the electricity meter and the gas meter, either through wireless connections or new cabling. If this isn't practical, then gas meters might still need to be read manually (either by the consumer or the energy company), which negates most of the benefits of smart metering.
 
-[What the next chapter will cover.]
+When the EU mandated that all member states install smart meters, they specifically excluded gas meters for precisely these reasons. The UK, making this decision while it was still an EU member, decided to go much further and gold-plate the regulatory requirement. This was a classic case of regulatory overreach - taking a sensible EU requirement and making it unnecessarily complex and expensive.
 
----
+Even if the lack of smart metering for gas had led to an accelerated move towards electricity for heating, this would have been environmentally beneficial, even though it would have been undesirable for energy companies that supply gas.
 
-*This chapter is a placeholder and will be expanded with full content.*
+**Network connectivity**
+Smart meters send really tiny amounts of data, back to electricity companies, in substance it's a single number telling them how many kilowatt hours is used every half hour. Meters need something similar to an internet connection to send this information back. The most obvious way to do this would be over mobile phone networks, where the volume of data would be trivial compared to modern 5G smart phone browsing. The obvious fall back in areas lacking a phone signal from at least one of the mobile networks would probably be to drop into the home wifi connection, in the same way many of our other devices (Smart TV, Doorbell, Printer etc) do. For the very few homes that lack both mobile connection and wifi (which would be tiny), then there are satellite and radio options which could work out.
+
+What the Government instead decided to do was to split the country into two regions. First, Government divided the country between the North and South along a line roughly between Liverpool and Leeds. So all of Scotland and part of Northern England falls in a northern region, while the rest of England and Wales falls into a southern region. For the southern region, the Government handed an exclusive contract to O2 (Telefonica) to use their existing mobile network. For the Northern region, the Government handed an exclusive contract to Arqiva for a solution based on longer distance radio signals. The thinking was that this would suit the more rural topography of Scotland and Northern England, and the denser population further south. However, this approach has proven too broad-brush and problematic:
+
+1. In the Northern region, Arqiva's radio solution doesn't work as well in urban areas. It's based on radio technology originally designed for use by the emergency services in rural areas by vehicles with big aerials, where there is a low density of devices. Urban electricity and gas meters are clustered together in basements or alleyways. And even in Scotland and the North of England, the majority of the population is urbanised. The decision to award an exclusive contract to Arqiva for these areas also prevents energy suppliers falling back to use O2, even though in most built up areas, a mobile signal would be readilly available.
+
+2. In the Southern region, many rural areas originally lack an O2 signal, but did have coverage from Vodafone/EE/Three. The most remote places would probably have been better suited to Arqiva's technology. In any case, this led to many situations where smart meters either couldn't be installed or worked unreliably. This situation has in recent years with the merger of O2 with Vodafone, a separate fallover contract for smart meters with Vodafone and a Shared Rural Network programme where in the most rural areas, all network companies share infrastructure.
+
+**Inhome Displays versus Mobile Apps**
+
+In 2009, when the smart meter rollout began, the iPhone was 2 years old and mobile apps were nowhere near as ubiquitous as today, especially with older and more vulnerable households e.g. pensioners. The decision was therefore taken to mandate energy suppliers provide customers with an in-home screen device (IHD) to present live and summary information from the smart meter.
+
+This added significantly to the cost because they are a separate piece of hardware that needs to be user friendly and have a power supply. To be diplomatic, the IHDs which energy suppliers eventually procured are of variable quality and ease of use to the average customer. If IHDs break, energy suppliers have to replace them which can be quite frequent in tenanted properties. IHDs also use energy (albeit small amounts), for negligible benefit to most consumers.
+
+In 2025, the growth of smartphones, tablets and computers as well as the accessibility improvements which have happened to them makes the continued requirement for an in home display (IHD) verging on the absurd.
+
+**A network rollout makes infinitely more sense**
+Connecting all the previous downsides, the overarching mistake Government made was not to consolidate smart meter rollout to electricity network companies. This was the approach taken in most other European countries, including Italy (99% completion), Sweden (95% completion), Finland (90% completion), France (85% completion), and Ireland (80% completion), where the rollout of smart meters is significantly more complete than the UK's current 60% completion rate. Had the Government taken a network rollout approach, we'd have made much better progress, at a lower cost, with greater reliability and a better consumer experience.
