@@ -1,35 +1,44 @@
 # Chapter 10: Electricity Levies - Hidden Costs Everywhere
 
-## Introduction
+In the UK, there's been considerable interest of late in high energy prices. While generally true, the reality is more mixed:
 
-[This chapter will explore electricity levies - hidden costs everywhere in Britain's energy system.]
+1. The standard cost of electricity per kilowatt hour is about 25p and is similar for business and residential consumers. This is expensive by international standards, especially for businesses, though not that expensive by European levels and for the residential sector.
 
-## Key Issues
+2. The standard cost of gas per kilowatt hour is much lower, at about 7p. This is relatively cheap by international standards, particularly for residential consumers, though business gas prices are a bit higher because of extra environmental and carbon charges that they face.
 
-- [Issue 1]
-- [Issue 2]
-- [Issue 3]
+There are quite a few reasons why British energy users have such mixed fortunes:
 
-## What Went Wrong
+**Reliance on Gas for Electricity**
+The UK is particularly dependent on gas not just for heating, but also to generate electricity. Unlike France, Britain has much less nuclear power. Outside Scotland, Britain lacks the geography for much hydro power, at least compared to the Nordics, Alpine countries, Spain or Canada. And compared to Germany, Poland, US, China and India, Britain shifted entirely from coal power, which used to generate nearly all our electricity.
 
-[Analysis of the problem and its causes.]
+Gas produces about half the CO2 emissions per unit of electricity generated (around 400g CO2/kWh) compared to coal (around 800g CO2/kWh). Even though the UK had well established gas fields in the North Sea, it was considered a premium fuel for heating and industry, and the CEGB (Central Electricity Generating Board) had limited gas-fired generation capacity before privatisation, preferring coal for electricity production. However, there were significant advances in gas turbine technology at power stations in the 1980s and 1990s, and it was cheaper and easier to build new gas-fired power stations. Combined cycle gas power stations (CCGTs) became the preference for newly privatised energy companies, and between 1990 and 2010, around 30 major CCGT plants were built around the UK in a "dash for gas".
 
-## The Impact
+Investment in new nuclear plants basically stoped after the completion of Sizewell B, which had been initiated before privatisation, but which dragged on and was massively overbudget. Given the scale and long term risk of nuclear investment, coupled with cheap gas and wholesale power prices privatised utilities were unable and unwilling to invest in new nuclear plants, and the existing plants which were privatised eventually went bankrupt and were sold to the French state utility EdF.
 
-[How this affects consumers, the economy, and the environment.]
+The wholesale price mechanism used in Britain sets the price of electricity at the cost of the most expensive power generator in each half hourly period. 98% of the time, this is a gas power station. And so wholesale electricity prices in Britain closely shadow gas prices, although there is considerable movement from day to day and hour to hour depending on the level of demand. This is because the most efficient gas power stations in Britain, like the newer CCGT plants, are around 55-60% efficient, while the least efficient gas power stations (often older, simpler gas turbines) are more like 30-35% efficient. This means that the cost of making a unit of electricity at the least efficient gas power stations is maybe double that at the most efficient ones. In turn, this means that the least efficient power stations operate very little, typically only firing up on very cold days midwinter and for the peak late-afternoon and evening periods when demand is highest and all available capacity is needed to keep the lights on. And when the least efficient plants do have to fire up, prices spike!
 
-## What Should Happen
+After 2010, there was a notable increase in wind energy investment, which now contributes a similar share % as gas. Private companies have also continued to build more interconnectors to European neighbours. There are now x interconnectors built, up from one pre-privatisation and in 2024 the UK imported about x% of its power through these cables. Despite both these trends, gas continues to drive the overall market and prices, even if it only accounts for about one-third of the power used.
 
-[Potential solutions and policy recommendations.]
+Why does this matter for prices? Well gas is quite an expensive fuel. It creates half the carbon of coal, and is much cleaner to burn, meaning there is vastly less local air pollution. And power stations have to buy carbon permits, which operate like a tax on natural gas that domestic and many business users don't have to pay when they burn gas in boilers or cookers. These carbon permits add about x% (or £x/tonne) to the cost of the gas.
 
-## Summary
+***Accounting tricks**
+Staring in 2010, when the coalition government got serious about the pace of expansion of renewable generation, they needed to finance a substantial expansion of Britain's wind, solar and biomass generation at a time of public expenditure restraint (called austerity). The private companies developing these projects needed subsidies though ROCs (and later CfDs).
 
-[Key takeaways from this chapter.]
+Putting additional levies or charges onto energy bills to fund these costs was preferable to tax rises for political reasons. 
 
-## Next Steps
+**Sharing the cost evenly**
+Given the decision to finance renewable subsidies off energy bills, the Government was then faced with the decision of which energy bills to target. At the time, only x% of households and a smaller x% of businesses had a gas supply, while nearly 100% of homes and businesses have an electricity supply. The decision was taken to finance the bulk of subsisides and supports for renewables from levies and charges to electricity bills. It was felt that the burden of these charges would then be felt broadly in proportion to how much electricity they used.
 
-[What the next chapter will cover.]
+**Discouraging heatpumps and EVs**
 
----
+When they were first introduced, electricity levies weren't that significant. However, over time, the levies have grown. The number of renewables projects supported by levies has growth consistently over time. There are a myriad of other policy iniitaiatives, for example the ECO efficency programme  that offers grants to vulnerable 
+households to improve insulation, install better boilers, thermostats, heatpumps and PV. Today, levies are about xp/kwh or x% of electricity costs.
 
-*This chapter is a placeholder and will be expanded with full content.*
+At this level, the levies are a significant detractor from the effort to sell and install more EVs and heatpumps. A well installed heatpump is about 350% efficient, and a well installed gas boiler about 90% efficient. But given the lack of levies on natural gas, especially for households, the cost of gas is about 3.5 times cheaper than electricity. This wipes out most of the efficiency savings of the heatpump. And given heatpumps are more expensive than gas boilers, there is often a negligible payback 
+
+**Taxing Gas**
+The obvious solution or remedy to the current mess is to move (or rebalance as it's commonly referred to), levies from electricity and onto competing fossil fuels. Given most energy companies that supply electricity also supply gas, it would be relatively straightforward to move many of the levies onto gas, though the implementation would need to be carefully considered and implemented. But while this could plug much of the gap, and many energy users using a mix of electricity and gas might not notice much overall change in their bills, there would still be winners and losers. Levies or taxes would also need to be extended to LPG, heating oil and coal fuels to avoid a perverse incentive for energy users to shift from mains gas to one of these alternatives, all of which have higher emissions.
+
+The basic rebalancing proposal has been around for a decade, and successive Governments have resisted the suggestion. At the core of its reluctance is the perception that any move which increases the price of natural gas would be considered regressive, and sharply increase the cost of the most basic need for heating in the winter months.
+
+Of course, rebalancing from electricity to gas has a positive effect on both sides of the coin. They increase the price of gas, wile reducing the cost of electricity. It doesn't therefore take that much to significantly alter the economics of a home contemplating an investment in a heatpump. 
