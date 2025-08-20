@@ -349,12 +349,12 @@ async function generateChapterFiles(markdownFiles) {
 
 function getChapterPart(chapterIndex) {
     if (chapterIndex === 0) return 'Introduction';
-    if (chapterIndex <= 4) return 'Part 1: The Generation Mess';
-    if (chapterIndex <= 7) return 'Part 2: The Grid & Infrastructure Problems';
-    if (chapterIndex <= 12) return 'Part 3: The Consumer & Market Failures';
-    if (chapterIndex <= 16) return 'Part 4: The Policy & Pricing Chaos';
-    if (chapterIndex <= 18) return 'Part 5: The Human Factor';
-    return 'Conclusion';
+    if (chapterIndex <= 4) return 'Part 1: The Generation Mess (Chapters 2-5)';
+    if (chapterIndex <= 7) return 'Part 2: The Grid & Infrastructure Problems (Chapters 6-8)';
+    if (chapterIndex <= 12) return 'Part 3: The Consumer & Market Failures (Chapters 9-13)';
+    if (chapterIndex <= 16) return 'Part 4: The Policy & Pricing Chaos (Chapters 14-17)';
+    if (chapterIndex <= 18) return 'Part 5: The Human Factor (Chapters 18-19)';
+    return 'Conclusion (Chapter 20)';
 }
 
 function generateChapterHTML(title, content, currentIndex, totalChapters, chapters, part) {
