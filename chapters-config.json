@@ -1,0 +1,161 @@
+{
+  "chapters": [
+    {
+      "id": "01-introduction",
+      "number": 1,
+      "title": "Watt's Wrong with Britain's Energy?",
+      "description": "Welcome and overview"
+    },
+    {
+      "id": "02-biomass",
+      "number": 2,
+      "title": "Biomass",
+      "description": "The biomass energy problem"
+    },
+    {
+      "id": "03-feed-in-tariffs-and-rocs",
+      "number": 3,
+      "title": "Feed-in Tariffs and ROCs",
+      "description": "Renewable energy subsidies"
+    },
+    {
+      "id": "04-nimbys-wind-ban",
+      "number": 4,
+      "title": "NIMBYs and Wind Ban",
+      "description": "Opposition to wind energy"
+    },
+    {
+      "id": "05-political-instability",
+      "number": 5,
+      "title": "Political Instability",
+      "description": "Policy inconsistency"
+    },
+    {
+      "id": "06-transmission-constraints",
+      "number": 6,
+      "title": "Transmission Constraints",
+      "description": "Grid infrastructure limitations"
+    },
+    {
+      "id": "07-scotland",
+      "number": 7,
+      "title": "Scotland",
+      "description": "Scottish energy independence"
+    },
+    {
+      "id": "08-regional-privatisation",
+      "number": 8,
+      "title": "Regional Privatisation",
+      "description": "Market fragmentation"
+    },
+    {
+      "id": "09-smart-meters",
+      "number": 9,
+      "title": "Smart Meters",
+      "description": "Digital infrastructure rollout"
+    },
+    {
+      "id": "10-electricity-levies",
+      "number": 10,
+      "title": "Electricity Levies",
+      "description": "Hidden costs and taxes"
+    },
+    {
+      "id": "11-price-cap",
+      "number": 11,
+      "title": "Price Cap",
+      "description": "Energy price regulation"
+    },
+    {
+      "id": "12-epcs",
+      "number": 12,
+      "title": "EPCs",
+      "description": "Energy Performance Certificates"
+    },
+    {
+      "id": "13-rhi-vs-bus",
+      "number": 13,
+      "title": "RHI vs Bus",
+      "description": "Renewable Heat Incentive comparison"
+    },
+    {
+      "id": "14-cfd-vs-marginal-pricing",
+      "number": 14,
+      "title": "CFD vs Marginal Pricing",
+      "description": "Energy market mechanisms"
+    },
+    {
+      "id": "15-2022-subsidies",
+      "number": 15,
+      "title": "2022 Subsidies",
+      "description": "Emergency energy support"
+    },
+    {
+      "id": "16-exercise-duty-road-pricing",
+      "number": 16,
+      "title": "Exercise Duty and Road Pricing",
+      "description": "Transport energy policy"
+    },
+    {
+      "id": "17-brexit-friction",
+      "number": 17,
+      "title": "Brexit Friction",
+      "description": "EU exit impacts on energy"
+    },
+    {
+      "id": "18-9-5-school-holidays",
+      "number": 18,
+      "title": "9-5 School Holidays",
+      "description": "Demand management challenges"
+    },
+    {
+      "id": "19-planning-problem",
+      "number": 19,
+      "title": "Planning Problem",
+      "description": "Infrastructure development barriers"
+    },
+    {
+      "id": "20-conclusion",
+      "number": 20,
+      "title": "Conclusion",
+      "description": "How to fix Britain's energy system"
+    }
+  ],
+  "parts": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "chapters": [1]
+    },
+    {
+      "id": "part1",
+      "title": "Part 1: The Generation Mess",
+      "chapters": [2, 3, 4, 5]
+    },
+    {
+      "id": "part2", 
+      "title": "Part 2: The Grid & Infrastructure Problems",
+      "chapters": [6, 7, 8]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3: The Consumer & Market Failures", 
+      "chapters": [9, 10, 11, 12, 13]
+    },
+    {
+      "id": "part4",
+      "title": "Part 4: The Policy & Pricing Chaos",
+      "chapters": [14, 15, 16, 17]
+    },
+    {
+      "id": "part5",
+      "title": "Part 5: The Human Factor",
+      "chapters": [18, 19]
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "chapters": [20]
+    }
+  ]
+}

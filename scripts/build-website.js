@@ -309,14 +309,23 @@ body {
 async function generateChapterFiles(markdownFiles) {
     console.log('  📖 Generating chapter HTML files...');
     
+    // Load chapter configuration
+    const configPath = path.join(__dirname, '..', 'chapters-config.json');
+    const config = await fs.readJson(configPath);
+    
     const chapters = [];
     
     for (let i = 0; i < markdownFiles.length; i++) {
         const file = markdownFiles[i];
         const chapterName = path.basename(file, '.md');
         const chapterNumber = (i + 1).toString().padStart(2, '0');
-        const actualChapterNumber = (i + 1).toString().padStart(2, '0');
-        const chapterTitle = chapterName.replace(/^\d+-/, '').replace(/-/g, ' ');
+        
+        // Find chapter config by filename
+        const chapterConfig = config.chapters.find(ch => ch.id === chapterName);
+        if (!chapterConfig) {
+            console.warn(`⚠️  No configuration found for chapter: ${chapterName}`);
+            continue;
+        }
         
         // Read and parse markdown
         const content = await fs.readFile(file, 'utf8');
@@ -324,21 +333,22 @@ async function generateChapterFiles(markdownFiles) {
         
         // Generate chapter HTML
         const chapterHTML = generateChapterHTML(
-            chapterTitle,
+            chapterConfig.title,
             htmlContent,
             i,
             markdownFiles.length,
             chapters,
-            getChapterPart(i)
+            getChapterPart(i, config)
         );
         
         const outputFile = path.join(WEBSITE_DIR, `${chapterNumber}-${chapterName}.html`);
         await fs.writeFile(outputFile, chapterHTML);
         
         chapters.push({
-            number: actualChapterNumber,
+            number: chapterConfig.number.toString(),
             name: chapterName,
-            title: chapterTitle,
+            title: chapterConfig.title,
+            description: chapterConfig.description,
             filename: `${chapterNumber}-${chapterName}.html`,
             index: i
         });
@@ -347,14 +357,22 @@ async function generateChapterFiles(markdownFiles) {
     return chapters;
 }
 
-function getChapterPart(chapterIndex) {
-    if (chapterIndex === 0) return 'Introduction';
-    if (chapterIndex <= 4) return 'Part 1: The Generation Mess (Chapters 2-5)';
-    if (chapterIndex <= 7) return 'Part 2: The Grid & Infrastructure Problems (Chapters 6-8)';
-    if (chapterIndex <= 12) return 'Part 3: The Consumer & Market Failures (Chapters 9-13)';
-    if (chapterIndex <= 16) return 'Part 4: The Policy & Pricing Chaos (Chapters 14-17)';
-    if (chapterIndex <= 18) return 'Part 5: The Human Factor (Chapters 18-19)';
-    return 'Conclusion (Chapter 20)';
+function getChapterPart(chapterIndex, config) {
+    if (!config) {
+        // Fallback to hardcoded parts if config is not available
+        if (chapterIndex === 0) return 'Introduction';
+        if (chapterIndex <= 4) return 'Part 1: The Generation Mess (Chapters 2-5)';
+        if (chapterIndex <= 7) return 'Part 2: The Grid & Infrastructure Problems (Chapters 6-8)';
+        if (chapterIndex <= 12) return 'Part 3: The Consumer & Market Failures (Chapters 9-13)';
+        if (chapterIndex <= 16) return 'Part 4: The Policy & Pricing Chaos (Chapters 14-17)';
+        if (chapterIndex <= 18) return 'Part 5: The Human Factor (Chapters 18-19)';
+        return 'Conclusion (Chapter 20)';
+    }
+    
+    // Find which part this chapter belongs to
+    const chapterNumber = chapterIndex + 1;
+    const part = config.parts.find(p => p.chapters.includes(chapterNumber));
+    return part ? part.title : 'Unknown Part';
 }
 
 function generateChapterHTML(title, content, currentIndex, totalChapters, chapters, part) {
@@ -417,6 +435,10 @@ function generateChapterHTML(title, content, currentIndex, totalChapters, chapte
 async function generateIndexHTML(chapters) {
     console.log('  🏠 Generating index.html...');
     
+    // Load chapter configuration for proper part organization
+    const configPath = path.join(__dirname, '..', 'chapters-config.json');
+    const config = await fs.readJson(configPath);
+    
     const indexHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -448,64 +470,20 @@ async function generateIndexHTML(chapters) {
             <nav class="navigation">
                 <h2>Start Reading</h2>
                 
+                ${config.parts.map(part => {
+                    const partChapters = chapters.filter(ch => part.chapters.includes(parseInt(ch.number)));
+                    if (partChapters.length === 0) return '';
+                    
+                    return `
                 <div class="part-section">
-                    <h3>Introduction</h3>
+                    <h3>${part.title}</h3>
                     <ul>
-                        <li><a href="${chapters[0].filename}">Chapter ${chapters[0].number}: ${chapters[0].title}</a></li>
-                    </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Part 1: The Generation Mess</h3>
-                    <ul>
-                        ${chapters.slice(1, 5).map(ch => 
+                        ${partChapters.map(ch => 
                             `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
                         ).join('')}
                     </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Part 2: The Grid & Infrastructure Problems</h3>
-                    <ul>
-                        ${chapters.slice(5, 8).map(ch => 
-                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                        ).join('')}
-                    </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Part 3: The Consumer & Market Failures</h3>
-                    <ul>
-                        ${chapters.slice(8, 13).map(ch => 
-                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                        ).join('')}
-                    </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Part 4: The Policy & Pricing Chaos</h3>
-                    <ul>
-                        ${chapters.slice(13, 17).map(ch => 
-                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                        ).join('')}
-                    </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Part 5: The Human Factor</h3>
-                    <ul>
-                        ${chapters.slice(17, 19).map(ch => 
-                            `<li><a href="${ch.filename}">Chapter ${ch.number}: ${ch.title}</a></li>`
-                        ).join('')}
-                    </ul>
-                </div>
-                
-                <div class="part-section">
-                    <h3>Conclusion</h3>
-                    <ul>
-                        <li><a href="${chapters[19].filename}">Chapter ${chapters[19].number}: ${chapters[19].title}</a></li>
-                    </ul>
-                </div>
+                </div>`;
+                }).join('')}
             </nav>
             
             <section class="downloads">
