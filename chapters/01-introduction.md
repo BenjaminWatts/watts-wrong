@@ -6,14 +6,28 @@ Welcome to *Watt's Wrong?*, a comprehensive guide to understanding what's wrong 
 
 ## What This Book Covers
 
-This book is structured to take you through Britain's energy system problems systematically, organized into five main parts:
+This book systematically covers Britain's energy system problems across 20 chapters:
 
-- **Part 1: The Generation Mess** (Chapters 2-5) - How Britain's power generation went wrong
-- **Part 2: The Grid & Infrastructure Problems** (Chapters 6-8) - Why the system can't deliver
-- **Part 3: The Consumer & Market Failures** (Chapters 9-13) - How customers and markets are failing
-- **Part 4: The Policy & Pricing Chaos** (Chapters 14-17) - Why energy policy is in disarray
-- **Part 5: The Human Factor** (Chapters 18-19) - How human behavior and planning affect energy
-- **Conclusion** (Chapter 20) - How to fix Britain's energy system
+1. **[Introduction](01-introduction.md)** - Welcome and overview
+2. **[Biomass](02-biomass.md)** - The biomass energy problem
+3. **[Feed-in Tariffs and ROCs](03-feed-in-tariffs-and-rocs.md)** - Renewable energy subsidies
+4. **[NIMBYs and Wind Ban](04-nimbys-wind-ban.md)** - Opposition to wind energy
+5. **[Political Instability](05-political-instability.md)** - Policy inconsistency
+6. **[Transmission Constraints](06-transmission-constraints.md)** - Grid infrastructure limitations
+7. **[Scotland](07-scotland.md)** - Scottish energy independence
+8. **[Regional Privatisation](08-regional-privatisation.md)** - Market fragmentation
+9. **[Smart Meters](09-smart-meters.md)** - Digital infrastructure rollout
+10. **[Electricity Levies](10-electricity-levies.md)** - Hidden costs and taxes
+11. **[Price Cap](11-price-cap.md)** - Energy price regulation
+12. **[EPCs](12-epcs.md)** - Energy Performance Certificates
+13. **[RHI vs Bus](13-rhi-vs-bus.md)** - Renewable Heat Incentive comparison
+14. **[CFD vs Marginal Pricing](14-cfd-vs-marginal-pricing.md)** - Energy market mechanisms
+15. **[2022 Subsidies](15-2022-subsidies.md)** - Emergency energy support
+16. **[Exercise Duty and Road Pricing](16-exercise-duty-road-pricing.md)** - Transport energy policy
+17. **[Brexit Friction](17-brexit-friction.md)** - EU exit impacts on energy
+18. **[9-5 School Holidays](18-9-5-school-holidays.md)** - Demand management challenges
+19. **[Planning Problem](19-planning-problem.md)** - Infrastructure development barriers
+20. **[Conclusion](20-conclusion.md)** - How to fix Britain's energy system
 
 ## How to Use This Book
 
