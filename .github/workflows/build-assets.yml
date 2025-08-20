@@ -1,0 +1,191 @@
+name: Build Downloadable Assets
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  build-assets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg espeak
+        
+    - name: Install Node.js dependencies
+      run: npm ci
+      
+    - name: Build all formats
+      run: |
+        echo "🚀 Building all book formats..."
+        
+        # Build EPUB
+        echo "📚 Building EPUB..."
+        npm run build:epub || echo "⚠️ EPUB build failed, continuing..."
+        
+        # Build Kindle
+        echo "📱 Building Kindle (MOBI)..."
+        npm run build:kindle || echo "⚠️ Kindle build failed, continuing..."
+        
+        # Build PDF
+        echo "📄 Building PDF..."
+        npm run build:pdf || echo "⚠️ PDF build failed, continuing..."
+        
+        # Build audiobook (local TTS)
+        echo "🎧 Building audiobook..."
+        npm run build:audiobook || echo "⚠️ Audiobook build failed, continuing..."
+        
+        # List what was built
+        echo "✅ Build completed. Contents of dist directory:"
+        ls -la dist/
+        echo "📚 Ebook contents:"
+        ls -la dist/*.epub dist/*.mobi dist/*.pdf 2>/dev/null || echo "No ebooks found"
+        echo "🎧 Audiobook contents:"
+        ls -la dist/audiobook/ 2>/dev/null || echo "No audiobook found"
+        
+    - name: Create downloadable packages
+      run: |
+        echo "📦 Creating downloadable packages..."
+        
+        # Create a downloads directory
+        mkdir -p dist/downloads
+        
+        # Copy ebooks to downloads
+        if [ -f "dist/watts-wrong.epub" ]; then
+          cp dist/watts-wrong.epub dist/downloads/
+          echo "✅ EPUB copied to downloads"
+        fi
+        
+        if [ -f "dist/watts-wrong.mobi" ]; then
+          cp dist/watts-wrong.mobi dist/downloads/
+          echo "✅ MOBI copied to downloads"
+        fi
+        
+        if [ -f "dist/watts-wrong.pdf" ]; then
+          cp dist/watts-wrong.pdf dist/downloads/
+          echo "✅ PDF copied to downloads"
+        fi
+        
+        # Create audiobook archive
+        if [ -d "dist/audiobook" ]; then
+          cd dist/audiobook
+          tar -czf ../downloads/watts-wrong-audiobook.tar.gz *.aiff *.mp3 chapters.json 2>/dev/null || echo "⚠️ No audio files to archive"
+          cd ../..
+          echo "✅ Audiobook archive created"
+        fi
+        
+        # Create individual chapter downloads
+        if [ -d "dist/audiobook" ]; then
+          mkdir -p dist/downloads/audiobook-chapters
+          cd dist/audiobook
+          for file in *.aiff *.mp3; do
+            if [ -f "$file" ]; then
+              cp "$file" ../downloads/audiobook-chapters/
+            fi
+          done
+          cd ../..
+          echo "✅ Individual audio chapters copied"
+        fi
+        
+        # Create a complete book package
+        if [ -d "dist/downloads" ]; then
+          cd dist/downloads
+          tar -czf watts-wrong-complete.tar.gz *.epub *.mobi *.pdf *.tar.gz audiobook-chapters/ 2>/dev/null || echo "⚠️ Could not create complete package"
+          cd ../..
+          echo "✅ Complete book package created"
+        fi
+        
+        echo "📁 Download packages created:"
+        ls -la dist/downloads/
+        
+    - name: Upload ebooks as artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ebooks
+        path: |
+          dist/downloads/*.epub
+          dist/downloads/*.mobi
+          dist/downloads/*.pdf
+        retention-days: 90
+        
+    - name: Upload audiobook as artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: audiobook
+        path: |
+          dist/downloads/*.tar.gz
+          dist/downloads/audiobook-chapters/
+        retention-days: 90
+        
+    - name: Upload complete package as artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: complete-book
+        path: dist/downloads/watts-wrong-complete.tar.gz
+        retention-days: 90
+        
+    - name: Create download summary
+      run: |
+        echo "📋 Download Summary" > dist/downloads/README.md
+        echo "==================" >> dist/downloads/README.md
+        echo "" >> dist/downloads/README.md
+        echo "## Available Downloads" >> dist/downloads/README.md
+        echo "" >> dist/downloads/README.md
+        echo "### Ebooks" >> dist/downloads/README.md
+        if [ -f "dist/downloads/watts-wrong.epub" ]; then
+          echo "- **EPUB**: watts-wrong.epub - For most e-readers and mobile devices" >> dist/downloads/README.md
+        fi
+        if [ -f "dist/downloads/watts-wrong.mobi" ]; then
+          echo "- **Kindle (MOBI)**: watts-wrong.mobi - Optimized for Amazon Kindle devices" >> dist/downloads/README.md
+        fi
+        if [ -f "dist/downloads/watts-wrong.pdf" ]; then
+          echo "- **PDF**: watts-wrong.pdf - Great for printing and desktop reading" >> dist/downloads/README.md
+        fi
+        echo "" >> dist/downloads/README.md
+        echo "### Audiobook" >> dist/downloads/README.md
+        if [ -f "dist/downloads/watts-wrong-audiobook.tar.gz" ]; then
+          echo "- **Complete Audiobook**: watts-wrong-audiobook.tar.gz - All chapters in one archive" >> dist/downloads/README.md
+        fi
+        if [ -d "dist/downloads/audiobook-chapters" ]; then
+          echo "- **Individual Chapters**: Available in audiobook-chapters/ directory" >> dist/downloads/README.md
+        fi
+        echo "" >> dist/downloads/README.md
+        echo "### Complete Package" >> dist/downloads/README.md
+        if [ -f "dist/downloads/watts-wrong-complete.tar.gz" ]; then
+          echo "- **Everything**: watts-wrong-complete.tar.gz - All formats in one download" >> dist/downloads/README.md
+        fi
+        echo "" >> dist/downloads/README.md
+        echo "## How to Download" >> dist/downloads/README.md
+        echo "" >> dist/downloads/README.md
+        echo "1. Go to the Actions tab in this repository" >> dist/downloads/README.md
+        echo "2. Click on the latest successful workflow run" >> dist/downloads/README.md
+        echo "3. Scroll down to the Artifacts section" >> dist/downloads/README.md
+        echo "4. Download the format you want" >> dist/downloads/README.md
+        echo "" >> dist/downloads/README.md
+        echo "## Build Date" >> dist/downloads/README.md
+        echo "Built on: $(date)" >> dist/downloads/README.md
+        echo "Commit: ${{ github.sha }}" >> dist/downloads/README.md
+        
+    - name: Upload README as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: download-guide
+        path: dist/downloads/README.md
+        retention-days: 90

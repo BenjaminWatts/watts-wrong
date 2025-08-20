@@ -2,9 +2,30 @@
 
 *A comprehensive guide to what's wrong with Britain's electricity and energy system - perfect for newcomers seeking context and experts wanting to explore beyond their specialty*
 
+[![Build and Deploy](https://github.com/benjaminwatts/watts-wrong/workflows/Build%20and%20Deploy%20Book/badge.svg)](https://github.com/benjaminwatts/watts-wrong/actions)
+[![Build Assets](https://github.com/benjaminwatts/watts-wrong/workflows/Build%20Downloadable%20Assets/badge.svg)](https://github.com/benjaminwatts/watts-wrong/actions)
+[![Deploy to GitHub Pages](https://github.com/benjaminwatts/watts-wrong/workflows/Build%20and%20Deploy%20Book/badge.svg?branch=main)](https://benjaminwatts.github.io/watts-wrong/)
+
 ## 📖 Read Online
 
 This book is available to read online at: [https://benjaminwatts.github.io/watts-wrong/](https://benjaminwatts.github.io/watts-wrong/)
+
+## 📥 Download Latest Builds
+
+All formats are automatically built and available as GitHub Actions artifacts:
+
+### 🚀 Quick Downloads
+- **[📚 Ebooks](https://github.com/benjaminwatts/watts-wrong/actions)** - EPUB, MOBI, and PDF files
+- **[🎧 Audiobook](https://github.com/benjaminwatts/watts-wrong/actions)** - Complete audiobook archive  
+- **[📦 Complete Package](https://github.com/benjaminwatts/watts-wrong/actions)** - Everything in one download
+
+### 📋 How to Download
+1. Go to the [Actions tab](https://github.com/benjaminwatts/watts-wrong/actions) in this repository
+2. Click on the latest successful workflow run (green checkmark)
+3. Scroll down to the **Artifacts** section
+4. Download the format you want
+
+*💡 Artifacts are kept for 90 days and are updated with every push to the main branch.*
 
 ## 📚 Table of Contents
 
@@ -103,26 +124,6 @@ watts-wrong/
 3. Update the table of contents in this README
 4. The build scripts will automatically include new chapters
 
-## 📖 Chapter Format
-
-Each chapter should follow this structure:
-
-```markdown
-# Chapter Title
-
-## Introduction
-Brief overview of what this chapter covers.
-
-## Main Content
-Your chapter content goes here.
-
-## Summary
-Key takeaways from this chapter.
-
-## Next Steps
-What readers should do next or what's coming in the next chapter.
-```
-
 ## 🔧 Build System
 
 The build system uses:
@@ -131,6 +132,14 @@ The build system uses:
 - **GitHub Actions**: For automated builds and deployments
 - **Text-to-Speech**: For generating audiobooks (local and cloud options)
 - **CSS Styling**: For consistent formatting across all formats
+
+### 🚀 Automated Builds
+Every push to the main branch automatically triggers:
+- ✅ Website build and deployment to GitHub Pages
+- ✅ EPUB, MOBI, and PDF generation
+- ✅ Audiobook creation with local TTS
+- ✅ Artifact uploads for easy downloading
+- ✅ Quality checks and build verification
 
 ## 📱 Publishing
 
@@ -159,7 +168,16 @@ The book automatically deploys to GitHub Pages when you push to the main branch.
 
 ## 📄 License
 
-[Your chosen license here]
+This work is licensed under the [MIT License](LICENSE) - feel free to use, modify, and distribute as long as you include the original license and attribution.
+
+## 🌟 Features
+
+- **📱 Responsive Design** - Optimized for all devices
+- **🎧 Audiobook Generation** - Multiple TTS options (local and cloud)
+- **📚 Multi-format Export** - EPUB, MOBI, PDF, and website
+- **🤖 Automated Builds** - GitHub Actions handles everything
+- **📖 Markdown Source** - Easy to contribute and modify
+- **🌐 GitHub Pages** - Instant online publishing
 
 ---
 

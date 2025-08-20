@@ -7,7 +7,7 @@ const marked = require('marked');
 
 // Configuration
 const BOOK_TITLE = "Watt's Wrong?";
-const BOOK_AUTHOR = "Your Name";
+const BOOK_AUTHOR = "Ben Watts";
 const BOOK_SUBTITLE = "A comprehensive guide to what's wrong with Britain's electricity and energy system";
 const OUTPUT_DIR = path.join(__dirname, '..', 'dist');
 const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
@@ -511,13 +511,44 @@ async function generateIndexHTML(chapters) {
             <section class="downloads">
                 <h2>Download Formats</h2>
                 <p>Prefer to read offline? Download the book in your preferred format:</p>
-                <ul>
-                    <li><strong>EPUB:</strong> Perfect for e-readers and mobile devices</li>
-                    <li><strong>Kindle (MOBI):</strong> Optimized for Amazon Kindle devices</li>
-                    <li><strong>PDF:</strong> Great for printing and desktop reading</li>
-                    <li><strong>Audiobook:</strong> Listen while you commute or exercise</li>
-                </ul>
-                <p><em>Note: Download links will be available once the book is published.</em></p>
+                
+                <div class="download-grid">
+                    <div class="download-item">
+                        <h3>📚 Ebooks</h3>
+                        <ul>
+                            <li><strong>EPUB:</strong> Perfect for e-readers and mobile devices</li>
+                            <li><strong>Kindle (MOBI):</strong> Optimized for Amazon Kindle devices</li>
+                            <li><strong>PDF:</strong> Great for printing and desktop reading</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="download-item">
+                        <h3>🎧 Audiobook</h3>
+                        <ul>
+                            <li><strong>Complete Package:</strong> All 20 chapters in one download</li>
+                            <li><strong>Individual Chapters:</strong> Download specific chapters</li>
+                            <li><strong>Formats:</strong> MP3 and AIFF available</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="download-instructions">
+                    <h3>📥 How to Download</h3>
+                    <p><strong>Latest Build:</strong> All formats are automatically built and available as GitHub Actions artifacts.</p>
+                    <ol>
+                        <li>Go to the <a href="https://github.com/benjaminwatts/watts-wrong/actions" target="_blank">Actions tab</a> in this repository</li>
+                        <li>Click on the latest successful workflow run (green checkmark)</li>
+                        <li>Scroll down to the <strong>Artifacts</strong> section</li>
+                        <li>Download the format you want:
+                            <ul>
+                                <li><strong>ebooks</strong> - EPUB, MOBI, and PDF files</li>
+                                <li><strong>audiobook</strong> - Complete audiobook archive</li>
+                                <li><strong>complete-book</strong> - Everything in one package</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <p><em>💡 Artifacts are kept for 90 days and are updated with every push to the main branch.</em></p>
+                </div>
             </section>
         </main>
         

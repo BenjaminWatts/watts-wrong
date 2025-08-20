@@ -7,7 +7,7 @@ const glob = require('glob');
 
 // Configuration
 const BOOK_TITLE = "Watt's Wrong?";
-const BOOK_AUTHOR = "Your Name";
+const BOOK_AUTHOR = "Ben Watts";
 const OUTPUT_DIR = path.join(__dirname, '..', 'dist');
 const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
 

@@ -1,18 +1,21 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Book
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  release:
+    types: [published]
 
 jobs:
-  build-and-deploy:
+  build-all-formats:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pages: write
       id-token: write
+      actions: write
     
     steps:
     - name: Checkout
@@ -27,26 +30,91 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg espeak
         
     - name: Install Node.js dependencies
       run: npm ci
       
-    - name: Build book
+    - name: Build all formats
       run: |
+        echo "🚀 Building all book formats..."
+        
         # Build website first (most important for GitHub Pages)
+        echo "📱 Building website..."
         npm run build:website
         
-        # Build other formats (continue even if some fail)
-        npm run build:epub || echo "EPUB build failed, continuing..."
-        npm run build:kindle || echo "Kindle build failed, continuing..."
-        npm run build:pdf || echo "PDF build failed, continuing..."
+        # Build EPUB
+        echo "📚 Building EPUB..."
+        npm run build:epub || echo "⚠️ EPUB build failed, continuing..."
+        
+        # Build Kindle
+        echo "📱 Building Kindle (MOBI)..."
+        npm run build:kindle || echo "⚠️ Kindle build failed, continuing..."
+        
+        # Build PDF
+        echo "📄 Building PDF..."
+        npm run build:pdf || echo "⚠️ PDF build failed, continuing..."
+        
+        # Build audiobook (local TTS)
+        echo "🎧 Building audiobook..."
+        npm run build:audiobook || echo "⚠️ Audiobook build failed, continuing..."
         
         # List what was built
-        echo "Build completed. Contents of dist directory:"
+        echo "✅ Build completed. Contents of dist directory:"
         ls -la dist/
-        echo "Website contents:"
-        ls -la dist/website/
+        echo "📁 Website contents:"
+        ls -la dist/website/ || echo "Website directory not found"
+        echo "📚 Ebook contents:"
+        ls -la dist/*.epub dist/*.mobi dist/*.pdf 2>/dev/null || echo "No ebooks found"
+        echo "🎧 Audiobook contents:"
+        ls -la dist/audiobook/ 2>/dev/null || echo "No audiobook found"
+        
+    - name: Create release assets
+      run: |
+        echo "📦 Creating release assets..."
+        
+        # Create a releases directory
+        mkdir -p dist/releases
+        
+        # Copy ebooks to releases
+        if [ -f "dist/watts-wrong.epub" ]; then
+          cp dist/watts-wrong.epub dist/releases/
+          echo "✅ EPUB copied to releases"
+        fi
+        
+        if [ -f "dist/watts-wrong.mobi" ]; then
+          cp dist/watts-wrong.mobi dist/releases/
+          echo "✅ MOBI copied to releases"
+        fi
+        
+        if [ -f "dist/watts-wrong.pdf" ]; then
+          cp dist/watts-wrong.pdf dist/releases/
+          echo "✅ PDF copied to releases"
+        fi
+        
+        # Create audiobook archive
+        if [ -d "dist/audiobook" ]; then
+          cd dist/audiobook
+          tar -czf ../releases/watts-wrong-audiobook.tar.gz *.aiff *.mp3 chapters.json 2>/dev/null || echo "⚠️ No audio files to archive"
+          cd ../..
+          echo "✅ Audiobook archive created"
+        fi
+        
+        # Create individual chapter downloads
+        if [ -d "dist/audiobook" ]; then
+          mkdir -p dist/releases/audiobook-chapters
+          cd dist/audiobook
+          for file in *.aiff *.mp3; do
+            if [ -f "$file" ]; then
+              cp "$file" ../releases/audiobook-chapters/
+            fi
+          done
+          cd ../..
+          echo "✅ Individual audio chapters copied"
+        fi
+        
+        echo "📁 Release assets created:"
+        ls -la dist/releases/
         
     - name: Verify website build
       run: |
@@ -59,7 +127,7 @@ jobs:
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
-    - name: Upload artifact
+    - name: Upload website artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: './dist/website'
@@ -67,4 +135,38 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-      if: github.ref == 'refs/heads/main' 
+      if: github.ref == 'refs/heads/main'
+      
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: book-formats
+        path: |
+          dist/releases/
+          dist/website/
+        retention-days: 30
+        
+  create-release:
+    needs: build-all-formats
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: book-formats
+        
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          dist/releases/*.epub
+          dist/releases/*.mobi
+          dist/releases/*.pdf
+          dist/releases/*.tar.gz
+          dist/releases/audiobook-chapters/*
+        draft: false
+        prerelease: false 
