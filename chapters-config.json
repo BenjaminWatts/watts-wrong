@@ -119,6 +119,12 @@
       "number": 20,
       "title": "Conclusion",
       "description": "How to fix Britain's energy system"
+    },
+    {
+      "id": "21-shale-gas",
+      "number": 21,
+      "title": "Shale Gas - A Missed Opportunity",
+      "description": "Economic benefits, environmental considerations, and political factors"
     }
   ],
   "parts": [
@@ -155,7 +161,7 @@
     {
       "id": "conclusion",
       "title": "Conclusion",
-      "chapters": [20]
+      "chapters": [20, 21]
     }
   ]
 }

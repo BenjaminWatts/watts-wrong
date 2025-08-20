@@ -62,6 +62,7 @@ All formats are automatically built and available as GitHub Actions artifacts:
 
 ### Conclusion
 - [Chapter 20: How to Fix Britain's Energy System](chapters/20-conclusion.md)
+- [Chapter 21: Shale Gas - A Missed Opportunity](chapters/21-shale-gas.md)
 
 ## 🚀 Quick Start
 
