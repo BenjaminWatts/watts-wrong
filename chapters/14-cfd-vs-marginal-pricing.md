@@ -1,35 +1,9 @@
 # Chapter 14: CfD vs Marginal Pricing - Market Design Disasters
 
-## Introduction
+There is a urban myth that all British electricity is expensive because of the role of gas fired power. That's not true. While the short-tern electricity markets, those that operated day ahead, intraday and even several months in advance heavilly follow gas markets, longer-term power agreements 
 
-[This chapter will explore cfd vs marginal pricing - market design disasters in Britain's energy system.]
+**PPAs**
+Most commonly associated with renewable projects like wind and solar, a PPA contract is a bilateral, over the counter agreement that bypasses the wholesale electricity market an enables generators to sell their power at a longer term more fixed rate to an energy supplier or an industrial customer that uses lots of electricity. This agreement can be mutually beneficial because it can allow the energy consumer to fix their prices (potentially indexed by inflation) and for the generator to insulate themselves from any flucations in wholesale prices. This is particularly important for obtaining debt finance at reasonable rates, because without this sort of guarantee, the profits of renewable power generators can be incredbly voltaile.
 
-## Key Issues
-
-- [Issue 1]
-- [Issue 2]
-- [Issue 3]
-
-## What Went Wrong
-
-[Analysis of the problem and its causes.]
-
-## The Impact
-
-[How this affects consumers, the economy, and the environment.]
-
-## What Should Happen
-
-[Potential solutions and policy recommendations.]
-
-## Summary
-
-[Key takeaways from this chapter.]
-
-## Next Steps
-
-[What the next chapter will cover.]
-
----
-
-*This chapter is a placeholder and will be expanded with full content.*
+**CfDs**
+The Government CfD programme is designed to stabilise the cost of renewable electricity relative to the more volatile wholesale gas price. The way is does this is to effectively sell an insurance policy to the developers of renewable projects that tops-up, or knocks-off any difference between the wholesale price and a guaranteed strike price that they will end up receiving. The money to pay any top-ups, when the wholesale price is low come from a CfD levy on consumers, and any surplus in times of high prices goes back to consumers as a credit. This means that both from the perspective of the renewable generator and the end consumer, there is essentially a fixed price for the power that is generated under CfDs. So while the wholesale power market continues to exist, and operates as a market of last resort to enable fine tuning of the electricity grid, there is much greater stability at an outer level. By the year 2030, over x% of Britain's power is expected to be generated under CfDs. The more power which is generated under CfD's the more stable power prices will become. The wholesale power price will remain important to generators and the grid for balancing the grid, but it will be increasingly irrelevant when it comes to determining consumer prices.
