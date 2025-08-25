@@ -1,6 +1,6 @@
 # Chapter 14: CfD vs Marginal Pricing - Market Design Disasters
 
-There is a urban myth that all British electricity is expensive because of the role of gas fired power. That's not true. While the short-tern electricity markets, those that operated day ahead, intraday and even several months in advance heavilly follow gas markets, longer-term power agreements 
+There is a urban myth that all British electricity is expensive because of the role of gas fired power. 
 
 **PPAs**
 Most commonly associated with renewable projects like wind and solar, a PPA contract is a bilateral, over the counter agreement that bypasses the wholesale electricity market an enables generators to sell their power at a longer term more fixed rate to an energy supplier or an industrial customer that uses lots of electricity. This agreement can be mutually beneficial because it can allow the energy consumer to fix their prices (potentially indexed by inflation) and for the generator to insulate themselves from any flucations in wholesale prices. This is particularly important for obtaining debt finance at reasonable rates, because without this sort of guarantee, the profits of renewable power generators can be incredbly voltaile.
