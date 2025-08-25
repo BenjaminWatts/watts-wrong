@@ -48,9 +48,9 @@ While some areas are outright windier than others (Scotland vs. the South East),
 
 Some weather systems move from west to east, others from south-west to north-east, creating complex patterns where wind generation varies significantly across different regions at different times. This geographic and temporal variation means that a well-distributed portfolio of wind farms across Britain would provide much more stable and predictable generation than concentrating all capacity in just a few areas.
 
-The current concentration of wind farms in Scotland and the North Sea creates a "single point of failure" problem. When weather conditions are unfavorable in those regions (which can happen for days or even weeks during certain seasons), Britain's renewable generation drops dramatically. A diversified portfolio would include more:
+The current concentration of wind farms in Scotland and the North Sea creates a "single point of failure" problem. When weather conditions are unfavourable in those regions (which can happen for days or even weeks during certain seasons), Britain's renewable generation drops dramatically. A diversified portfolio would include more:
 
-- **Coastal wind farms** in Cornwall, Devon, and Wales (exposed to Atlantic weather systems)
+- **Coastal wind farms** in Cornwall, Devon, Wales and Western Scotland (exposed to Atlantic weather systems)
 - **Upland wind farms** in the Pennines and Northumberland (benefiting from orographic effects - where wind is forced upward by hills and mountains, creating higher wind speeds and more consistent generation)
 - **Southern and eastern wind farms** (catching different weather patterns, especially in the Channel)
 
