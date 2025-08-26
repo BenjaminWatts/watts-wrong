@@ -99,7 +99,7 @@ Rather than banning shale gas entirely, alternative approaches could have includ
 
 ## Conclusion
 
-The UK's rejection of shale gas development represents a significant missed opportunity. While the environmental and community concerns were real and should not be dismissed, the economic and energy security benefits could have been substantial. The decision to ban shale gas development was ultimately driven more by political considerations than by a balanced assessment of the risks and benefits.
+The UK's rejection of shale gas development on balance represents a significant missed opportunity. While the environmental and community concerns were real and should not be dismissed, the economic and energy security benefits could have been substantial. The decision to ban shale gas development was ultimately driven more by political considerations than by a balanced assessment of the risks and benefits.
 
 This experience highlights the need for better frameworks for making energy policy decisions that balance local concerns with national interests. Energy policy should be based on evidence and long-term planning rather than short-term political expediency. The UK's energy future depends on making better decisions about how to balance environmental protection, economic development, and energy security.
 
