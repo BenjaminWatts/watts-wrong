@@ -115,7 +115,7 @@ This obsession with achieving perfect, 100% renewable electricity before electri
 
 ## Conclusion: The Perfectionism Paradox
 
-The UK's decarbonisation journey reveals a fundamental tension between two approaches to climate action. On one side stands the perfectionist approach: waiting for complete renewable energy systems before electrifying other sectors, insisting on 100% clean solutions, and rejecting any technology that doesn't achieve zero emissions. On the other side stands pragmatism: accepting incremental progress, embracing hybrid systems, and recognizing that partial decarbonisation today often achieves more than perfect decarbonisation tomorrow.
+The UK's decarbonisation journey reveals a fundamental tension between two approaches to climate action. On one side stands the perfectionist approach: waiting for complete renewable energy systems before electrifying other sectors, insisting on 100% clean solutions, and rejecting any technology that doesn't achieve zero emissions. On the other side stands pragmatism: accepting incremental progress, embracing hybrid systems, and recognising that partial decarbonisation today often achieves more than perfect decarbonisation tomorrow.
 
 The evidence from Britain's energy transition is clear. The power sector has achieved a 73% emissions reduction since 1990, largely through the "dash for gas" and renewable expansion. Yet transport emissions have fallen by only 3%, and building emissions by just 25%. This stark contrast reflects not technological limitations, but policy choices that prioritized perfect solutions over practical progress.
 
