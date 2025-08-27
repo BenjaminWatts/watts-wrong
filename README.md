@@ -67,7 +67,7 @@ All formats are automatically built and available as GitHub Actions artifacts:
 ## 🚀 Quick Start
 
 ### Reading Online
-Simply browse the chapters above or visit the [GitHub Pages site](https://yourusername.github.io/watts-wrong/) for the best reading experience.
+Simply browse the chapters above or visit the [GitHub Pages site](https://benjaminwatts.github.io/watts-wrong/) for the best reading experience.
 
 ### Building for Kindle/EPUB/PDF/Audiobook/Website
 To build the book for different formats:
