@@ -38,7 +38,7 @@ All except Sizewell B are Advanced Gas-cooled Reactors built in the 1980s and ea
 
 ## Hinkley Point
 
-The vast new nuclear plant at Hinkley Point C (3,200 MW) has been under construction since the year 2017. When constructed it will be the largest nuclear plant ever constructed in Britain.
+The vast new nuclear plant at Hinkley Point C (3,200 MW) has been under construction since the year 2017. When constructed it will be the largest nuclear plant ever constructed in Britain. Hinkley Point C is an EPR reactor; which 
 
 The construction has been a disaster. It was originally supposed to open in 2023, but is now not expected until 2030 at the earliest. Every year that its completion is delayed, the National Grid is without 3GW of low carbon electricity, which is invariant to weather conditions and reduces the need for gas generation and imports. 
 
@@ -48,14 +48,16 @@ As noted above, this price is about double the average cost of EDF generating nu
 
 ## More nuclear plants
 
-A follow-on nuclear project at Sizewell C has been announced by the UK Government, replicacting much of the design from Hinkley Point.
+A follow-on nuclear project at Sizewell C has been announced by the UK Government, replicacting about 85% of the EPR design from Hinkley Point.
 As with Hinkley Point, by using an existing nuclear site, it is hoped that the local population will be more amenable to the project, recruiting staff with the right skills will be easier, and there will be an existing grid connection to use.
 
 The financing model for Sizewell C is called RAB (Regulated Asset Base) and is the opposite of Hinkley Point; the taxpayer/billpayer will finance and take on the risk of construction. EDF was relucant, especially after Hinkley Point to repeat the CfD arrangement. RAB (Regulated Assset Base) is the same as the water industry and some other privatised monopoly utilies. 
 
-If lessons are learnt from Hinkley Point, it's feasible that Sizewell C could end up being cheaper or at least that not much more expensive than Hinkley Point. Hinkley Point was a first of a kind (FOAK) nuclear project, a new generation of nuclear plant with a new design. If some savings passed through to Sizewell C, the billpayers would benefit from the savings, unlike the CfD arrangement where savings would accrue to EDF.
+If lessons are learnt from Hinkley Point, it's feasible that Sizewell C could end up being cheaper or at least that not much more expensive than Hinkley Point. Hinkley Point the first in a generation nuclear project in Britain, and the first time and EPR reactor had been built in the UK. If some savings passed through to Sizewell C, the billpayers would benefit from the savings, unlike the CfD arrangement where savings would accrue to EDF.
 
-However, underspend on nuclear plants is not the norm! And substantial increases in interest rates since 2012 (when they were close to zero), mean that with the best engineering advances, it's much more likely that, should things go wrong at Sizewell that billpayers will end up paying for any increases in the budget and suffer the consequences of any delays to the generation of power from it.
+However, underspend on nuclear plants is not the norm! And substantial increases in interest rates since 2012 (when they were close to zero), mean that with the best engineering advances, it's much more likely that, should things go wrong at Sizewell that billpayers will end up paying for any increases in the budget and suffer the consequences of any delays to the generation of power from it. 
+
+Bloomberg New Energy Finances has recently estimated the cost of Sizewell C's power in levelised cost terms (a sort of NPV) at £286/MWh; which is extremely high. It's no surprise perhaps that EDF is choosing ditch the EPR and build a lower price simpler reactor for the 6 new projects it intends to build in France by 2038. 
 
 ## Is nuclear reliable?
 
