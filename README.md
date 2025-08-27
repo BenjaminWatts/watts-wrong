@@ -12,20 +12,30 @@ This book is available to read online at: [https://benjaminwatts.github.io/watts
 
 ## 📥 Download Latest Builds
 
-All formats are automatically built and available as GitHub Actions artifacts:
+All formats can be built locally using the provided scripts:
 
 ### 🚀 Quick Downloads
-- **[📚 Ebooks](https://github.com/benjaminwatts/watts-wrong/actions)** - EPUB, MOBI, and PDF files
-- **[🎧 Audiobook](https://github.com/benjaminwatts/watts-wrong/actions)** - Complete audiobook archive  
-- **[📦 Complete Package](https://github.com/benjaminwatts/watts-wrong/actions)** - Everything in one download
+- **[📚 Ebooks](https://github.com/benjaminwatts/watts-wrong/tree/main/dist)** - EPUB and MOBI files
+- **[🎧 Audiobook](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/audiobook)** - Complete audiobook archive  
+- **[🌐 Website](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/website)** - Read online
+
+> **Note:** To build these files locally, run `npm run build:complete` after installing dependencies with `npm install`
 
 ### 📋 How to Download
-1. Go to the [Actions tab](https://github.com/benjaminwatts/watts-wrong/actions) in this repository
-2. Click on the latest successful workflow run (green checkmark)
-3. Scroll down to the **Artifacts** section
-4. Download the format you want
 
-*💡 Artifacts are kept for 90 days and are updated with every push to the main branch.*
+#### Option 1: Build Locally (Recommended)
+1. Clone this repository: `git clone https://github.com/benjaminwatts/watts-wrong.git`
+2. Install dependencies: `npm install`
+3. Build all formats: `npm run build:complete`
+4. Find your files in the `dist/` directory
+
+#### Option 2: Download Built Files
+The built files are available in the [dist/](https://github.com/benjaminwatts/watts-wrong/tree/main/dist) directory:
+- **EPUB**: `dist/watts-wrong.epub` - For most e-readers
+- **MOBI**: `dist/watts-wrong.mobi` - For Kindle devices
+- **Website**: `dist/website/` - Read online in your browser
+
+*💡 For PDF generation, you'll need LaTeX installed: `brew install --cask mactex` (macOS) or `sudo apt-get install texlive-full` (Ubuntu/Debian)*
 
 ## 📚 Table of Contents
 
@@ -36,7 +46,7 @@ All formats are automatically built and available as GitHub Actions artifacts:
 - [Chapter 2: Biomass - The Wood Pellet Problem](chapters/02-biomass.md)
         - [Chapter 3: Feed-in Tariffs and ROCs - How Subsidies Went Wrong](chapters/03-feed-in-tariffs-and-rocs.md)
 - [Chapter 4: NIMBYs & Onshore Wind Ban - The Planning Disaster](chapters/04-nimbys-wind-ban.md)
-- [Chapter 5: Political Instability - Nuclear Flip-Flopping and Policy Chaos](chapters/05-political-instability.md)
+- [Chapter 5: Nuclear](chapters/05-nuclear.md)
 
 ### Part 2: The Grid & Infrastructure Problems
 - [Chapter 6: Transmission Constraints - Bottlenecks and Bottlenecks](chapters/06-transmission-constraints.md)
@@ -130,17 +140,18 @@ watts-wrong/
 The build system uses:
 - **Pandoc**: For converting Markdown to EPUB/MOBI/PDF
 - **Node.js**: For build automation
-- **GitHub Actions**: For automated builds and deployments
+- **Build Scripts**: For automated local builds and deployments
 - **Text-to-Speech**: For generating audiobooks (local and cloud options)
 - **CSS Styling**: For consistent formatting across all formats
 
-### 🚀 Automated Builds
-Every push to the main branch automatically triggers:
-- ✅ Website build and deployment to GitHub Pages
-- ✅ EPUB, MOBI, and PDF generation
-- ✅ Audiobook creation with local TTS
-- ✅ Artifact uploads for easy downloading
-- ✅ Quality checks and build verification
+### 🚀 Local Builds
+Run these commands to build all formats:
+- ✅ Website build: `npm run build:website`
+- ✅ EPUB generation: `npm run build:epub`
+- ✅ MOBI generation: `npm run build:kindle`
+- ✅ PDF generation: `npm run build:pdf` (requires LaTeX)
+- ✅ Audiobook creation: `npm run build:audiobook`
+- ✅ All formats at once: `npm run build:complete`
 
 ## 📱 Publishing
 
@@ -153,8 +164,12 @@ The book automatically deploys to GitHub Pages when you push to the main branch.
 3. Follow Amazon's publishing guidelines
 
 ### PDF Publishing
-1. Build the PDF: `npm run build:pdf`
-2. Perfect for:
+1. **Prerequisite**: Install LaTeX first:
+   - macOS: `brew install --cask mactex`
+   - Ubuntu/Debian: `sudo apt-get install texlive-full`
+   - Windows: Install MiKTeX from https://miktex.org/
+2. Build the PDF: `npm run build:pdf`
+3. Perfect for:
    - Printing and physical distribution
    - Academic submissions
    - Professional presentations
@@ -176,7 +191,7 @@ This work is licensed under the [MIT License](LICENSE) - feel free to use, modif
 - **📱 Responsive Design** - Optimized for all devices
 - **🎧 Audiobook Generation** - Multiple TTS options (local and cloud)
 - **📚 Multi-format Export** - EPUB, MOBI, PDF, and website
-- **🤖 Automated Builds** - GitHub Actions handles everything
+- **🤖 Automated Builds** - Build scripts handle everything locally
 - **📖 Markdown Source** - Easy to contribute and modify
 - **🌐 GitHub Pages** - Instant online publishing
 
