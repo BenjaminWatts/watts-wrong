@@ -2,10 +2,9 @@
 
 I learnt early in my career that the single most important figure in short term electricity markets is the gas price. In long-term electricity markets, the equivalent metric is the interest rate.
 
-Starting my career in 2011 and despite having studied economics I have to admit that I didn't realise until really quite recently quite how profound the effect of near zero interest rates was over the 2010 decade. And while many people have learnt the hard way how its unravelling the rise in interest rates post 2021 has changed the world of property, business and vehicle finance, It couldn't have happened at a more prescient and disruptive time for the Energy sector.
+Starting my career in 2011 and despite having studied economics I have to admit that I didn't realise until really quite recently quite how profound the effect of near zero interest rates was over the 2010 decade. And while many people have learnt the hard way how its unravelling the rise in interest rates post 2021 has changed the world of property, business and vehicle finance, It couldn't have happened at a more prescient and disruptive time for the Energy transition.
 
-in Economics you learn that the interest rate is the connection or the price between now and the future. High interest rates mean that investors require a greater return on the capital in order to be better off than simply putting the money in a bank account or low risk investment like government bonds. 
-
+in Economics you learn that the interest rate is the connection or the price between now and the future. High interest rates mean that investors require a greater return on the capital in order to be better off than simply putting the money in a bank account or low risk investment like government bonds. All things equal, higher interest rates make it more attractive to put off any sort of capital or upfront investment like insulating a building, replacing a vehicle, installing a battery.
 
 ## Fossil versus Low Carbon
 
@@ -25,7 +24,6 @@ The gas boiler is cheap to manufacture and easy to install, Particularly for rep
 ### ICE versus EVs
 Least expensive component in an EV is the battery, Costing upwards of X thousand pounds toward the typical cost of a family size TV. In a traditional petrol car the equivalent is a simple fuel tank which costs around X pounds and holds 10 times as much energy. The cost of Driving a mile in a typical petrol car let's say a one and a half litre VW golf is expense per mile. For an identical size TV, the cost of driving that mile at least on cheap overnight electricity taken from the grid would be more like two pence. 
 
-
 ## Compounding - the effect on gearing
 The effect of higher interest rates has another knock on effect through the impact it has on the balance sheet of utilities and other investments in the Energy sector. Debt is cheaper than equity, Or shareholder money, And borrowing money from a bank in Naples investments and energy to be done at a lower cost. However the banks or other lenders that provide such finance have limits in terms of how much they think it is safe and reasonable to lend. And when interest rates are higher, the cost of servicing debts is also higher, Meaning that a project cannot sensibly borrow as much without running the risk of running out of money and not being able to reliably Services debts. This creates a knock on effect with projects have to stamp up more shareholder or equity money, Which being more expensive further drives up the cost of capital on investments in the energy sector and results in higher costs to consumers or less investment taking place. You can see this dynamic playing out very clearly in the annual CFD auctions for offshore wind which have increased from £6 per hour in 2022 to unexpected level of Y pounds in 2025.
 
@@ -34,12 +32,26 @@ Inflation can have different causes. In 2022, the shock was largely one that sta
 
  this meant that renewable projects have had to deal with cost increases from two simultaneous drivers, the cost of engineering and the cost of financing that engineering over the lifetime of the project
 
-## Collapse of offshore wind
+## It's the real interest rate that actually matters
 
-The current ways that the offshore wind industry town a helpful metaphor for the effects of the last few years. The prolonged period of ultra low interest rates and interesting climate change lead to unparalleled investment in offshore wind between 2010 and 2020. They were massive improvements in the supply chain and efficiency of building offshore turbines. The size of turbines increased from x MW to x MW, which increased yields and reduced the number of foundations required.
+One common misunderstanding with interest rates is to ignore the impact of inflation. If interest rates are 6% (called nominal rates), but inflation is running at 5%, then in real-terms, interest rates are only 1%. Viewed this this lens, real interest rates across the 2010-21 period were not just low, but for much of the period negative, particularly following the monetary and quantitiative interventions followint the financial crash, eurozone crisis, Brexit vote and pandemic.
 
-Even going into the initial energy crisis of 2022, offshore wind maintained momentum. The spike in fossil fuel prices left offshore wind looking incredibly attractive, and some of the cost rises had not fully worked their way through the system yet. Interest rates had either not peaked, nor had the market realised for quite how long they would need to stay at elevated levels in a bid to control the persistent inflation that had crept into the system.
+This perspective shines a different perspective on the consequential 2021-2 period, when the reopening post-pandemic hit a massive inflationary shock. In the UK, interest rates set by the Bank of England didn't peak until August 2023 at 5.25%, by which point inflation was 6.7%. Even if 5.25% sounded like a high interest rate in nominal terms by the standards of the last few decades, it was actually -1.45% in real terms.
 
-## Refocus on smart technology
+Since 2022, inflation has gradually slowed from its peak of over 11% in 2022, but remained stubbornly above the traditional 2% target, averaging around 4-5% through 2023-24. Despite this slowdown, the Bank of England has been extremely cautious about cutting interest rates, with only modest cuts by early 2025, leaving rates at 5.25%. This means that real interest rates have been positive and significant (around 1-2%) for over two years now - a dramatic shift from the negative real rates that prevailed for most of the previous decade. 
 
-## Refocus on 
+This is particularly damaging for infrastructure investments like offshore wind and nuclear, because the upfront construction costs are financed at nominal interest rates, while the long-term returns are inflation-indexed. When real rates are high, this mismatch squeezes the economics of big capital projects, making them much harder to finance and build. 
+
+## The becalming of Offshore Wind
+
+The current state of the offshore wind industry provides a helpful metaphor for the effects of the last few years. The prolonged period of ultra-low interest rates and rising climate change concerns led to unparalleled investment in offshore wind between 2010 and 2020. There were massive improvements in the supply chain and efficiency of building offshore turbines. The size of turbines increased from around 3 MW to over 15 MW, which increased yields and reduced the number of foundations required.
+
+Even going into the initial energy crisis of 2022, offshore wind maintained momentum. The spike in fossil fuel prices left offshore wind looking incredibly attractive, and some of the cost rises had not fully worked their way through the system yet. Interest rates had not yet peaked in real terms because inflation was high, but the market hadn't realised quite how long interest rates would need to stay at elevated levels in a bid to control the persistent inflation that had crept into the system.
+
+New offshore wind farms bid for long-term, fixed-price contracts to sell their electricity before they start construction; the fixed price they receive is inflation-indexed and guaranteed by bill-payers under the Contract for Difference (CfD) scheme. Arguably, the high watermark for optimism in offshore wind was the CfD AR4 auction in July 2022, when 7 offshore wind farms totalling 7 GW agreed to an equivalent long-term price of £52/MWh (£37.35/MWh in 2012 prices). This price was astonishingly low; at the time, wholesale gas prices were around £200/MWh. There was a widespread optimism that the early investment in offshore wind had paid off, and that Britain was on the verge of a new era of cheap, clean energy.
+
+Since 2022, things have gone into dramatic reverse. A number of offshore wind farms under development have been abandoned, including several that had qualified and won long-term CfD contracts. Getting to this stage is a massive investment in itself, costing £50-100 million and involving a team of 50-100 people including engineers, lawyers, environmental consultants, and project managers over 5-8 years of development work. In 2023, the CfD AR5 auction failed to attract any winning bids from new offshore wind farms - the first time this had ever happened, despite offering a maximum price of £44/MWh in 2012 prices (equivalent to around £62/MWh in 2023 prices, up 19% from the AR4 auction). In 2024, under the new Labour Government, the maximum price offered to offshore wind farms was hiked by another 40% from 2023 (£103/MWh in 2024 prices), and 3 wind farms won contracts. However, one of them, the 1.5 GW Hornsea 3 project, then pulled out only 8 months later, citing cost concerns despite the significantly higher price on offer. Another CfD auction (AR7) is expected in September 2025, however, major developers including Ørsted have indicated they may not participate unless prices increase further, highlighting the ongoing challenges facing the sector. Ørsted's own troubles - including a rights issue to raise €4 billion, political controversy over its US projects, and a share price that has fallen from over €1000 in 2021 to under €200 in 2024 - illustrate the broader financial pressures affecting the offshore wind industry. 
+
+## Refocus on smart technology and insulation
+
+The UK has a unique problem with inflation, and likelihood of higher interest rates persisting for longer 
