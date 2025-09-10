@@ -36,6 +36,12 @@ British shale gas, by contrast, would have eliminated all those transport emissi
 
 This is the kind of environmental analysis that rarely gets discussed in the heat of the shale gas debate. But it's crucial: if your goal is to reduce emissions, then replacing high-carbon imports with lower-carbon domestic production makes sense.
 
+The environmental benefits of gas go beyond just direct emissions comparisons. Natural gas is fundamentally a transition fuel - much cleaner than oil or coal, but still a fossil fuel that we'll eventually need to phase out. However, this transition role is crucial for enabling the clean energy technologies that will replace it. With gas fired power providing about one-third of the current total on the grid, heat pumps (at 350% efficiency) reduce the use of emissions and gas by about 90% compared to a condensing gas boiler that's 90% efficient. An EV that travels 5km per kWh reduces total emissions by about 90% compared to a petrol car achieving 40mpg. In both cases, electrification also shifts emissions away from homes and people to power stations, where we might one day be able to capture and store them.
+
+This is why my support for shale gas is quite different from support for shale oil. While gas and oil deposits often occur together, finds that are skewed towards gas rather than oil are potentially much more interesting from an environmental and economic perspective. Gas can play this crucial transition role in enabling cleaner electricity and heating. 
+
+Britain's shale gas potential was particularly interesting because the geological formations suggested gas-rich rather than oil-rich deposits. This meant we could have developed a domestic energy source that would have supported the transition to cleaner technologies, rather than simply extending our dependence on high-carbon transport fuels.
+
 ## Why Britain said no
 
 So if shale gas wouldn't have made gas cheaper but would have created jobs, generated tax revenue, and actually reduced emissions, why did Britain reject it?
