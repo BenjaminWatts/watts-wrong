@@ -15,11 +15,18 @@ This book is available to read online at: [https://benjaminwatts.github.io/watts
 All formats can be built locally using the provided scripts:
 
 ### 🚀 Quick Downloads
-- **[📚 EPUB](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.epub)** - For most e-readers (3.1 MB)
-- **[📱 MOBI](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.mobi)** - For Kindle devices (248 KB)
-- **[📄 PDF](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.pdf)** - For printing and desktop reading (3.3 MB)
-- **[🎧 Audiobook](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/audiobook)** - Complete audiobook archive  
-- **[🌐 Website](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/website)** - Read online
+
+> **📥 Direct Download Links** - Click to download immediately
+
+| Format | Size | Description | Download Link |
+|--------|------|-------------|---------------|
+| 📚 **EPUB** | 3.1 MB | For most e-readers and mobile devices | [⬇️ Download EPUB](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.epub) |
+| 📱 **MOBI** | 248 KB | For Amazon Kindle devices | [⬇️ Download MOBI](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.mobi) |
+| 📄 **PDF** | 3.3 MB | For printing and desktop reading | [⬇️ Download PDF](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.pdf) |
+| 🎧 **Audiobook** | ~50 MB | Complete audiobook archive | [⬇️ Download Audiobook](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/audiobook) |
+| 🌐 **Website** | - | Read online with full formatting | [🌐 Read Online](https://benjaminwatts.github.io/watts-wrong/) |
+
+> **💡 Note**: If direct links don't work, the files are also available in the [dist/](https://github.com/benjaminwatts/watts-wrong/tree/main/dist) directory
 
 > **Note:** To build these files locally, run `npm run build:complete` after installing dependencies with `npm install`
 
@@ -67,12 +74,11 @@ The built files are available in the [dist/](https://github.com/benjaminwatts/wa
 - [Chapter 17: Brexit Friction](chapters/17-brexit-friction.md) - EU exit impacts on energy
 
 ### Part 5: The Human Factor
-- [Chapter 18: 9-5 School Holidays](chapters/18-9-5-school-holidays.md) - Demand management challenges
-- [Chapter 19: Interest Rates](chapters/19-interest-rates.md) - Impact of interest rates on energy investment
+- [Chapter 18: Interest Rates](chapters/18-interest-rates.md) - Impact of interest rates on energy investment
 
 ### Conclusion
-- [Chapter 21: Shale Gas - A Missed Opportunity](chapters/21-shale-gas.md) - Economic benefits, environmental considerations, and political factors
-- [Chapter 22: Power Versus Other Sectors](chapters/22-power-versus-other-sectors.md) - Energy sector competition and policy priorities
+- [Chapter 19: Shale Gas - A Missed Opportunity](chapters/19-shale-gas.md) - Economic benefits, environmental considerations, and political factors
+- [Chapter 20: Power Versus Other Sectors](chapters/20-power-versus-other-sectors.md) - Energy sector competition and policy priorities
 
 ## 🚀 Quick Start
 
@@ -124,12 +130,11 @@ This book is written in Markdown format. To contribute:
 - **[Chapter 14: CFD vs Marginal Pricing](chapters/14-cfd-vs-marginal-pricing.md)** - Missing chapter (file not found)
 
 ### 🔄 Medium Priority - Needs Enhancement
-- **[Chapter 18: 9-5 School Holidays](chapters/18-9-5-school-holidays.md)** - Good content but could use more data and examples
-- **[Chapter 19: Interest Rates](chapters/19-interest-rates.md)** - Needs expansion with more analysis
-- **[Chapter 22: Power Versus Other Sectors](chapters/22-power-versus-other-sectors.md)** - Needs development
+- **[Chapter 18: Interest Rates](chapters/18-interest-rates.md)** - Needs expansion with more analysis
+- **[Chapter 20: Power Versus Other Sectors](chapters/20-power-versus-other-sectors.md)** - Needs development
 
 ### ✅ Good Quality - Minor Improvements Needed
-- **[Chapter 21: Shale Gas](chapters/21-shale-gas.md)** - Recently enhanced, good quality
+- **[Chapter 19: Shale Gas](chapters/19-shale-gas.md)** - Recently enhanced, good quality
 - **[Chapter 10: Electricity Levies](chapters/10-electricity-levies.md)** - Well-developed
 - **[Chapter 17: Brexit Friction](chapters/17-brexit-friction.md)** - Good content
 

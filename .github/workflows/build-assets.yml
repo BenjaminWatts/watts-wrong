@@ -27,10 +27,23 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg espeak
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra ffmpeg espeak python3-pip
+        # Install WeasyPrint for better PDF generation
+        pip3 install weasyprint
         
     - name: Install Node.js dependencies
       run: npm ci
+      
+    - name: Verify assets and cover image
+      run: |
+        echo "🔍 Verifying required assets..."
+        if [ ! -f "assets/covers/watts-wrong-cover.png" ]; then
+          echo "❌ Cover image not found at assets/covers/watts-wrong-cover.png"
+          exit 1
+        fi
+        echo "✅ Cover image found"
+        ls -la assets/covers/
+        echo "✅ Assets verification complete"
       
     - name: Build all formats
       run: |

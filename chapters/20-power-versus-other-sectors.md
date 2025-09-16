@@ -1,3 +1,5 @@
+# Chapter 20: Power Versus Other Sectors - Energy's Place in the Economy
+
 ## Power Generation versus other emissions
 
 This book is focused largely on energy and specifically electricity. Electricity is expected to be the dominant energy of the future, and is expected to supplant the use of fossil and biomass fuels in most use cases of the 21st century economy. So considering our evolving generation mix is particularly important both and into the future, as the volume of electricity we consume is expected to grow.

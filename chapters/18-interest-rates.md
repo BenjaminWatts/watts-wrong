@@ -1,4 +1,4 @@
-# Chapter 19: Interest Rates
+# Chapter 18: Interest Rates
 
 I learnt early in my career that the single most important figure in short term electricity markets is the gas price. In long-term electricity markets, the equivalent metric is the interest rate.
 

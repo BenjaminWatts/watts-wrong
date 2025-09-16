@@ -91,26 +91,20 @@
       "description": "EU exit impacts on energy"
     },
     {
-      "id": "18-9-5-school-holidays",
+      "id": "18-interest-rates",
       "number": 18,
-      "title": "9-5 School Holidays",
-      "description": "Demand management challenges"
-    },
-    {
-      "id": "19-interest-rates",
-      "number": 19,
       "title": "Interest Rates",
       "description": "Impact of interest rates on energy investment"
     },
     {
-      "id": "21-shale-gas",
-      "number": 21,
+      "id": "19-shale-gas",
+      "number": 19,
       "title": "Shale Gas - A Missed Opportunity",
       "description": "Economic benefits, environmental considerations, and political factors"
     },
     {
-      "id": "22-power-versus-other-sectors",
-      "number": 22,
+      "id": "20-power-versus-other-sectors",
+      "number": 20,
       "title": "Power Versus Other Sectors",
       "description": "Energy sector competition and policy priorities"
     }
@@ -144,12 +138,12 @@
     {
       "id": "part5",
       "title": "Part 5: The Human Factor",
-      "chapters": [18, 19]
+      "chapters": [18]
     },
     {
       "id": "conclusion",
       "title": "Conclusion",
-      "chapters": [21, 22]
+      "chapters": [19, 20]
     }
   ]
 }
