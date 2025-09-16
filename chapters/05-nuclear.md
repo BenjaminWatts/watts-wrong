@@ -1,4 +1,6 @@
-# Chapter 5: Nuclear - a tale of two countries
+# Chapter 5: Nuclear
+
+## A tale of two countries
 
 France and Britain's energy policies were remarkably similar until the 1970s. Both countries had nationalised their electricity industries after World War II, both relied heavily on coal for power generation, and both were developing civilian nuclear programs. But when the 1973 oil crisis hit, their responses couldn't have been more different. France launched the ambitious Messmer Plan - a massive state-driven program to shift almost entirely to nuclear power. Meanwhile, Britain's response was characteristically muddled.
 

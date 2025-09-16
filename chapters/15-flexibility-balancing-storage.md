@@ -6,7 +6,9 @@ If you ask a typical well-informed Brit when the electricity grid feels the most
 
 The reality is rather less charming. Much of the electricity spike comes from fridge compressors in pubs and homes as spectators grab cold drinks during the match. And yes, there's also a surge from water companies as everyone rushes to the toilet during half-time, forcing pumping stations to work overtime to refill cisterns. Neither of these explanations has quite the same romantic appeal as the tea-making story, so it's no wonder the kettle myth persists - it's much more British.
 
-The bigger explanation as to why this isn't true however is that major England football matches, which in the age of Netflix are about the last remaining collective live TV event, are at the wrong time of year and day. The grid is never under much strain at 8-9pm on a summer evening, when the World Cup or Euros matches are typically held. Instead, the reality of when the grid is under most strain is far more mundane, but predictable, and it is between 4pm and 7pm on winter weekday evenings and during school term times. There are a number of complementary reasons for high demand:
+The bigger explanation as to why this isn't true however is that major England football matches, which in the age of Netflix are about the last remaining collective live TV event, represent the wrong kind of stress on the grid. These events create short-term demand spikes lasting perhaps 15-30 minutes - the kind that can be managed with quick-response storage like pumped hydro or batteries. The grid is never under much strain at 8-9pm on a summer evening, when the World Cup or Euros matches are typically held.
+
+Instead, the real challenge comes from sustained high demand that stretches the entire generation system for hours on end. This happens between 4pm and 7pm on winter weekday evenings and during school term times - a completely different type of stress that requires the grid to operate near its maximum capacity for extended periods. There are a number of complementary reasons for this sustained high demand:
 
 1. It gets dark from 3pm onwards, especially in mid winter, further north and on overcast days. This drives a need for lighting both in buildings and on streets that doesn't exist to the same degree in the rest of the year. And while the development of LED lighting has dramatically cut the use of electricity in this space, lighting remains a significant contributor to UK electricity demand during winter months.
 
@@ -18,6 +20,22 @@ The bigger explanation as to why this isn't true however is that major England f
 
 5. The mismatch of the end of the school working day (3-4pm) and office working day (5pm) creates an overlap period from 4 to 5:30pm when most offices are still open and using electricity for computers, lighting or machinery, but many households and especially those with children are at home and using appliances there e.g. for cooking. This coincidence, the use of electricity in both sets of locations at once, albeit only for a relatively short period of time, is what drives the need for a lot of the investment in our energy system and the costs we see on our bills.
 
+## Two Types of Grid Stress
+
+Understanding this distinction is crucial for energy policy. There are fundamentally two different types of stress on the electricity grid:
+
+**Short-term spikes** (like football matches) last 15-30 minutes and can be managed with:
+- Quick-response storage (batteries, pumped hydro)
+- Demand-side response (asking consumers to reduce usage briefly)
+- Fast-start gas plants
+
+**Sustained peak demand** (winter evenings) lasts 2-3 hours and requires:
+- Significant generation capacity to be available and running
+- Multiple backup systems to be on standby
+- The entire grid infrastructure to operate near maximum capacity
+
+The winter peak is far more challenging because it requires sustained operation of the entire generation fleet at high levels, not just quick-response backup systems. This is why the grid needs so much investment in generation capacity, transmission lines, and distribution networks - not because of occasional TV events, but because of the predictable, sustained demand patterns of modern life.
+
 There are laudable attempts by suppliers to discourage use of electricity in peak periods. Smart tariffs reward customers for this and this is possible because the suppliers can avoid more expensive wholesale energy prices in the peak hours, when the least efficient power stations and batteries are needed to meet demand, as well as punitive charges from the electricity networks. Over time, automation and remote control of home batteries, heat pumps and EVs is likely to extend this sort of demand response much further and without any conscious behaviour from end users. Indeed, given the spike in electricity demand over the 4-7pm period is often only 5-8 GW, it would only take around 2-3 million homes installing a standard 3kW battery to completely eliminate this peak. That said, as we use more power and especially power from renewables, the goal posts may shift higher further into the future.
 
 It begs the question of whether a more root-and-branch review of how we structure our working day might be called for. The norms we have - such as the 9-5 working day for adults and 13 weeks of school holidays per year - are a legacy of Victorian industrial practices, for example when children were needed to gather summer harvest crops. Recent evidence has called into question the productivity of knowledge-focused work in particular, with research suggesting that an 8-hour working day may not be optimal for cognitive tasks. Closing offices earlier would significantly reduce electricity demand during peak periods, allow working parents to more easily collect children from school, and bring substantive improvements to mental health and road safety (fewer journeys completed in the dark).
@@ -28,18 +46,20 @@ However, adopting a model where we require dynamic behaviour change in response 
 
 ## The Technical Challenge: Grid Flexibility
 
-Britain's electricity grid faces a fundamental challenge that has grown dramatically in recent years: the need for flexibility to balance supply and demand in real-time. As we've increased our reliance on intermittent renewable sources like wind and solar, the traditional model of matching generation to demand has become increasingly complex and expensive.
+Britain's electricity grid faces a fundamental challenge that has grown dramatically in recent years: the need for flexibility to balance supply and demand in real-time. As we've increased our reliance on intermittent renewable sources like wind and solar, the traditional model of matching generation to demand has become increasingly complex and expensive. We're also moving more of our heating from fossil fuels to electricity (mostly heatpumps), meaning in winter especially, our demand for electricity might start to grow dramatically (to date it hasn't).
 
 ## The Balancing Challenge
 
-Electricity cannot be stored easily at grid scale, meaning supply and demand must be balanced second-by-second. This balancing act has become significantly more challenging as our energy mix has shifted from predictable fossil fuel plants to variable renewable sources.
+Unlike fossil fuels, electricity cannot be stored easilly, at not without other technologies and investment in big hydro dams and batteries. Grids are inflexible, supply and demand must be balanced second-by-second. The grid can only tolerate energy imbalances of about 1% - roughly 400-500MW in Britain's system - before automatic load-shedding kicks in to prevent cascading blackouts. When this balancing fails, the consequences can be severe: Iberia's grid collapse in April 2025, triggered by a combination of unexpected demand spikes and insufficient backup generation, left millions without power and demonstrated how quickly a modern electricity system can fail when the balance between supply and demand breaks down.
+
+This balancing act has become significantly more challenging as our energy mix has shifted from predictable fossil fuel plants to variable renewable sources.
 
 ### The Scale of the Problem
 
 In 2024, wind and solar now provide over 40% of Britain's electricity, up from less than 10% in 2010. This transformation has created new challenges:
 
 - **Wind variability**: Wind output can vary from near-zero to full capacity within hours
-- **Solar intermittency**: Solar generation drops to zero every evening and is reduced on cloudy days
+- **Solar intermittency**: Solar generation drops to zero every evening and is reduced on cloudy days (and winter!)
 - **Demand patterns**: Peak demand still occurs on winter evenings when renewable generation is typically low
 
 The result is a system that requires far more sophisticated balancing mechanisms than the simple "turn up the gas" approach that worked when fossil fuels dominated.
@@ -58,7 +78,7 @@ These services respond automatically to frequency changes on the grid:
 - **High Frequency Response**: For when generation exceeds demand
 
 ### 3. Reserve Services
-- **Short-term Operating Reserve (STOR)**: Gas and diesel plants that can start within 20 minutes
+- **Short-term Operating Reserve (STOR)**: Gas and diesel plants that can start within 20 minutes. In the recent past, there have also been special reserve contracts for coal plants approaching retirement, though these have now all lapsed.
 - **Dynamic Containment**: Fast-acting batteries and other technologies responding within 1 second
 
 ## The Cost of Flexibility
@@ -76,106 +96,39 @@ The increasing need for flexibility has created a significant new cost category 
 ## Storage Technologies
 
 ### Battery Storage
-Battery storage has emerged as a key technology for providing flexibility:
-- **Grid-scale batteries**: Large installations providing balancing services
-- **Behind-the-meter storage**: Household and commercial batteries
-- **Electric vehicles**: Mobile storage that can provide vehicle-to-grid services
+Battery storage has emerged as a key technology for providing flexibility, though adoption varies significantly across markets. The cost of battery storage has fallen dramatically, from over £1,000/kWh in 2010 to under £200/kWh in 2024, making it increasingly competitive with traditional energy storage. With a lifetime of 6,000-8,000 cycles, and a finance (cost of capital) cost of 7.5%, a battery charging and discharging every day (called cycling) can typically achieve a payback if it can charge at 8-12 pence/kWh less than it can discharge, over a lifetime of 16-22 years. This calculation accounts for 10-15% of the energy to be lost during the charging and discharging process (called a round-trip efficiency of around 85-90%) - the rest is lost as heat. This 8-12 pence/kWh spread (£80-120/MWh) is roughly the same as the cost of generating power for a few hours every evening from a medium efficiency gas power plant.
 
-The cost of battery storage has fallen dramatically, from over $1,000/kWh in 2010 to under $200/kWh in 2024, making it increasingly competitive.
+## Battery Storage Deployment: Britain vs. Europe vs. US
+
+### United States: The Battery Leader
+The US leads global battery storage deployment, particularly in California and Texas. California's aggressive renewable targets and high electricity prices have created strong economics for battery storage, with over 6 GW installed by 2024. Texas has become the second-largest market, driven by its deregulated electricity market and extreme weather events that create high price volatility. The US benefits from federal tax credits and state-level incentives, making battery projects highly attractive to investors.
+
+### Europe: Catching Up
+European battery deployment has been slower, constrained by regulatory barriers and fragmented markets. Germany leads European deployment, driven by high electricity prices and strong renewable integration needs. Britain has been catching up rapidly, with over 2 GW of battery storage deployed by 2024, supported by capacity market mechanisms and frequency response services. However, European projects face higher costs due to more complex permitting and grid connection processes compared to the US.
+
+### Britain: Unique Challenges and Opportunities
+Britain's battery market has unique characteristics. The country's high electricity prices and significant renewable capacity create strong arbitrage opportunities, but high interest rates and complex grid connection processes have slowed deployment compared to the US. Britain's capacity market provides revenue certainty, but the lack of long-duration storage incentives has focused investment on shorter-duration applications. With continued cost reductions and market reforms, Britain could see accelerated battery deployment, particularly for grid-scale applications.
+
+## Types of Battery Storage
+
+- **Grid-scale batteries**: Large installations installed by utilities and connected directly to the power grid. These installations are increasingly common, particularly alongside conventional power generators (like wind and solar farms), to share the existing grid connection.
+
+- **Behind-the-meter storage**: Household and commercial batteries can be installed where power is already being consumed. When combined with onsite solar PV, such storage allows a site to extend the self-sufficiency potential of the PV by charging during the daytime and using the electricity stored in the evening and nighttime, a process which typically makes significant additional bill savings through significant grid levy savings on electricity.
+
+- **Electric vehicles**: Mobile storage that can in-theory provide vehicle-to-grid services. To date, this is still a technology in its infancy and the mass adoption of it isn't expected for some years yet due to regulatory and technical issues. Almost all existing car chargers (and most cars) are not able to do this, so we're some way off it having an impact.
+
+## The Case for Low-Hanging Fruit
+
+Rather than pursuing the most ambitious battery storage projects, there's a strong argument for focusing on the low-hanging fruit - investments that offer lower risk and more stable returns. These include behind-the-meter storage combined with solar PV, where the economics are more predictable and the returns more certain. A household with solar panels and a battery can avoid grid charges and time-of-use pricing, creating a guaranteed return that doesn't depend on volatile wholesale electricity markets. Similarly, commercial and industrial sites can use batteries to reduce peak demand charges, which are often the largest component of their electricity bills. These applications provide steady, predictable returns that are less exposed to market volatility than grid-scale storage projects that rely entirely on wholesale price arbitrage. By focusing on these lower-risk applications first, the industry can build experience, reduce costs, and create a foundation for more ambitious grid-scale projects as technology matures and markets develop.
+
 
 ### Pumped Hydro Storage
-Britain has four major pumped hydro facilities:
-- Dinorwig (1,728 MW)
-- Ffestiniog (360 MW)  
-- Cruachan (440 MW)
-- Foyers (300 MW)
+Britain has four major pumped hydro facilities in Snowdonia (Wales) and Scotland. These each hold enough energy when fully loaded (charged) to run at full tilt for 5-7 hours:
 
-These provide valuable storage capacity but are limited by geography and environmental constraints.
+- Dinorwig (1,728 MW -> 5.3 hours, 9.1 GWh)
+- Ffestiniog (360 MW -> 5.6 hours, 2.0 GWh)  
+- Cruachan (440 MW -> 7.3 hours, 3.2 GWh)
+- Foyers (300 MW -> 6.7 hours, 2.0 GWh)
 
-### Hydrogen Storage
-Hydrogen is being explored as a long-duration storage solution:
-- **Electrolysis**: Using surplus renewable electricity to produce hydrogen
-- **Storage**: Storing hydrogen in salt caverns or other geological formations
-- **Power generation**: Using hydrogen in gas turbines or fuel cells when needed
+A major new pumped storage project, Coire Glas near Loch Ness, has been approved and could add 1,500 MW with 30 GWh of storage capacity,with nearly nearly double the energy storage of all existing British facilities combined it should hopefully be able to run for 20 hours at full capacity. Coire Glas could rival some of Europe's largest pumped storage schemes like Grand Maison in the French Alps.
 
-However, the round-trip efficiency is currently only around 35-40%, making it expensive compared to batteries for short-duration storage.
-
-## Demand-Side Response
-
-Rather than just building more generation capacity, we can also manage demand to help balance the system:
-
-### Time-of-Use Tariffs
-Smart tariffs that charge different rates at different times can encourage consumers to shift their electricity use away from peak periods.
-
-### Smart Appliances
-Heat pumps, electric vehicles, and other appliances can be programmed to respond to grid signals, adjusting their operation to help balance supply and demand.
-
-### Industrial Demand Response
-Large industrial users can reduce their demand during peak periods in exchange for payments from the system operator.
-
-## The Future of Flexibility
-
-### Smart Grid Technologies
-The development of a truly smart grid will enable more sophisticated balancing:
-- **Real-time monitoring**: Sensors throughout the system providing instant data
-- **Automated response**: Smart devices automatically adjusting to grid conditions
-- **Predictive analytics**: AI and machine learning to forecast and manage variability
-
-### Market Reforms
-Current electricity markets were designed for a system dominated by large, predictable generators. Reforms are needed to:
-- **Value flexibility**: Properly price the services that help balance the system
-- **Enable new technologies**: Remove barriers for batteries, demand response, and other flexible resources
-- **Coordinate planning**: Better integration between transmission, distribution, and generation planning
-
-### Distributed Energy Resources
-The future grid will likely see much more distributed generation and storage:
-- **Rooftop solar**: Combined with household batteries
-- **Electric vehicles**: Acting as mobile storage units
-- **Community energy**: Local generation and storage projects
-
-## Policy Implications
-
-The need for flexibility has significant policy implications:
-
-### 1. Market Design
-Current markets don't properly value flexibility services. We need reforms to ensure that:
-- Providers of flexibility are properly compensated
-- New technologies can compete fairly with traditional solutions
-- Markets work efficiently across different timescales (seconds to seasons)
-
-### 2. Network Planning
-Network planning needs to account for the increasing importance of flexibility:
-- **Transmission**: Better connections between regions to share flexibility resources
-- **Distribution**: Smart networks that can manage bidirectional power flows
-- **Storage**: Strategic placement of storage to maximize system benefits
-
-### 3. Consumer Protection
-As flexibility becomes more important, we need to ensure consumers are protected:
-- **Fair access**: All consumers should benefit from flexibility markets
-- **Transparency**: Clear information about how flexibility costs are allocated
-- **Reliability**: Maintaining supply security as the system becomes more complex
-
-## The Economic Case for Flexibility
-
-Investing in flexibility makes economic sense:
-- **Avoiding infrastructure**: Flexibility can defer or avoid expensive grid upgrades
-- **Reducing waste**: Better balancing reduces the need to curtail renewable generation
-- **Lower costs**: More efficient markets should reduce overall system costs
-
-However, the benefits need to be properly captured and distributed. Current market arrangements often don't reflect the full value of flexibility services.
-
-## Conclusion
-
-Flexibility, balancing, and storage represent some of the most important challenges facing Britain's electricity system. As we continue to decarbonize, these issues will become more critical, not less. Success will require:
-
-- **Technology innovation**: Continued development of storage and smart grid technologies
-- **Market reform**: Properly valuing and compensating flexibility services  
-- **Policy coordination**: Ensuring that market design, network planning, and regulation work together
-- **Consumer engagement**: Helping consumers understand and benefit from the transition
-
-The alternative - a system that can't properly balance supply and demand - would mean either:
-- **Higher costs**: From inefficient operation and excessive backup capacity
-- **Lower reliability**: From inadequate balancing mechanisms
-- **Slower decarbonization**: From inability to integrate more renewable generation
-
-Getting flexibility right is essential for delivering a clean, reliable, and affordable electricity system.
