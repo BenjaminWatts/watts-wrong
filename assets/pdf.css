@@ -1,4 +1,4 @@
-/* PDF Styling for Watt's Wrong? */
+/* PDF Styling for Watt's Wrong? - Matching Cover Art Design */
 
 @page {
     margin: 2cm;
@@ -8,7 +8,7 @@
 body {
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.6;
-    color: #000;
+    color: #1E3A8A; /* Deep electric blue from cover */
     background-color: #fff;
     font-size: 12pt;
     margin: 0;
@@ -17,35 +17,41 @@ body {
 
 h1 {
     font-size: 24pt;
-    color: #000;
+    color: #1E3A8A; /* Deep electric blue */
     text-align: center;
     margin-top: 3em;
     margin-bottom: 2em;
     page-break-before: always;
     page-break-after: avoid;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 h2 {
     font-size: 18pt;
-    color: #000;
+    color: #1E3A8A; /* Deep electric blue */
     margin-top: 2em;
     margin-bottom: 1em;
     page-break-after: avoid;
+    border-bottom: 2px solid #F59E0B; /* Warning amber accent */
+    padding-bottom: 0.3em;
 }
 
 h3 {
     font-size: 14pt;
-    color: #000;
+    color: #374151; /* Stormy gray */
     margin-top: 1.5em;
     margin-bottom: 0.8em;
     page-break-after: avoid;
+    font-weight: 600;
 }
 
 h4 {
     font-size: 12pt;
-    color: #000;
+    color: #374151; /* Stormy gray */
     margin-top: 1.2em;
     margin-bottom: 0.6em;
+    font-weight: 600;
 }
 
 p {
@@ -67,21 +73,25 @@ blockquote {
     margin: 1.5em 0;
     padding: 0.8em 1.2em;
     font-style: italic;
-    border-left: 4px solid #000;
-    background-color: #f8f8f8;
+    border-left: 4px solid #F59E0B; /* Warning amber accent */
+    background-color: #FEF3C7; /* Light amber background */
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 code {
     font-family: "Courier New", monospace;
     font-size: 10pt;
-    background-color: #f0f0f0;
+    background-color: #E5E7EB; /* Stormy gray background */
+    color: #1E3A8A; /* Deep electric blue text */
     padding: 0.1em 0.3em;
     border-radius: 2px;
+    border: 1px solid #D1D5DB;
 }
 
 pre {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #F3F4F6; /* Light stormy gray */
+    border: 1px solid #D1D5DB;
+    border-left: 4px solid #F59E0B; /* Warning amber accent */
     padding: 0.8em;
     margin: 1.5em 0;
     overflow-x: auto;
@@ -94,7 +104,18 @@ pre code {
 }
 
 a {
-    color: #000;
+    color: #1E3A8A; /* Deep electric blue */
+    text-decoration: underline;
+}
+
+/* Ensure links are clickable in PDFs */
+a:link, a:visited {
+    color: #1E3A8A; /* Deep electric blue */
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #F59E0B; /* Warning amber on hover */
     text-decoration: underline;
 }
 
@@ -112,47 +133,60 @@ table {
     margin: 1.5em 0;
     font-size: 10pt;
     page-break-inside: avoid;
+    border: 2px solid #1E3A8A; /* Deep electric blue border */
 }
 
 th, td {
-    border: 1px solid #000;
+    border: 1px solid #D1D5DB; /* Light gray borders */
     padding: 0.4em;
     text-align: left;
 }
 
 th {
-    background-color: #f0f0f0;
+    background-color: #1E3A8A; /* Deep electric blue background */
+    color: #fff; /* White text */
     font-weight: bold;
+}
+
+td {
+    background-color: #F9FAFB; /* Very light gray background */
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 /* Chapter breaks */
 hr {
     border: none;
-    border-top: 2px solid #000;
+    border-top: 3px solid #F59E0B; /* Warning amber accent */
     margin: 2em 0;
     page-break-after: avoid;
 }
 
 /* Special formatting */
 .important {
-    background-color: #fff;
-    border: 2px solid #000;
+    background-color: #FEF3C7; /* Light amber background */
+    border: 2px solid #F59E0B; /* Warning amber border */
+    border-left: 6px solid #F59E0B; /* Thicker left border */
     padding: 0.8em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 .warning {
-    background-color: #fff;
-    border: 2px solid #000;
+    background-color: #FEE2E2; /* Light red background */
+    border: 2px solid #EF4444; /* Red border */
+    border-left: 6px solid #EF4444; /* Thicker left border */
     padding: 0.8em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 .tip {
-    background-color: #fff;
-    border: 2px solid #000;
+    background-color: #ECFDF5; /* Light green background */
+    border: 2px solid #10B981; /* Green border */
+    border-left: 6px solid #10B981; /* Thicker left border */
     padding: 0.8em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 /* Page breaks */
@@ -171,15 +205,23 @@ pre, code {
     page-break-inside: avoid;
 }
 
-/* Title page styling */
+/* Title page styling - matching cover art design */
 .title-page {
     text-align: center;
     margin-top: 30%;
+    background: linear-gradient(135deg, #FEF3C7 0%, #F3F4F6 100%); /* Light amber to stormy gray gradient */
+    padding: 2em;
+    border: 3px solid #F59E0B; /* Warning amber border */
+    border-radius: 8px;
 }
 
 .title-page h1 {
     font-size: 36pt;
     margin-bottom: 2em;
+    color: #1E3A8A; /* Deep electric blue */
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: "Arial Black", "Helvetica", sans-serif; /* Bold, distressed style */
 }
 
 .title-page p {
@@ -187,6 +229,8 @@ pre, code {
     margin-bottom: 1em;
     text-align: center;
     text-indent: 0;
+    color: #374151; /* Stormy gray */
+    font-weight: 500;
 }
 
 /* Table of contents */

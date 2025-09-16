@@ -57,7 +57,7 @@ async function buildEPUB() {
         const outputFile = path.join(OUTPUT_DIR, 'watts-wrong.epub');
         
         // Check if cover image exists
-        const coverImagePath = path.join(__dirname, '..', 'assets', 'cover.jpg');
+        const coverImagePath = path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png');
         const hasCover = await fs.pathExists(coverImagePath);
         
         const pandocCommand = [

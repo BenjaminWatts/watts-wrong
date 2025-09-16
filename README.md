@@ -15,7 +15,9 @@ This book is available to read online at: [https://benjaminwatts.github.io/watts
 All formats can be built locally using the provided scripts:
 
 ### 🚀 Quick Downloads
-- **[📚 Ebooks](https://github.com/benjaminwatts/watts-wrong/tree/main/dist)** - EPUB and MOBI files
+- **[📚 EPUB](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.epub)** - For most e-readers (3.1 MB)
+- **[📱 MOBI](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.mobi)** - For Kindle devices (248 KB)
+- **[📄 PDF](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.pdf)** - For printing and desktop reading (3.3 MB)
 - **[🎧 Audiobook](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/audiobook)** - Complete audiobook archive  
 - **[🌐 Website](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/website)** - Read online
 
@@ -40,39 +42,37 @@ The built files are available in the [dist/](https://github.com/benjaminwatts/wa
 ## 📚 Table of Contents
 
 ### Introduction
-- [Chapter 1: What's Wrong with Britain's Energy?](chapters/01-introduction.md)
+- [Chapter 1: Watt's Wrong with Britain's Energy?](chapters/01-introduction.md) - Welcome and overview
 
 ### Part 1: The Generation Mess
-- [Chapter 2: Biomass - The Wood Pellet Problem](chapters/02-biomass.md)
-        - [Chapter 3: Feed-in Tariffs and ROCs - How Subsidies Went Wrong](chapters/03-feed-in-tariffs-and-rocs.md)
-- [Chapter 4: NIMBYs & Onshore Wind Ban - The Planning Disaster](chapters/04-nimbys-wind-ban.md)
-- [Chapter 5: Nuclear](chapters/05-nuclear.md)
+- [Chapter 2: Biomass](chapters/02-biomass.md) - The biomass energy problem
+- [Chapter 3: Feed-in Tariffs and ROCs](chapters/03-feed-in-tariffs-and-rocs.md) - Renewable energy subsidies
+- [Chapter 4: North-South and NIMBYs](chapters/04-north-south-and-nimbys.md) - Geographic and political opposition to energy infrastructure
+- [Chapter 5: Nuclear](chapters/05-nuclear.md) - Nuclear power policy and development
 
 ### Part 2: The Grid & Infrastructure Problems
-- [Chapter 6: Transmission Constraints - Bottlenecks and Bottlenecks](chapters/06-transmission-constraints.md)
-- [Chapter 7: Scotland - The North-South Divide](chapters/07-scotland.md)
-- [Chapter 8: Regional Privatisation Model - How Fragmentation Hurts](chapters/08-regional-privatisation.md)
+- [Chapter 8: Regional Privatisation](chapters/08-regional-privatisation.md) - Market fragmentation
 
 ### Part 3: The Consumer & Market Failures
-- [Chapter 9: Smart Meters Optional - Why the Rollout Failed](chapters/09-smart-meters.md)
-- [Chapter 10: Electricity Levies - Hidden Costs Everywhere](chapters/10-electricity-levies.md)
-- [Chapter 11: Price Cap - The Sticking Plaster Solution](chapters/11-price-cap.md)
-- [Chapter 12: EPCs - Energy Performance Certificates That Don't Work](chapters/12-epcs.md)
-- [Chapter 13: RHI vs BUS - Heating Policy Confusion](chapters/13-rhi-vs-bus.md)
+- [Chapter 9: Smart Meters](chapters/09-smart-meters.md) - Digital infrastructure rollout
+- [Chapter 10: Electricity Levies](chapters/10-electricity-levies.md) - Hidden costs and taxes
+- [Chapter 11: Price Cap](chapters/11-price-cap.md) - Energy price regulation
+- [Chapter 12: EPCs](chapters/12-epcs.md) - Energy Performance Certificates
+- [Chapter 13: RHI vs Bus](chapters/13-rhi-vs-bus.md) - Renewable Heat Incentive comparison
 
 ### Part 4: The Policy & Pricing Chaos
-- [Chapter 14: CfD vs Marginal Pricing - Market Design Disasters](chapters/14-cfd-vs-marginal-pricing.md)
-- [Chapter 15: 2022 Subsidies - Emergency Measures That Became Permanent](chapters/15-2022-subsidies.md)
-- [Chapter 16: Exercise Duty & Road Pricing - Transport Energy Policy](chapters/16-exercise-duty-road-pricing.md)
-- [Chapter 17: Brexit Friction - How Leaving the EU Made Energy Harder](chapters/17-brexit-friction.md)
+- [Chapter 14: CFD vs Marginal Pricing](chapters/14-cfd-vs-marginal-pricing.md) - Energy market mechanisms
+- [Chapter 15: Flexibility, Balancing and Storage](chapters/15-flexibility-balancing-storage.md) - The grid's hidden challenges and balancing mechanisms
+- [Chapter 16: Exercise Duty and Road Pricing](chapters/16-exercise-duty-road-pricing.md) - Transport energy policy
+- [Chapter 17: Brexit Friction](chapters/17-brexit-friction.md) - EU exit impacts on energy
 
 ### Part 5: The Human Factor
-- [Chapter 18: 9-5 & School Holidays - Why Timing Matters for Energy](chapters/18-9-5-school-holidays.md)
-- [Chapter 19: The Planning Problem - Why Nothing Gets Built](chapters/19-planning-problem.md)
+- [Chapter 18: 9-5 School Holidays](chapters/18-9-5-school-holidays.md) - Demand management challenges
+- [Chapter 19: Interest Rates](chapters/19-interest-rates.md) - Impact of interest rates on energy investment
 
 ### Conclusion
-- [Chapter 20: How to Fix Britain's Energy System](chapters/20-conclusion.md)
-- [Chapter 21: Shale Gas - A Missed Opportunity](chapters/21-shale-gas.md)
+- [Chapter 21: Shale Gas - A Missed Opportunity](chapters/21-shale-gas.md) - Economic benefits, environmental considerations, and political factors
+- [Chapter 22: Power Versus Other Sectors](chapters/22-power-versus-other-sectors.md) - Energy sector competition and policy priorities
 
 ## 🚀 Quick Start
 
@@ -115,6 +115,26 @@ This book is written in Markdown format. To contribute:
 2. Create a feature branch
 3. Edit the Markdown files in the `chapters/` directory
 4. Submit a pull request
+
+## 🔧 Chapter Development Priorities
+
+### 🚨 High Priority - Needs Significant Work
+- **[Chapter 12: EPCs](chapters/12-epcs.md)** - Incomplete, needs completion of missing sections and data
+- **[Chapter 13: RHI vs Bus](chapters/13-rhi-vs-bus.md)** - Needs expansion and completion
+- **[Chapter 14: CFD vs Marginal Pricing](chapters/14-cfd-vs-marginal-pricing.md)** - Missing chapter (file not found)
+
+### 🔄 Medium Priority - Needs Enhancement
+- **[Chapter 18: 9-5 School Holidays](chapters/18-9-5-school-holidays.md)** - Good content but could use more data and examples
+- **[Chapter 19: Interest Rates](chapters/19-interest-rates.md)** - Needs expansion with more analysis
+- **[Chapter 22: Power Versus Other Sectors](chapters/22-power-versus-other-sectors.md)** - Needs development
+
+### ✅ Good Quality - Minor Improvements Needed
+- **[Chapter 21: Shale Gas](chapters/21-shale-gas.md)** - Recently enhanced, good quality
+- **[Chapter 10: Electricity Levies](chapters/10-electricity-levies.md)** - Well-developed
+- **[Chapter 17: Brexit Friction](chapters/17-brexit-friction.md)** - Good content
+
+### ✅ Recently Created
+- **[Chapter 15: Flexibility, Balancing and Storage](chapters/15-flexibility-balancing-storage.md)** - New comprehensive chapter on grid flexibility challenges
 
 ## 🛠️ Development
 

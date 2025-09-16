@@ -35,11 +35,20 @@ async function buildPDF() {
         
         console.log(`Found ${markdownFiles.length} chapters`);
         
+        // Check if cover image exists
+        const coverImagePath = path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png');
+        const hasCover = await fs.pathExists(coverImagePath);
+        
         // Create temporary combined markdown file
         const combinedFile = path.join(OUTPUT_DIR, 'combined.md');
         let combinedContent = '';
         
-        // Add title page
+        // Add title page with cover image
+        if (hasCover) {
+            combinedContent += `<div class="title-page">\n`;
+            combinedContent += `<img src="${coverImagePath}" alt="Cover" style="max-width: 100%; height: auto; margin-bottom: 2em;" />\n`;
+            combinedContent += `</div>\n\n`;
+        }
         combinedContent += `# ${BOOK_TITLE}\n\n`;
         combinedContent += `**Author:** ${BOOK_AUTHOR}\n\n`;
         combinedContent += `**Language:** ${BOOK_LANGUAGE}\n\n`;
@@ -53,34 +62,65 @@ async function buildPDF() {
         
         await fs.writeFile(combinedFile, combinedContent);
         
-        // Check if cover image exists
-        const coverImagePath = path.join(__dirname, '..', 'assets', 'cover.jpg');
-        const hasCover = await fs.pathExists(coverImagePath);
-        
-        // Build PDF using Pandoc
+        // Build PDF using Pandoc with different engines
         const outputFile = path.join(OUTPUT_DIR, 'watts-wrong.pdf');
         
-        const pandocCommand = [
-            'pandoc',
-            combinedFile,
-            '-o', outputFile,
-            '--toc',
-            '--toc-depth=2',
-            '--metadata', `title="${BOOK_TITLE}"`,
-            '--metadata', `author="${BOOK_AUTHOR}"`,
-            '--metadata', `language=${BOOK_LANGUAGE}`,
-            '--css', path.join(__dirname, '..', 'assets', 'pdf.css')
-        ];
+        // Try different PDF engines in order of preference
+        const engines = ['weasyprint', 'prince', 'wkhtmltopdf', 'pdflatex'];
+        let success = false;
+        let lastError = null;
         
-        // Add cover image if it exists
-        if (hasCover) {
-            pandocCommand.push('--pdf-cover-image', coverImagePath);
+        for (const engine of engines) {
+            try {
+                console.log(`Trying PDF engine: ${engine}`);
+                
+                const pandocCommand = [
+                    'pandoc',
+                    combinedFile,
+                    '-o', outputFile,
+                    '--pdf-engine', engine,
+                    '--toc',
+                    '--toc-depth=2',
+                    '--metadata', `title="${BOOK_TITLE}"`,
+                    '--metadata', `author="${BOOK_AUTHOR}"`,
+                    '--metadata', `language=${BOOK_LANGUAGE}`,
+                    '--css', path.join(__dirname, '..', 'assets', 'pdf.css')
+                ];
+                
+                // Add engine-specific options for hyperlinks
+                if (engine === 'weasyprint') {
+                    // WeasyPrint options for better link support
+                    pandocCommand.push('--pdf-engine-opt', '--base-url=file://');
+                    // Enable hyperlinks in PDF
+                    pandocCommand.push('--pdf-engine-opt', '--pdf-forms');
+                } else if (engine === 'wkhtmltopdf') {
+                    pandocCommand.push('--pdf-engine-opt', '--enable-local-file-access');
+                } else if (engine === 'prince') {
+                    pandocCommand.push('--pdf-engine-opt', '--baseurl=file://');
+                }
+                
+                // Cover image is embedded in the content, no need for --pdf-cover-image
+                
+                const commandString = pandocCommand.join(' ');
+                console.log(`Running Pandoc for PDF with ${engine}...`);
+                execSync(commandString, { stdio: 'inherit' });
+                
+                // Check if file was created successfully
+                if (await fs.pathExists(outputFile)) {
+                    console.log(`✅ Successfully used ${engine} engine`);
+                    success = true;
+                    break;
+                }
+            } catch (error) {
+                console.log(`⚠️ ${engine} failed: ${error.message}`);
+                lastError = error;
+                continue;
+            }
         }
         
-        const commandString = pandocCommand.join(' ');
-        
-        console.log('Running Pandoc for PDF...');
-        execSync(commandString, { stdio: 'inherit' });
+        if (!success) {
+            throw lastError || new Error('All PDF engines failed');
+        }
         
         // Clean up temporary file
         await fs.remove(combinedFile);

@@ -19,28 +19,16 @@
       "description": "Renewable energy subsidies"
     },
     {
-      "id": "04-nimbys-wind-ban",
+      "id": "04-north-south-and-nimbys",
       "number": 4,
-      "title": "NIMBYs and Wind Ban",
-      "description": "Opposition to wind energy"
+      "title": "North-South and NIMBYs",
+      "description": "Geographic and political opposition to energy infrastructure"
     },
     {
-      "id": "05-political-instability",
+      "id": "05-nuclear",
       "number": 5,
-      "title": "Political Instability",
-      "description": "Policy inconsistency"
-    },
-    {
-      "id": "06-transmission-constraints",
-      "number": 6,
-      "title": "Transmission Constraints",
-      "description": "Grid infrastructure limitations"
-    },
-    {
-      "id": "07-scotland",
-      "number": 7,
-      "title": "Scotland",
-      "description": "Scottish energy independence"
+      "title": "Nuclear",
+      "description": "Nuclear power policy and development"
     },
     {
       "id": "08-regional-privatisation",
@@ -85,10 +73,10 @@
       "description": "Energy market mechanisms"
     },
     {
-      "id": "15-2022-subsidies",
+      "id": "15-flexibility-balancing-storage",
       "number": 15,
-      "title": "2022 Subsidies",
-      "description": "Emergency energy support"
+      "title": "Flexibility, Balancing and Storage",
+      "description": "The grid's hidden challenges and balancing mechanisms"
     },
     {
       "id": "16-exercise-duty-road-pricing",
@@ -109,22 +97,22 @@
       "description": "Demand management challenges"
     },
     {
-      "id": "19-planning-problem",
+      "id": "19-interest-rates",
       "number": 19,
-      "title": "Planning Problem",
-      "description": "Infrastructure development barriers"
-    },
-    {
-      "id": "20-conclusion",
-      "number": 20,
-      "title": "Conclusion",
-      "description": "How to fix Britain's energy system"
+      "title": "Interest Rates",
+      "description": "Impact of interest rates on energy investment"
     },
     {
       "id": "21-shale-gas",
       "number": 21,
       "title": "Shale Gas - A Missed Opportunity",
       "description": "Economic benefits, environmental considerations, and political factors"
+    },
+    {
+      "id": "22-power-versus-other-sectors",
+      "number": 22,
+      "title": "Power Versus Other Sectors",
+      "description": "Energy sector competition and policy priorities"
     }
   ],
   "parts": [
@@ -141,7 +129,7 @@
     {
       "id": "part2", 
       "title": "Part 2: The Grid & Infrastructure Problems",
-      "chapters": [6, 7, 8]
+      "chapters": [8]
     },
     {
       "id": "part3",
@@ -161,7 +149,7 @@
     {
       "id": "conclusion",
       "title": "Conclusion",
-      "chapters": [20, 21]
+      "chapters": [21, 22]
     }
   ]
 }

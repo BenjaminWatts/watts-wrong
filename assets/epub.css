@@ -1,43 +1,47 @@
-/* EPUB Styling for Watt's Wrong? */
+/* EPUB Styling for Watt's Wrong? - Matching Cover Art Design */
 
 body {
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.6;
     margin: 2em;
-    color: #333;
+    color: #1E3A8A; /* Deep electric blue from cover */
     background-color: #fff;
 }
 
 h1 {
     font-size: 2.2em;
-    color: #2c3e50;
-    border-bottom: 3px solid #3498db;
+    color: #1E3A8A; /* Deep electric blue */
+    border-bottom: 3px solid #F59E0B; /* Warning amber accent */
     padding-bottom: 0.3em;
     margin-top: 2em;
     margin-bottom: 1em;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 1.8em;
-    color: #34495e;
-    border-bottom: 2px solid #bdc3c7;
+    color: #1E3A8A; /* Deep electric blue */
+    border-bottom: 2px solid #F59E0B; /* Warning amber accent */
     padding-bottom: 0.2em;
     margin-top: 1.5em;
     margin-bottom: 0.8em;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1.4em;
-    color: #2c3e50;
+    color: #374151; /* Stormy gray */
     margin-top: 1.2em;
     margin-bottom: 0.6em;
+    font-weight: 600;
 }
 
 h4 {
     font-size: 1.2em;
-    color: #34495e;
+    color: #374151; /* Stormy gray */
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-weight: 600;
 }
 
 p {
@@ -55,24 +59,28 @@ li {
 }
 
 blockquote {
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #F59E0B; /* Warning amber accent */
     margin: 1.5em 0;
     padding: 0.5em 1em;
-    background-color: #f8f9fa;
+    background-color: #FEF3C7; /* Light amber background */
     font-style: italic;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 code {
     font-family: "Courier New", monospace;
-    background-color: #f8f9fa;
+    background-color: #E5E7EB; /* Stormy gray background */
+    color: #1E3A8A; /* Deep electric blue text */
     padding: 0.2em 0.4em;
     border-radius: 3px;
     font-size: 0.9em;
+    border: 1px solid #D1D5DB;
 }
 
 pre {
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
+    background-color: #F3F4F6; /* Light stormy gray */
+    border: 1px solid #D1D5DB;
+    border-left: 4px solid #F59E0B; /* Warning amber accent */
     border-radius: 5px;
     padding: 1em;
     overflow-x: auto;
@@ -85,12 +93,13 @@ pre code {
 }
 
 a {
-    color: #3498db;
+    color: #1E3A8A; /* Deep electric blue */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #F59E0B; /* Warning amber on hover */
 }
 
 img {
@@ -104,49 +113,62 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin: 1.5em 0;
+    border: 2px solid #1E3A8A; /* Deep electric blue border */
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #D1D5DB; /* Light gray borders */
     padding: 0.5em;
     text-align: left;
 }
 
 th {
-    background-color: #f8f9fa;
+    background-color: #1E3A8A; /* Deep electric blue background */
+    color: #fff; /* White text */
     font-weight: bold;
+}
+
+td {
+    background-color: #F9FAFB; /* Very light gray background */
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 /* Chapter breaks */
 hr {
     border: none;
-    border-top: 2px solid #bdc3c7;
+    border-top: 3px solid #F59E0B; /* Warning amber accent */
     margin: 3em 0;
 }
 
 /* Special formatting */
 .important {
-    background-color: #fff3cd;
-    border: 1px solid #ffeaa7;
+    background-color: #FEF3C7; /* Light amber background */
+    border: 2px solid #F59E0B; /* Warning amber border */
+    border-left: 6px solid #F59E0B; /* Thicker left border */
     border-radius: 5px;
     padding: 1em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 .warning {
-    background-color: #f8d7da;
-    border: 1px solid #f5c6cb;
+    background-color: #FEE2E2; /* Light red background */
+    border: 2px solid #EF4444; /* Red border */
+    border-left: 6px solid #EF4444; /* Thicker left border */
     border-radius: 5px;
     padding: 1em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 .tip {
-    background-color: #d1ecf1;
-    border: 1px solid #bee5eb;
+    background-color: #ECFDF5; /* Light green background */
+    border: 2px solid #10B981; /* Green border */
+    border-left: 6px solid #10B981; /* Thicker left border */
     border-radius: 5px;
     padding: 1em;
     margin: 1.5em 0;
+    color: #1E3A8A; /* Deep electric blue text */
 }
 
 /* Print styles */

@@ -60,23 +60,34 @@ async function buildWebsite() {
 async function copyAssets() {
     console.log('  📁 Copying assets...');
     
-    // Copy CSS files
+    // Copy CSS files and cover image
     await fs.copy(
         path.join(__dirname, '..', 'assets'),
         path.join(WEBSITE_DIR, 'assets')
     );
     
+    // Ensure covers directory exists and copy cover image
+    await fs.ensureDir(path.join(WEBSITE_DIR, 'assets', 'covers'));
+    await fs.copy(
+        path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png'),
+        path.join(WEBSITE_DIR, 'assets', 'covers', 'watts-wrong-cover.png')
+    );
+    
     // Create website-specific CSS
     const websiteCSS = `
-/* Website-specific styles for Watt's Wrong? */
+/* Website-specific styles for Watt's Wrong? - Matching Cover Art Design */
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
-    --text-color: #333;
+    --primary-color: #1E3A8A; /* Deep electric blue from cover */
+    --secondary-color: #F59E0B; /* Warning amber accent */
+    --accent-color: #EF4444; /* Red for warnings */
+    --text-color: #1E3A8A; /* Deep electric blue text */
     --background-color: #fff;
-    --code-bg: #f8f9fa;
-    --border-color: #ddd;
+    --code-bg: #E5E7EB; /* Stormy gray background */
+    --border-color: #D1D5DB; /* Light gray borders */
+    --stormy-gray: #374151; /* Stormy gray for secondary text */
+    --light-amber: #FEF3C7; /* Light amber background */
+    --light-red: #FEE2E2; /* Light red background */
+    --light-green: #ECFDF5; /* Light green background */
 }
 
 body {
@@ -97,27 +108,40 @@ body {
 .header {
     text-align: center;
     padding: 3rem 0;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
+    background: linear-gradient(135deg, var(--light-amber), var(--code-bg)); /* Light amber to stormy gray gradient */
+    color: var(--primary-color); /* Deep electric blue text */
     margin-bottom: 3rem;
+    border: 3px solid var(--secondary-color); /* Warning amber border */
+    border-radius: 8px;
 }
 
 .header h1 {
     font-size: 3rem;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-weight: bold;
+    font-family: 'Arial Black', 'Helvetica', sans-serif; /* Bold, distressed style like cover */
 }
 
 .header .subtitle {
     font-size: 1.2rem;
     margin: 1rem 0 0 0;
-    opacity: 0.9;
+    color: var(--stormy-gray); /* Stormy gray */
+    font-weight: 500;
 }
 
 .header .author {
     font-size: 1rem;
     margin: 0.5rem 0 0 0;
-    opacity: 0.8;
+    color: var(--stormy-gray); /* Stormy gray */
+    font-weight: 500;
+}
+
+.cover-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .navigation {
@@ -188,14 +212,23 @@ body {
 }
 
 .chapter h3 {
-    color: var(--primary-color);
+    color: var(--stormy-gray); /* Stormy gray */
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.chapter h4 {
+    color: var(--stormy-gray); /* Stormy gray */
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
 }
 
 .chapter p {
     margin-bottom: 1rem;
     text-align: justify;
+    color: var(--text-color); /* Deep electric blue */
 }
 
 .chapter ul, .chapter ol {
@@ -205,27 +238,32 @@ body {
 
 .chapter li {
     margin-bottom: 0.5rem;
+    color: var(--text-color); /* Deep electric blue */
 }
 
 .chapter blockquote {
-    border-left: 4px solid var(--secondary-color);
+    border-left: 4px solid var(--secondary-color); /* Warning amber accent */
     margin: 1.5rem 0;
     padding: 0.5rem 1rem;
-    background-color: var(--code-bg);
+    background-color: var(--light-amber); /* Light amber background */
     font-style: italic;
+    color: var(--primary-color); /* Deep electric blue text */
 }
 
 .chapter code {
     font-family: 'Courier New', monospace;
-    background-color: var(--code-bg);
+    background-color: var(--code-bg); /* Stormy gray background */
+    color: var(--primary-color); /* Deep electric blue text */
     padding: 0.2em 0.4em;
     border-radius: 3px;
     font-size: 0.9em;
+    border: 1px solid var(--border-color);
 }
 
 .chapter pre {
-    background-color: var(--code-bg);
+    background-color: #F3F4F6; /* Light stormy gray */
     border: 1px solid var(--border-color);
+    border-left: 4px solid var(--secondary-color); /* Warning amber accent */
     border-radius: 5px;
     padding: 1rem;
     overflow-x: auto;
@@ -239,7 +277,7 @@ body {
 
 .chapter hr {
     border: none;
-    border-top: 2px solid var(--border-color);
+    border-top: 3px solid var(--secondary-color); /* Warning amber accent */
     margin: 3rem 0;
 }
 
@@ -390,6 +428,7 @@ function generateChapterHTML(title, content, currentIndex, totalChapters, chapte
 <body>
     <div class="container">
         <header class="header">
+            <img src="assets/covers/watts-wrong-cover.png" alt="Cover of ${BOOK_TITLE}" class="cover-image" />
             <h1>${BOOK_TITLE}</h1>
             <p class="subtitle">${BOOK_SUBTITLE}</p>
             <p class="author">by ${BOOK_AUTHOR}</p>
@@ -450,6 +489,7 @@ async function generateIndexHTML(chapters) {
 <body>
     <div class="container">
         <header class="header">
+            <img src="assets/covers/watts-wrong-cover.png" alt="Cover of ${BOOK_TITLE}" class="cover-image" />
             <h1>${BOOK_TITLE}</h1>
             <p class="subtitle">${BOOK_SUBTITLE}</p>
             <p class="author">by ${BOOK_AUTHOR}</p>

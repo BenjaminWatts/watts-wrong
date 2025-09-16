@@ -69,7 +69,7 @@ Another weakness of the ROC scheme is the perverse incentive it creates when who
 
 ROC generators argue, with some justification, that this is a risk they shouldn't be liable for, as they were encouraged to build capacity under government policy. However, the cost of wind curtailment is growing rapidly on consumer bills, especially as the country fails to build enough transmission cable capacity fast enough (see [Chapter 6: Transmission Constraints - Bottlenecks and Bottlenecks](chapters/06-transmission-constraints.md) and [Chapter 7: Scotland - The North-South Divide](chapters/07-scotland.md)). This creates a situation where the ROC scheme not only subsidises generation when it's needed, but also pays generators to avoid generating when the system is oversupplied - a fundamental flaw in the market design. 
 
-# To renege, or not to renege?
+## To renege, or not to renege?
 
 The idea of reneging on ROC contracts has not been a mainstream policy position under consideration by either the previous Conservative or current Labour governments. Reneging on FIT payments hasn't been considered either, though given the direct impact this would have on millions of households and smaller businesses, one assumes it would be politically impossible.
 
