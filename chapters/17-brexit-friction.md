@@ -1,6 +1,6 @@
 # Chapter 17: Brexit Friction - How Leaving the EU Made Energy Harder
 
-## Electricity Trade
+## The GB Model and European Integration
 
 When I started working in energy markets, a common term in use was the GB model. This was the informal term given to the way that the EU had adopted the British privatisation model as a template for frictionless trade across European markets. At the core of the single market for energy was the notion of harmonised regulations, standardised trading mechanisms, and seamless cross-border electricity and gas flows that treated the entire continent as one integrated market.
 
@@ -12,11 +12,15 @@ The day-ahead market is by far the most important electricity trading venue - it
 
 Building cables across the seabed is significantly more expensive than over land, typically costing 3-5 times more per kilometre. Despite this cost premium, the economic benefits of cross-border electricity trading have been substantial, allowing Britain to export surplus wind power to Europe during periods of high generation and import nuclear and hydro power from France and Norway during periods of low wind.
 
+## Britain's Interconnector Expansion
+
 Following BritNed in 2011, Britain embarked on a major expansion of its interconnector network. To the continent, the Nemo cable to Belgium came online in 2019, ElecLink through the Channel Tunnel to France in 2021, IFA2 cable to France in 2021, and the North Sea Link to Norway in 2021. Britain also expanded its connections with Ireland: the Moyle interconnector linking Northern Ireland to Scotland had been operational since 2001, followed by the East-West interconnector connecting Ireland to Wales in 2012, and the Greenlink interconnector from Ireland to Wales which began operations in 2025. Several more interconnectors are planned or under construction including additional links to Denmark, Germany, and further Ireland-Britain connections.
 
 While these interconnectors were mutually beneficial to both Britain and the continent, they were typically more valuable to Britain than to its European neighbours. Continental countries already had extensive networks of relatively cheap overland interconnectors linking them together - France could trade with Germany, Belgium, the Netherlands, Spain, and Switzerland through land-based cables. Britain, as an island nation, was far more isolated and dependent on these expensive subsea links for access to European markets.
 
 Recognizing this asymmetry, Britain's energy regulator Ofgem had to design a special subsidy mechanism called the "cap and floor" regime to guarantee interconnector developers a minimum revenue stream. This was essential to make the expensive subsea projects financially viable. Crucially, these subsidies were predicated on the assumption that the interconnectors would have frictionless, automatic access to European electricity markets through the implicit day-ahead coupling mechanism - particularly important given Britain's rapidly expanding but intermittent wind generation that needed reliable export opportunities when production was high. 
+
+## The Brexit Shock
 
 Brexit threw this into doubt. Having access to the frictionless "implicit day-ahead coupling" required the UK to be subject to EU energy market regulations and the jurisdiction of European institutions. When Britain left the EU on 31 December 2020, it automatically lost access to this seamless trading mechanism.
 
@@ -27,6 +31,8 @@ The impact was immediate and significant. Trading became more expensive and less
 This was precisely the kind of friction that the cap and floor subsidies had never been designed to handle - the entire regulatory framework had assumed continued participation in EU market mechanisms that Brexit had now made impossible.
 
 It's worth noting that this outcome wasn't inevitable. During the Brexit negotiations, there were options for a "softer Brexit" that could have maintained Britain's participation in EU energy market regulations while leaving other areas of EU law and regulation. Countries like Norway participate in parts of the EU's internal energy market without full EU membership. However, the UK government chose a harder Brexit approach that prioritized regulatory sovereignty across all sectors over maintaining sectoral integration in areas like energy where the benefits of continued cooperation were particularly clear. This political choice meant that billions of pounds of interconnector infrastructure, subsidized by British consumers through the cap and floor regime, would now operate under less efficient trading arrangements than originally envisaged.
+
+## The Financial Fallout
 
 Despite the complexities introduced by Brexit, the volume of electricity traded between Great Britain and continental Europe has continued to grow significantly. In 2020, electricity imports via interconnectors were approximately 22,391 GWh, supplying about 6.6% of the UK's gross electricity supply. By 2023, this figure had increased to 33,212 GWh, with interconnectors supplying around 10.4% of the UK's electricity.
 
@@ -42,7 +48,7 @@ In recent times, there have been renewed hopes for better harmonization between 
 
 There is also a very compelling case for developing a shared offshore grid in the North Sea, connecting the UK with other countries that have major offshore wind installations. Such a grid could optimize the distribution of renewable energy across borders, balancing supply and demand more effectively and reducing the need for backup fossil fuel generation. By pooling resources and infrastructure, participating countries could achieve greater energy security, lower costs, and accelerate the transition to a low-carbon energy system. The North Sea's vast wind resources present a unique opportunity for regional cooperation, and a shared grid could serve as a model for future collaborative energy projects.
 
-## Carbon prices
+## Carbon Market Divergence
 
 Another significant development was the decoupling of the UK from the EU carbon market. Prior to Brexit, the UK was part of the EU Emissions Trading System (EU ETS), which is a cornerstone of the EU's policy to combat climate change by reducing greenhouse gas emissions. The EU ETS works on the 'cap and trade' principle, setting a cap on the total amount of certain greenhouse gases that can be emitted by installations covered by the system. After Brexit, the UK established its own UK Emissions Trading Scheme (UK ETS) in 2021, which is similar in design but operates independently from the EU ETS.
 
@@ -58,7 +64,7 @@ To address these challenges, there have been discussions about linking the UK ET
 
 For British exporters, facing a CBAM on exports to the EU in addition to higher energy costs than many EU countries would be an extra trade barrier they would prefer to avoid. The combination of these factors could make UK goods less competitive in European markets, potentially leading to reduced market share and profitability for British businesses. This highlights the importance of addressing carbon pricing disparities and energy cost challenges to maintain the competitiveness of UK exports in the EU.
 
-## The Role of Carbon Prices in Electricity Costs
+## Carbon Price Impacts on Electricity Costs
 
 Carbon prices play a crucial role in determining the cost of gas-fired electricity generation. In both Britain and Belgium/Netherlands/Ireland, gas power stations can be identical in almost every respect—similar efficiencies, fuel costs, and technologies—except for the carbon price. This single difference can have a profound impact on the competitiveness of electricity generation. A lower carbon price in the UK can make its gas-fired electricity cheaper to produce, giving it a competitive edge in the market. Conversely, a higher carbon price in the EU can make electricity from similar stations more expensive, affecting where power is generated and traded. This highlights the critical role of carbon pricing in shaping energy markets and influencing cross-border electricity flows.
 
