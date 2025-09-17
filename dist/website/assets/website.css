@@ -1,0 +1,265 @@
+
+/* Website-specific styles for Watt's Wrong? - Matching Cover Art Design */
+:root {
+    --primary-color: #1E3A8A; /* Deep electric blue from cover */
+    --secondary-color: #F59E0B; /* Warning amber accent */
+    --accent-color: #EF4444; /* Red for warnings */
+    --text-color: #1E3A8A; /* Deep electric blue text */
+    --background-color: #fff;
+    --code-bg: #E5E7EB; /* Stormy gray background */
+    --border-color: #D1D5DB; /* Light gray borders */
+    --stormy-gray: #374151; /* Stormy gray for secondary text */
+    --light-amber: #FEF3C7; /* Light amber background */
+    --light-red: #FEE2E2; /* Light red background */
+    --light-green: #ECFDF5; /* Light green background */
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, var(--light-amber), var(--code-bg)); /* Light amber to stormy gray gradient */
+    color: var(--primary-color); /* Deep electric blue text */
+    margin-bottom: 3rem;
+    border: 3px solid var(--secondary-color); /* Warning amber border */
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Arial Black', 'Helvetica', sans-serif; /* Bold, distressed style like cover */
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0;
+    color: var(--stormy-gray); /* Stormy gray */
+    font-weight: 500;
+}
+
+.header .author {
+    font-size: 1rem;
+    margin: 0.5rem 0 0 0;
+    color: var(--stormy-gray); /* Stormy gray */
+    font-weight: 500;
+}
+
+.cover-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navigation {
+    background: var(--code-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+.navigation h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin-bottom: 0.5rem;
+}
+
+.navigation a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.navigation a:hover {
+    background-color: var(--border-color);
+}
+
+.part-section {
+    margin-bottom: 2rem;
+}
+
+.part-section h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.chapter {
+    margin-bottom: 4rem;
+}
+
+.chapter h1 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.chapter h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.chapter h3 {
+    color: var(--stormy-gray); /* Stormy gray */
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.chapter h4 {
+    color: var(--stormy-gray); /* Stormy gray */
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+}
+
+.chapter p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: var(--text-color); /* Deep electric blue */
+}
+
+.chapter ul, .chapter ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.chapter li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color); /* Deep electric blue */
+}
+
+.chapter blockquote {
+    border-left: 4px solid var(--secondary-color); /* Warning amber accent */
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-amber); /* Light amber background */
+    font-style: italic;
+    color: var(--primary-color); /* Deep electric blue text */
+}
+
+.chapter code {
+    font-family: 'Courier New', monospace;
+    background-color: var(--code-bg); /* Stormy gray background */
+    color: var(--primary-color); /* Deep electric blue text */
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    border: 1px solid var(--border-color);
+}
+
+.chapter pre {
+    background-color: #F3F4F6; /* Light stormy gray */
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--secondary-color); /* Warning amber accent */
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.chapter pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.chapter hr {
+    border: none;
+    border-top: 3px solid var(--secondary-color); /* Warning amber accent */
+    margin: 3rem 0;
+}
+
+.chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.chapter-nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.chapter-nav a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.chapter-nav .disabled {
+    color: var(--border-color);
+    border-color: var(--border-color);
+    pointer-events: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .header .subtitle {
+        font-size: 1rem;
+    }
+    
+    .chapter h1 {
+        font-size: 1.8rem;
+    }
+    
+    .chapter h2 {
+        font-size: 1.5rem;
+    }
+}
