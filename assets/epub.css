@@ -1,5 +1,20 @@
 /* EPUB Styling for Watt's Wrong? - Matching Cover Art Design */
 
+/* Cover page styling */
+.cover-page {
+    text-align: center;
+    page-break-after: always;
+    margin: 0;
+    padding: 0;
+}
+
+.cover-page img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.6;

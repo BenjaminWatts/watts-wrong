@@ -5,6 +5,30 @@
     size: A4;
 }
 
+/* Cover page styling */
+.cover-page {
+    text-align: center;
+    page-break-after: always;
+    margin: 0;
+    padding: 0;
+}
+
+.cover-page img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Full page cover styling */
+@page :first {
+    margin: 0;
+}
+
+div[style*="100vh"] {
+    page-break-after: always;
+}
+
 body {
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.6;

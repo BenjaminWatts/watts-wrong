@@ -43,12 +43,16 @@ async function buildPDF() {
         const combinedFile = path.join(OUTPUT_DIR, 'combined.md');
         let combinedContent = '';
         
-        // Add title page with cover image
+        // Add cover page first - dedicated cover page
         if (hasCover) {
-            combinedContent += `<div class="title-page">\n`;
-            combinedContent += `<img src="${coverImagePath}" alt="Cover" style="max-width: 100%; height: auto; margin-bottom: 2em;" />\n`;
+            combinedContent += `<div style="page-break-after: always; margin: 0; padding: 0; text-align: center;">\n`;
+            combinedContent += `<div style="height: 25cm; display: flex; align-items: center; justify-content: center;">\n`;
+            combinedContent += `<img src="${coverImagePath}" alt="Cover" style="max-width: 100%; max-height: 100%; object-fit: contain;" />\n`;
+            combinedContent += `</div>\n`;
             combinedContent += `</div>\n\n`;
         }
+        
+        // Add title page content
         combinedContent += `# ${BOOK_TITLE}\n\n`;
         combinedContent += `## 🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧\n\n`;
         combinedContent += `> **⚠️ IMPORTANT NOTICE:** This book is currently a **DRAFT IN PROGRESS**. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.\n\n`;

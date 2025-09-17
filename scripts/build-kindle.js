@@ -39,7 +39,15 @@ async function buildKindle() {
         const combinedFile = path.join(OUTPUT_DIR, 'combined.md');
         let combinedContent = '';
         
-        // Add title page
+        // Add cover page first (if available)
+        if (await fs.pathExists(path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png'))) {
+            combinedContent += `<div class="cover-page">\n`;
+            combinedContent += `![Cover](${path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png')})\n`;
+            combinedContent += `</div>\n\n`;
+            combinedContent += `\\newpage\n\n`; // Force page break after cover
+        }
+        
+        // Add title page content
         combinedContent += `# ${BOOK_TITLE}\n\n`;
         combinedContent += `## 🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧\n\n`;
         combinedContent += `> **⚠️ IMPORTANT NOTICE:** This book is currently a **DRAFT IN PROGRESS**. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.\n\n`;
