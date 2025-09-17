@@ -41,6 +41,8 @@ async function buildEPUB() {
         
         // Add title page
         combinedContent += `# ${BOOK_TITLE}\n\n`;
+        combinedContent += `## 🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧\n\n`;
+        combinedContent += `> **⚠️ IMPORTANT NOTICE:** This book is currently a **DRAFT IN PROGRESS**. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.\n\n`;
         combinedContent += `**Author:** ${BOOK_AUTHOR}\n\n`;
         combinedContent += `**Language:** ${BOOK_LANGUAGE}\n\n`;
         combinedContent += `---\n\n`;

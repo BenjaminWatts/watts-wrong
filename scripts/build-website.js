@@ -126,6 +126,30 @@ body {
     font-family: 'Arial Black', 'Helvetica', sans-serif; /* Bold, distressed style like cover */
 }
 
+.draft-notice {
+    background: linear-gradient(135deg, var(--light-red), #FFE4E1);
+    border: 3px solid var(--accent-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+.draft-notice h2 {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+}
+
+.draft-notice p {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
 .header .subtitle {
     font-size: 1.2rem;
     margin: 1rem 0 0 0;
@@ -434,6 +458,10 @@ function generateChapterHTML(title, content, currentIndex, totalChapters, chapte
         <header class="header">
             <img src="assets/covers/watts-wrong-cover.png" alt="Cover of ${BOOK_TITLE}" class="cover-image" />
             <h1>${BOOK_TITLE}</h1>
+            <div class="draft-notice">
+                <h2>🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧</h2>
+                <p><strong>⚠️ IMPORTANT NOTICE:</strong> This book is currently a <strong>DRAFT IN PROGRESS</strong>. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.</p>
+            </div>
             <p class="subtitle">${BOOK_SUBTITLE}</p>
             <p class="author">by ${BOOK_AUTHOR}</p>
         </header>
@@ -495,6 +523,10 @@ async function generateIndexHTML(chapters) {
         <header class="header">
             <img src="assets/covers/watts-wrong-cover.png" alt="Cover of ${BOOK_TITLE}" class="cover-image" />
             <h1>${BOOK_TITLE}</h1>
+            <div class="draft-notice">
+                <h2>🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧</h2>
+                <p><strong>⚠️ IMPORTANT NOTICE:</strong> This book is currently a <strong>DRAFT IN PROGRESS</strong>. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.</p>
+            </div>
             <p class="subtitle">${BOOK_SUBTITLE}</p>
             <p class="author">by ${BOOK_AUTHOR}</p>
         </header>
