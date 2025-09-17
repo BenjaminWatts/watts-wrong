@@ -1,0 +1,110 @@
+[
+  {
+    "chapter": "01",
+    "name": "01-introduction",
+    "file": "01-01-introduction.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "02",
+    "name": "02-biomass",
+    "file": "02-02-biomass.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "03",
+    "name": "03-feed-in-tariffs-and-rocs",
+    "file": "03-03-feed-in-tariffs-and-rocs.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "04",
+    "name": "04-north-south-and-nimbys",
+    "file": "04-04-north-south-and-nimbys.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "05",
+    "name": "05-nuclear",
+    "file": "05-05-nuclear.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "06",
+    "name": "08-regional-privatisation",
+    "file": "06-08-regional-privatisation.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "07",
+    "name": "09-smart-meters",
+    "file": "07-09-smart-meters.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "08",
+    "name": "10-electricity-levies",
+    "file": "08-10-electricity-levies.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "09",
+    "name": "11-price-cap",
+    "file": "09-11-price-cap.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "10",
+    "name": "12-epcs",
+    "file": "10-12-epcs.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "11",
+    "name": "13-rhi-vs-bus",
+    "file": "11-13-rhi-vs-bus.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "12",
+    "name": "14-cfd-vs-marginal-pricing",
+    "file": "12-14-cfd-vs-marginal-pricing.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "13",
+    "name": "15-flexibility-balancing-storage",
+    "file": "13-15-flexibility-balancing-storage.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "14",
+    "name": "16-exercise-duty-road-pricing",
+    "file": "14-16-exercise-duty-road-pricing.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "15",
+    "name": "17-brexit-friction",
+    "file": "15-17-brexit-friction.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "16",
+    "name": "18-interest-rates",
+    "file": "16-18-interest-rates.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "17",
+    "name": "19-shale-gas",
+    "file": "17-19-shale-gas.aiff",
+    "duration": "00:00:00"
+  },
+  {
+    "chapter": "18",
+    "name": "20-power-versus-other-sectors",
+    "file": "18-20-power-versus-other-sectors.aiff",
+    "duration": "00:00:00"
+  }
+]

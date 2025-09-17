@@ -16,18 +16,16 @@ All formats can be built locally using the provided scripts:
 
 ### 🚀 Quick Downloads
 
-> **📥 How to Get the Book** - Multiple formats available
+> **📥 Direct Download Links** - Ready to read formats
 
-| Format | Description | How to Get It |
-|--------|-------------|---------------|
-| 🌐 **Website** | Read online with full formatting | [🌐 Read Online](https://benjaminwatts.github.io/watts-wrong/) |
-| 📚 **EPUB** | For most e-readers and mobile devices | Build locally (see instructions below) |
-| 📱 **MOBI** | For Amazon Kindle devices | Build locally (see instructions below) |
-| 📄 **PDF** | For printing and desktop reading | Build locally (see instructions below) |
-| 🎧 **Audiobook** | Complete audiobook archive | Build locally (see instructions below) |
+| Format | Description | Download Link | File Size |
+|--------|-------------|---------------|-----------|
+| 🌐 **Website** | Read online with full formatting | [🌐 Read Online](https://benjaminwatts.github.io/watts-wrong/) | - |
+| 📚 **EPUB** | For most e-readers and mobile devices | [⬇️ Download EPUB](dist/downloads/watts-wrong.epub) | 3.2 MB |
+| 📱 **MOBI** | For Amazon Kindle devices | [⬇️ Download MOBI](dist/downloads/watts-wrong.mobi) | 275 KB |
+| 📄 **PDF** | For printing and desktop reading | [⬇️ Download PDF](dist/downloads/watts-wrong.pdf) | 3.5 MB |
 
-> **💡 Why build locally?**
-> The book is built automatically by GitHub Actions, but the built files are not stored in the repository to avoid conflicts. Instead, you can build your own copies using the simple commands below.
+> **🔄 Auto-Build System:** All downloads are automatically built and updated on every commit using a pre-commit hook. No manual builds required!
 
 ### 📋 How to Download
 

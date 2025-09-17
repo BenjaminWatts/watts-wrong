@@ -76,5 +76,5 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# Build output directory
-dist/
+# Build output directory - commented out to allow dist/ in repo
+# dist/
