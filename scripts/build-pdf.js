@@ -39,40 +39,48 @@ async function buildPDF() {
         const coverImagePath = path.join(__dirname, '..', 'assets', 'covers', 'watts-wrong-cover.png');
         const hasCover = await fs.pathExists(coverImagePath);
         
-        // Create temporary combined markdown file
+        // Create temporary markdown file with cover image first
         const combinedFile = path.join(OUTPUT_DIR, 'combined.md');
         let combinedContent = '';
         
-        // Add cover page first - dedicated cover page
+        // Add cover image first as markdown
         if (hasCover) {
-            combinedContent += `<div style="page-break-after: always; margin: 0; padding: 0; text-align: center;">\n`;
-            combinedContent += `<div style="height: 25cm; display: flex; align-items: center; justify-content: center;">\n`;
-            combinedContent += `<img src="${coverImagePath}" alt="Cover" style="max-width: 100%; max-height: 100%; object-fit: contain;" />\n`;
-            combinedContent += `</div>\n`;
-            combinedContent += `</div>\n\n`;
+            combinedContent += `![Cover](${coverImagePath})\n\n`;
+            combinedContent += `\\newpage\n\n`;
         }
         
-        // Add title page content
+        // Add title and draft notice
         combinedContent += `# ${BOOK_TITLE}\n\n`;
         combinedContent += `## 🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧\n\n`;
         combinedContent += `> **⚠️ IMPORTANT NOTICE:** This book is currently a **DRAFT IN PROGRESS**. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.\n\n`;
         combinedContent += `**Author:** ${BOOK_AUTHOR}\n\n`;
         combinedContent += `**Language:** ${BOOK_LANGUAGE}\n\n`;
-        combinedContent += `---\n\n`;
-        
+        combinedContent += `\\newpage\n\n`;
+
+        // Add manual table of contents
+        combinedContent += `# Table of Contents\n\n`;
+        markdownFiles.forEach((file, index) => {
+            const filename = path.basename(file, '.md');
+            combinedContent += `${index + 1}. [${filename}](#chapter-${index + 1})\n`;
+        });
+        combinedContent += `\n\\newpage\n\n`;
+
         // Combine all chapters
-        for (const file of markdownFiles) {
+        for (let index = 0; index < markdownFiles.length; index++) {
+            const file = markdownFiles[index];
             const chapterContent = await fs.readFile(file, 'utf8');
-            combinedContent += chapterContent + '\n\n---\n\n';
+            // Add chapter anchor
+            combinedContent += `<div id="chapter-${index + 1}"></div>\n\n`;
+            combinedContent += chapterContent + '\n\n\\newpage\n\n';
         }
-        
+
         await fs.writeFile(combinedFile, combinedContent);
         
         // Build PDF using Pandoc with different engines
         const outputFile = path.join(OUTPUT_DIR, 'watts-wrong.pdf');
         
-        // Try different PDF engines in order of preference
-        const engines = ['weasyprint', 'prince', 'wkhtmltopdf', 'pdflatex'];
+    // Try different PDF engines in order of preference
+    const engines = ['prince', 'wkhtmltopdf', 'weasyprint', 'pdflatex'];
         let success = false;
         let lastError = null;
         
@@ -85,13 +93,10 @@ async function buildPDF() {
                     combinedFile,
                     '-o', outputFile,
                     '--pdf-engine', engine,
-                    '--toc',
-                    '--toc-depth=2',
-                    '--metadata', `title="${BOOK_TITLE}"`,
-                    '--metadata', `author="${BOOK_AUTHOR}"`,
-                    '--metadata', `language=${BOOK_LANGUAGE}`,
                     '--css', path.join(__dirname, '..', 'assets', 'pdf.css')
                 ];
+                
+                // Cover image is embedded in HTML, no need for separate option
                 
                 // Add engine-specific options for hyperlinks
                 if (engine === 'weasyprint') {
@@ -105,7 +110,7 @@ async function buildPDF() {
                     pandocCommand.push('--pdf-engine-opt', '--baseurl=file://');
                 }
                 
-                // Cover image is embedded in the content, no need for --pdf-cover-image
+                // Cover image is embedded in the content
                 
                 const commandString = pandocCommand.join(' ');
                 console.log(`Running Pandoc for PDF with ${engine}...`);
@@ -128,8 +133,8 @@ async function buildPDF() {
             throw lastError || new Error('All PDF engines failed');
         }
         
-        // Clean up temporary file
-        await fs.remove(combinedFile);
+        // Clean up temporary file (commented out for debugging)
+        // await fs.remove(combinedFile);
         
         console.log(`✅ PDF built successfully: ${outputFile}`);
         
