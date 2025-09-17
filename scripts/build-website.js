@@ -48,6 +48,9 @@ async function buildWebsite() {
         // Generate chapter navigation
         await generateChapterNavigation(chapters);
         
+        // Copy download files to website (after all other operations)
+        await copyDownloads();
+        
         console.log(`✅ Website built successfully: ${WEBSITE_DIR}`);
         console.log(`📁 Website files: ${WEBSITE_DIR}`);
         
@@ -73,16 +76,6 @@ async function copyAssets() {
         path.join(WEBSITE_DIR, 'assets', 'covers', 'watts-wrong-cover.png')
     );
     
-    // Copy download files to website
-    await fs.ensureDir(path.join(WEBSITE_DIR, 'downloads'));
-    const downloadFiles = ['watts-wrong.epub', 'watts-wrong.mobi', 'watts-wrong.pdf'];
-    for (const file of downloadFiles) {
-        const sourcePath = path.join(__dirname, '..', 'dist', file);
-        const destPath = path.join(WEBSITE_DIR, 'downloads', file);
-        if (await fs.pathExists(sourcePath)) {
-            await fs.copy(sourcePath, destPath);
-        }
-    }
     
     // Create website-specific CSS
     const websiteCSS = `
@@ -605,6 +598,43 @@ async function generateChapterNavigation(chapters) {
     }));
     
     await fs.writeJson(path.join(WEBSITE_DIR, 'chapters.json'), chapterData, { spaces: 2 });
+}
+
+async function copyDownloads() {
+    console.log('  📁 Copying download files...');
+    
+    // Copy download files to website
+    const downloadsDir = path.join(WEBSITE_DIR, 'downloads');
+    console.log(`  📁 WEBSITE_DIR: ${WEBSITE_DIR}`);
+    console.log(`  📁 Creating downloads directory: ${downloadsDir}`);
+    await fs.ensureDir(downloadsDir);
+    console.log(`  📁 Downloads directory created successfully`);
+    
+    // Verify the directory was actually created
+    const exists = await fs.pathExists(downloadsDir);
+    console.log(`  📁 Directory exists after creation: ${exists}`);
+    
+    const downloadFiles = ['watts-wrong.epub', 'watts-wrong.mobi', 'watts-wrong.pdf'];
+    for (const file of downloadFiles) {
+        const sourcePath = path.join(__dirname, '..', 'dist', file);
+        const destPath = path.join(downloadsDir, file);
+        console.log(`  📁 Checking ${sourcePath}...`);
+        if (await fs.pathExists(sourcePath)) {
+            console.log(`  📁 Copying ${file} to ${destPath}...`);
+            await fs.copy(sourcePath, destPath);
+            console.log(`  ✅ Copied ${file} successfully`);
+        } else {
+            console.log(`  ⚠️  File not found: ${sourcePath}`);
+        }
+    }
+    
+    // Verify downloads directory exists after copying
+    if (await fs.pathExists(downloadsDir)) {
+        const files = await fs.readdir(downloadsDir);
+        console.log(`  📁 Downloads directory contents: ${files.join(', ')}`);
+    } else {
+        console.log(`  ❌ Downloads directory does not exist after copying!`);
+    }
 }
 
 // Run the build
