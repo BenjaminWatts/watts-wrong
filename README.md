@@ -21,9 +21,9 @@ All formats can be built locally using the provided scripts:
 | Format | Description | Download Link | File Size |
 |--------|-------------|---------------|-----------|
 | 🌐 **Website** | Read online with full formatting | [🌐 Read Online](https://benjaminwatts.github.io/watts-wrong/) | - |
-| 📚 **EPUB** | For most e-readers and mobile devices | [⬇️ Download EPUB](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/downloads/watts-wrong.epub) | 3.2 MB |
-| 📱 **MOBI** | For Amazon Kindle devices | [⬇️ Download MOBI](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/downloads/watts-wrong.mobi) | 275 KB |
-| 📄 **PDF** | For printing and desktop reading | [⬇️ Download PDF](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/downloads/watts-wrong.pdf) | 3.5 MB |
+| 📚 **EPUB** | For most e-readers and mobile devices | [⬇️ Download EPUB](https://benjaminwatts.github.io/watts-wrong/downloads/watts-wrong.epub) | 3.2 MB |
+| 📱 **MOBI** | For Amazon Kindle devices | [⬇️ Download MOBI](https://benjaminwatts.github.io/watts-wrong/downloads/watts-wrong.mobi) | 275 KB |
+| 📄 **PDF** | For printing and desktop reading | [⬇️ Download PDF](https://benjaminwatts.github.io/watts-wrong/downloads/watts-wrong.pdf) | 3.5 MB |
 
 > **🔄 Auto-Build System:** All downloads are automatically built and updated on every commit using a pre-commit hook. No manual builds required!
 

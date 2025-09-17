@@ -73,6 +73,17 @@ async function copyAssets() {
         path.join(WEBSITE_DIR, 'assets', 'covers', 'watts-wrong-cover.png')
     );
     
+    // Copy download files to website
+    await fs.ensureDir(path.join(WEBSITE_DIR, 'downloads'));
+    const downloadFiles = ['watts-wrong.epub', 'watts-wrong.mobi', 'watts-wrong.pdf'];
+    for (const file of downloadFiles) {
+        const sourcePath = path.join(__dirname, '..', 'dist', file);
+        const destPath = path.join(WEBSITE_DIR, 'downloads', file);
+        if (await fs.pathExists(sourcePath)) {
+            await fs.copy(sourcePath, destPath);
+        }
+    }
+    
     // Create website-specific CSS
     const websiteCSS = `
 /* Website-specific styles for Watt's Wrong? - Matching Cover Art Design */
