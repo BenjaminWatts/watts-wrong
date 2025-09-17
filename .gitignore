@@ -74,4 +74,7 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file
-.env dist/
+.env
+
+# Build output directory
+dist/
