@@ -12,6 +12,10 @@ yarn-error.log*
 *.aiff
 *.aac
 
+# Exception: Allow website download files
+!dist/website/downloads/*.epub
+!dist/website/downloads/*.mobi
+
 # Temporary files
 *.tmp
 *.temp
