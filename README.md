@@ -16,19 +16,20 @@ All formats can be built locally using the provided scripts:
 
 ### 🚀 Quick Downloads
 
-> **📥 Direct Download Links** - Click to download immediately
+> **📥 Download Options** - Multiple ways to get the book
 
-| Format | Size | Description | Download Link |
-|--------|------|-------------|---------------|
-| 📚 **EPUB** | 3.1 MB | For most e-readers and mobile devices | [⬇️ Download EPUB](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.epub) |
-| 📱 **MOBI** | 248 KB | For Amazon Kindle devices | [⬇️ Download MOBI](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.mobi) |
-| 📄 **PDF** | 3.3 MB | For printing and desktop reading | [⬇️ Download PDF](https://github.com/benjaminwatts/watts-wrong/raw/main/dist/watts-wrong.pdf) |
-| 🎧 **Audiobook** | ~50 MB | Complete audiobook archive | [⬇️ Download Audiobook](https://github.com/benjaminwatts/watts-wrong/tree/main/dist/audiobook) |
+| Format | Size | Description | Download Method |
+|--------|------|-------------|-----------------|
+| 📚 **EPUB** | 3.2 MB | For most e-readers and mobile devices | [⬇️ Direct Download](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/watts-wrong.epub) or [📁 Browse Files](https://github.com/BenjaminWatts/watts-wrong/tree/main/dist) |
+| 📱 **MOBI** | 266 KB | For Amazon Kindle devices | [⬇️ Direct Download](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/watts-wrong.mobi) or [📁 Browse Files](https://github.com/BenjaminWatts/watts-wrong/tree/main/dist) |
+| 📄 **PDF** | 3.5 MB | For printing and desktop reading | [⬇️ Direct Download](https://github.com/BenjaminWatts/watts-wrong/raw/main/dist/watts-wrong.pdf) or [📁 Browse Files](https://github.com/BenjaminWatts/watts-wrong/tree/main/dist) |
+| 🎧 **Audiobook** | ~50 MB | Complete audiobook archive | [📁 Browse Files](https://github.com/BenjaminWatts/watts-wrong/tree/main/dist/audiobook) |
 | 🌐 **Website** | - | Read online with full formatting | [🌐 Read Online](https://benjaminwatts.github.io/watts-wrong/) |
 
-> **💡 Note**: If direct links don't work, the files are also available in the [dist/](https://github.com/benjaminwatts/watts-wrong/tree/main/dist) directory
-
-> **Note:** To build these files locally, run `npm run build:complete` after installing dependencies with `npm install`
+> **💡 If direct downloads don't work:**
+> 1. **Browse the [dist/ directory](https://github.com/BenjaminWatts/watts-wrong/tree/main/dist)** and click on individual files
+> 2. **Build locally**: Run `npm run build:complete` after installing dependencies with `npm install`
+> 3. **Clone the repo**: `git clone https://github.com/BenjaminWatts/watts-wrong.git` and build your own copies
 
 ### 📋 How to Download
 
