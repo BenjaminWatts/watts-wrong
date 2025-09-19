@@ -2,13 +2,13 @@
 
 ## Introduction
 
-It's often difficult for new technologies to get off the ground. Not only do you have to get the cost of manufacturing kit down, and the kit more reliable, but you also need a supply chain to distribute and an qualified workforce to install and maintain the equipment. This is particularly true if you want something installed en masse to millions of homnes and businesses, but also a handful of larger sites like power stations.
+It's often difficult for new technologies to get off the ground. Not only do you have to get the cost of manufacturing kit down, and the kit more reliable, but you also need a supply chain to distribute and a qualified workforce to install and maintain the equipment. This is particularly true if you want something installed en masse to millions of homes and businesses, but also a handful of larger sites like power stations.
 
 ## PV
 
 Solar photovoltaic (or PV) technology is a watershed moment for making electricity. Unlike every other way of making electricity, it doesn't rely on moving parts like spinning a generator. It therefore requires much less maintenance or frequent access. Given it's relatively light, thin and flat, it can also be readily installed on existing building surfaces like roofs, and also be ground mounted. It also generates most electricity in the day time, when people are more likely to be awake, working and using electricity. Also, because it can be installed "behind the meter" of buildings, it offers the chance to bypass the charges of local energy grids, taxes and allow end users to generate some of their own power.
 
-### Feed in tariff
+### Feed-in tariff
 
 The UK isn't blessed with the world's sunniest climate, but despite this a well positioned kilowatt of PV panels will generate an average of about 1kwh/day of power in winter and 4kwh/day in summer. A typical house without electric heating, a heatpump or an EV might use 3,000kwh of electricity in a year, and a typical roof can accommodate 3-5kw of PV panels. So on a net, year round basis, PV can make a typical UK house self-sufficient for electricity, although in reality they will have a daytime surplus in summer and maintain a heavy grid reliance in winter. 
 
@@ -35,7 +35,7 @@ The closure of the Feed-in Tariff scheme created a massive bust in the industry,
 
 While the Feed-in Tariff scheme has now closed to new entrants, payments will continue until 2044 and its legacy lives on in several problematic ways:
 
-**Wealth Inequality**: The scheme disproportionately benefitted wealthier households who could afford the £12,000-15,000 upfront investment in the 2010s. This created a form of "solar aristocracy" where affluent homeowners received decades of premium payments while others missed out.
+**Wealth Inequality**: The scheme disproportionately benefited wealthier households who could afford the £12,000-15,000 upfront investment in the 2010s. This created a form of "solar aristocracy" where affluent homeowners received decades of premium payments while others missed out.
 
 **Access Barriers**: The scheme was fundamentally unavailable to renters, flat-dwellers, and those without suitable roof space, creating a divide between property owners and those without access to suitable installation sites.
 
