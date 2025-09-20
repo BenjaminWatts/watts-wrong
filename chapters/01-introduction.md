@@ -28,6 +28,7 @@ This book systematically covers Britain's energy system problems across 20 chapt
 18. **[9-5 School Holidays](18-9-5-school-holidays.md)** - Demand management challenges
 19. **[Planning Problem](19-planning-problem.md)** - Infrastructure development barriers
 20. **[Conclusion](20-conclusion.md)** - How to fix Britain's energy system
+21. **[Glossary](21-gossary.md)** - Commonly used acroyms
 
 ## How to Use This Book
 
