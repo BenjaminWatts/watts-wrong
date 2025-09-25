@@ -1,6 +1,6 @@
 # Chapter 12: EPCs - Energy Performance Certificates That Don't Work
 
-Energy Performance Certificates are supposed to inform users of the energy costs and environmnetal impact of buildings. There are separate certificates for residential homes and commercial premises. EPCs were introduced in the year x, last x years and are required whenever a building is offered for rent or sale.
+Energy Performance Certificates are supposed to inform users of the energy costs and environmental impact of buildings. There are separate certificates for residential homes and commercial premises. EPCs were introduced in the year 2007 [source](https://en.wikipedia.org/wiki/Energy_Performance_Certificate_(United_Kingdom)) and are required whenever a building is offered for rent or sale.
 
 For a variety of reasons, the EPC system as it exists at the moment is dysfunctional.
 
@@ -23,13 +23,14 @@ The outputs shown on an Energy Performance Certificate focus around the annual c
 
 The cost to run a house in an energy performance certificate uses standardized energy prices set by the EPC methodology, which are updated periodically but not automatically with current market prices. Over the last 5-10 years there have been dramatic swings in energy costs, with electricity prices rising from around 14p/kWh in 2012 to 25p/kWh in 2024, and the 2022 energy crisis causing unprecedented volatility. During the energy crisis, wholesale gas prices peaked at over £400/MWh, causing household energy bills to double within months. However, EPC calculations continue to use the standardized prices from the methodology, meaning the running costs shown on certificates become increasingly disconnected from actual energy bills over time. This creates a misleading picture for homeowners and potential buyers, as the EPC running costs don't reflect the real financial impact of the property's energy performance.
 
-
 ### Heat Loss
-The heat loss of a building is the amount of heat that it looses at a given temperature. It can be expressed either as a number of watts per degree that the outside air temperature falls below 16C or so e.g. 100W/C, or alternatively a design heat loss e.g. 5KW, which is the amount of heat needed to keep the house inside at a comfortable 21C when the oustide temperature is at the minimum that can be reasonably expected, depending where in the UK you are this is between -2C and 2C or so.  
+The heat loss of a building is the amount of heat that it looses at a given temperature. It can be expressed either as a number of Watts per degree that the outside air temperature falls below 16°C or so, e.g. 100W/°C, or alternatively a design heat loss e.g. 5KW, which is the amount of heat needed to keep the house inside at a comfortable 21C when the outside temperature is at the minimum that can be reasonably expected, depending on where in the UK you are this is between -2C and 2C or so.  
 
-Knowing the heatloss of building had some value, but ultimately wasn't that important in an age when most buildings were heated with boilers. Most boilers are dramatically oversized for the heat loss of the building, which allows them to rapidly heat them on demand, which in turn allows the central heating to be turned on separately in the morning and evening on a day when all occupants go out during the daytime. To give you a feeling of typical oversizing, a typical gas combi boiler might have an output of 25KW or so, even though the design heat loss of a typical house might be 5-10KW.
+Knowing the heat loss of buildings had some value, but ultimately wasn't that important in an age when most buildings were heated with boilers. Most boilers are dramatically oversized for the heat loss of the building, which allows them to rapidly heat them on demand, which in turn allows the central heating to be turned on separately in the morning and evening on a day when all occupants go out during the daytime. To give you a feeling of typical oversizing, a typical gas combi-boiler might have an output of 25KW or so, even though the design heat loss of a typical house might be 5-10KW. 
 
-However, for heatpumps, and in particular those thinking of installing a heatpump, the design heat loss is incredibly important. It's the single figure that indicates ho large the heatpump you might want to install in the house is. It's a pre-requisite for rough installation cost estimate. 
+That said, the power rating of combi boilers is usually set to provide hot water at nearly full flow rate; for instance, a flow of 10l/min heated up from 10°C to 55°C, i.e. ΔT of 45°C, requires about 33kW. Consequently, the majority of home users are now accustomed to appliances with high peak power output which a heat pump is unlikely to match.
+
+However, for heat pumps, and in particular those thinking of installing a heat pump, the design heat loss is incredibly important. It's the single figure that indicates how large the heat pump you might want to install in the house is. It's a pre-requisite for rough installation cost estimate. 
 
 
 

@@ -2,19 +2,19 @@
 
 I learnt early in my career that the single most important figure in short term electricity markets is the gas price. In long-term electricity markets, the equivalent metric is the interest rate.
 
-Starting my career in 2011 and despite having studied economics I have to admit that I didn't realise until really quite recently quite how profound the effect of near zero interest rates was over the 2010 decade. And while many people have learnt the hard way how its unravelling the rise in interest rates post 2021 has changed the world of property, business and vehicle finance, It couldn't have happened at a more prescient and disruptive time for the Energy transition.
+Starting my career in 2011 and despite having studied economics I have to admit that I didn't realise until really quite recently how profound the effect of near zero interest rates was over the 2010 decade. And while many people have learnt the hard way how it's unravelling the rise in interest rates post 2021 has changed the world of property, business and vehicle finance, It couldn't have happened at a more prescient and disruptive time for the Energy transition.
 
-in Economics you learn that the interest rate is the connection or the price between now and the future. High interest rates mean that investors require a greater return on the capital in order to be better off than simply putting the money in a bank account or low risk investment like government bonds. All things equal, higher interest rates make it more attractive to put off any sort of capital or upfront investment like insulating a building, replacing a vehicle, installing a battery.
+In Economics, you learn that the interest rate is the connection or the price between now and the future. High interest rates mean that investors require a greater return on the capital in order to be better off than simply putting the money in a bank account or low risk investment like government bonds. All things equal, higher interest rates make it more attractive to put off any sort of capital or upfront investment like insulating a building, replacing a vehicle, installing a battery.
 
 ## Fossil versus Low Carbon
 
-the biggest Divide between fossil fuels and the appliances we used them in and low carbon technologies brackets including renewables is the amount of extra upfront investment You need if you want to pursue the low carbon option. This paradigm holds true in all different levels and sectors of the energy system:
+The biggest Divide between fossil fuels and the appliances we used them in and low carbon technologies brackets including renewables is the amount of extra upfront investment you need if you want to pursue the low carbon option. This paradigm holds true in all different levels and sectors of the energy system:
 
-###Gas Power versus Nuclear/Wind
-The upfront cost of a state-of-the-art CCGT gas power station is around £800-£1,200 per kilowatt. The equivalent figure for a nuclear plant like Hinkley Point is £6,000-£8,000 per kilowatt. For an offshore wind farm it's around £3,000-£4,000 per kilowatt. However, when it comes to the running costs or marginal costs of these technologies, the pattern reverses. Wind farms don't require fuel. Nuclear fuel is usually under £10 per megawatt hour of power generated. Gas power even at today's relatively low prices costs upwards of £60-£80 per megawatt hour, given CCGTs are at best 55% efficient and power stations face carbon taxes as well.
+### Gas Power versus Nuclear/Wind
+The upfront cost of a state-of-the-art CCGT power station is around £800-£1,200 per kW. The equivalent figure for a nuclear plant like Hinkley Point is £6,000-£8,000 per kW. For an offshore wind farm it's around £3,000-£4,000 per kW. However, when it comes to the running costs or marginal costs of these technologies, the pattern reverses. Wind farms don't require fuel. Nuclear fuel is usually under £10 per megawatt hour of power generated. Gas power even at today's relatively low prices costs upwards of £60-£80 per megawatt hour, given CCGTs are at best 55% efficient and power stations face carbon taxes as well.
 
-###Energy Networks
-Separate from the cost of generating electricity, There are profound differences in the cost of the network and infrastructure needed to support a renewables Oriented grid. Wind and Solar are less dense in terms of their footprint on the ground than traditional large scale power stations. They they also tend to be much further from natural centres of demand in big cities, Partly because Land prices are higher around cities and partly because the windiest places tend to be quite remote isolated and either high up offshore or coastal. An access factor in the UK is the role of NIMBYs in deterring many renewable projects from less isolated parts of England. 
+### Energy Networks
+Separate from the cost of generating electricity, there are profound differences in the cost of the network and infrastructure needed to support a renewables oriented grid. Wind and Solar are less dense in terms of their footprint on the ground than traditional large scale power stations. They also tend to be much further from natural centres of demand in big cities, partly because land prices are higher around cities and partly because the windiest places tend to be quite remote isolated and either high up offshore or coastal. An access factor in the UK is the role of NIMBYs in deterring many renewable projects from less isolated parts of England. 
 
 Either way, renewables end up needing more miles of electricity cables, pylons and substations to run the grid than would be needed from traditional fossil fuels. And the cost of building this infrastructure is very capital intensive. According to analysis from the Energy Bills website, the contribution of energy network costs in household energy bills has increased from around 20% in 2015 to 25% in 2025, making it one of the biggest drivers in energy bill increases. This represents a significant shift from operational costs (fuel) to capital costs (infrastructure).
 
@@ -34,7 +34,7 @@ This meant that renewable projects have had to deal with cost increases from two
 
 ## It's the real interest rate that actually matters
 
-One common misunderstanding with interest rates is to ignore the impact of inflation. If interest rates are 6% (called nominal rates), but inflation is running at 5%, then in real-terms, interest rates are only 1%. Viewed this this lens, real interest rates across the 2010-21 period were not just low, but for much of the period negative, particularly following the monetary and quantitiative interventions followint the financial crash, eurozone crisis, Brexit vote and pandemic.
+One common misunderstanding with interest rates is to ignore the impact of inflation. If interest rates are 6% (called nominal rates), but inflation is running at 5%, then in real-terms, interest rates are only 1%. Viewed through this lens, real interest rates across the 2010-21 period were not just low, but for much of the period negative, particularly following the monetary and quantitative interventions following the financial crash, eurozone crisis, Brexit vote and pandemic.
 
 This perspective shines a different perspective on the consequential 2021-2 period, when the reopening post-pandemic hit a massive inflationary shock. In the UK, interest rates set by the Bank of England didn't peak until August 2023 at 5.25%, by which point inflation was 6.7%. Even if 5.25% sounded like a high interest rate in nominal terms by the standards of the last few decades, it was actually -1.45% in real terms.
 
@@ -109,4 +109,3 @@ Based on Energy Saving Trust data and industry analysis, here's how the main ins
 - **ROI**: 3-4% annually (low return)
 - **Best For**: New builds or major renovations
 - **Potential Scale**: ~20+ million homes could upgrade from double to triple glazing
-

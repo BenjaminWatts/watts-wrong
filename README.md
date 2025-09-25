@@ -121,7 +121,8 @@ This book is written in Markdown format. To contribute:
 1. Fork the repository
 2. Create a feature branch
 3. Edit the Markdown files in the `chapters/` directory
-4. Submit a pull request
+4. Run `pre-commit run --all-files` for spelling checks
+5. Submit a pull request
 
 ## 🔧 Chapter Development Priorities
 

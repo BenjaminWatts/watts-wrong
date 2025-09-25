@@ -1,0 +1,4 @@
+[codespell]
+write-changes = true
+dictionary = .codespell-dictionary.txt
+ignore-words = .codespell-ignore.txt

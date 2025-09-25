@@ -1,18 +1,20 @@
 # Chapter 13: RHI vs BUS - Heating Policy Confusion
 
-## The last 50 years - the rise and rise of the gas combi boiler
+NOTE: What do RHI and BUS stand for?
 
-For the last 50 years, Britain has benefitted from easy access to natural gas. Nowadays 85-90% of homes are heated with natural gas, which replaced a number of inferior solutions, including:
+## The last 50 years - the rise and rise of the gas combi-boiler
+
+For the last 50 years, Britain has benefited from easy access to natural gas. Nowadays 85-90% of homes are heated with natural gas, which replaced a number of inferior solutions, including:
 
 1. Coal derived gas
 2. Coal fires and back boilers - which are more hazardous and created vastly more localised pollution
 3. Heating oil and storage heaters - which remains common in the most rural areas, but has been squeezed out of most suburbs and larger villages by the arrival of natural gas
 
-Over the same period, the number of homes and buildings with proper central heating has grown from x% to x%. Whereas previously, homes might have had a number of manually controlled fireplaces, and some rooms e.g. bedrooms and kitchen/bathrooms that went largely unheated. This has significant health benefits, especially for the vulnerable and elderly.
+Over the same period, the number of homes and buildings with proper central heating has grown from x% to x% (TODO: find dumers and source). Whereas previously, homes might have had a number of manually controlled fireplaces, and some rooms e.g. bedrooms and kitchen/bathrooms that went largely unheated. This has significant health benefits, especially for the vulnerable and elderly.
 
 More recently, combi (combination) gas boilers have also enabled many homes to ditch having a separate hot water tank. By burning a lot of gas very quickly, much quicker than typically used for central heating, they enable homes to heat enough hot water to run showers and baths on-demand. Over the same period, homes have also abandoned loft tanks for fresh water, the combination of which has freed up significant storage space, which is of particular value in smaller properties and in parts of the country like London and the South East which have seen the most rapid growth in property prices.
 
-The volume of gas boiler sales has also meant significant improvements in their efficicency, which in well installed properties can now push 90%.
+The volume of gas boiler sales has also meant significant improvements in their efficiency, which in well installed properties can now push 90%.
 
 ## Turning tide post 2000
 
@@ -28,7 +30,7 @@ Starting in 2003 and escalating to the full-scale 2022 Ukraine invasion, Russia 
 
 It's worth going into a bit more discussion here about the difference between trying to find the cheapest and most convenient way of heating our homes and businesses and taking the long-term approach in terms of what's best for our economy, living standards and incomes.
 
-In the short-term, for many of the last 20-25 years, importing increasing volumes of gas from abroad has been cheaper and easier than sourcing the same energy from alternative sources, like nuclear, wind or domestic shale. However, each time we install or replace a gas boiler, we commit ourselves for that boiler's lifetime, typically 10-15 years, to importing more foreign gas. And when we buy energy from abroad rather than making it ourselves, that money creates very few jobs in our own country, and raises very little in tax revenues for our Government. Instead it helps other countries.
+In the short-term, for many of the last 20-25 years, importing increasing volumes of gas from abroad has been cheaper and easier than sourcing the same energy from alternative sources, like nuclear, wind or domestic shale. However, each time we install or replace a gas boiler, we commit ourselves for that boiler's lifetime, typically 10-15 years, to importing more foreign gas. And when we buy energy from abroad rather than making it ourselves, that money creates very few jobs in our own country, and raises very little in tax revenues for our Government. Instead, it helps other countries.
 
 The balance of trade is rather neglected as a concept. Put simply, it shows the net surplus or deficit in how much the country as a whole spends. If you look at oil and gas over the last 25 years, then as a percentage of our overall income (or GDP), the cost of energy imports has risen dramatically, from being around £75 per person in 2000 when North Sea production was at its peak, to reaching £1,200-1,500 per person during the 2022 energy crisis. Even now, with prices having moderated, energy imports still represent about £600-900 per person annually - a significant drain on our economy that was partly avoidable.
 
