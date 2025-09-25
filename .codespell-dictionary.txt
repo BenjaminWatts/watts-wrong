@@ -1,0 +1,7 @@
+windfarm->wind farm
+windpower->wind power
+solarfarm->solar farm
+powerplant->power plant
+net zero->net-zero
+netzero->net-zero
+combi boiler->combi-boiler

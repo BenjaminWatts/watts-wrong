@@ -10,7 +10,7 @@ The bigger explanation as to why this isn't true however is that major England f
 
 Instead, the real challenge comes from sustained high demand that stretches the entire generation system for hours on end. This happens between 4pm and 7pm on winter weekday evenings and during school term times - a completely different type of stress that requires the grid to operate near its maximum capacity for extended periods. There are a number of complementary reasons for this sustained high demand:
 
-1. It gets dark from 3pm onwards, especially in mid winter, further north and on overcast days. This drives a need for lighting both in buildings and on streets that doesn't exist to the same degree in the rest of the year. And while the development of LED lighting has dramatically cut the use of electricity in this space, lighting remains a significant contributor to UK electricity demand during winter months.
+1. It gets dark from 3pm onwards, especially in mid-winter, further north and on overcast days. This drives a need for lighting both in buildings and on streets that doesn't exist to the same degree in the rest of the year. And while the development of LED lighting has dramatically cut the use of electricity in this space, lighting remains a significant contributor to UK electricity demand during winter months.
 
 2. It's colder in winter, which created greater demands for heating.
 
@@ -46,11 +46,11 @@ However, adopting a model where we require dynamic behaviour change in response 
 
 ## The Technical Challenge: Grid Flexibility
 
-Britain's electricity grid faces a fundamental challenge that has grown dramatically in recent years: the need for flexibility to balance supply and demand in real-time. As we've increased our reliance on intermittent renewable sources like wind and solar, the traditional model of matching generation to demand has become increasingly complex and expensive. We're also moving more of our heating from fossil fuels to electricity (mostly heatpumps), meaning in winter especially, our demand for electricity might start to grow dramatically (to date it hasn't).
+Britain's electricity grid faces a fundamental challenge that has grown dramatically in recent years: the need for flexibility to balance supply and demand in real-time. As we've increased our reliance on intermittent renewable sources like wind and solar, the traditional model of matching generation to demand has become increasingly complex and expensive. We're also moving more of our heating from fossil fuels to electricity (mostly heat pumps), meaning in winter especially, our demand for electricity might start to grow dramatically (to date it hasn't).
 
 ## The Balancing Challenge
 
-Unlike fossil fuels, electricity cannot be stored easilly, at not without other technologies and investment in big hydro dams and batteries. Grids are inflexible, supply and demand must be balanced second-by-second. The grid can only tolerate energy imbalances of about 1% - roughly 400-500MW in Britain's system - before automatic load-shedding kicks in to prevent cascading blackouts. When this balancing fails, the consequences can be severe: Iberia's grid collapse in April 2025, triggered by a combination of unexpected demand spikes and insufficient backup generation, left millions without power and demonstrated how quickly a modern electricity system can fail when the balance between supply and demand breaks down.
+Unlike fossil fuels, electricity cannot be stored easily, at not without other technologies and investment in big hydro dams and batteries. Grids are inflexible, supply and demand must be balanced second-by-second. The grid can only tolerate energy imbalances of about 1% - roughly 400-500MW in Britain's system - before automatic load-shedding kicks in to prevent cascading blackouts. When this balancing fails, the consequences can be severe: Iberia's grid collapse in April 2025, triggered by a combination of unexpected demand spikes and insufficient backup generation, left millions without power and demonstrated how quickly a modern electricity system can fail when the balance between supply and demand breaks down.
 
 This balancing act has become significantly more challenging as our energy mix has shifted from predictable fossil fuel plants to variable renewable sources.
 
@@ -87,7 +87,7 @@ The increasing need for flexibility has created a significant new cost category 
 
 ### Why Costs Are Rising
 
-1. **Reduced inertia**: Traditional thermal plants provide system inertia naturally. As these close, we need to pay for synthetic inertia from batteries and other technologies.
+1. **Reduced inertia**: Traditional thermal plants provide system inertia naturally. As these close, we need to pay for synthetic inertia from batteries and other technologies such as grid-forming inverters.
 
 2. **More volatile prices**: With intermittent renewables, electricity prices can swing from negative (when wind is high and demand low) to over £1,000/MWh (when demand is high and wind is low).
 
@@ -130,5 +130,5 @@ Britain has four major pumped hydro facilities in Snowdonia (Wales) and Scotland
 - Cruachan (440 MW -> 7.3 hours, 3.2 GWh)
 - Foyers (300 MW -> 6.7 hours, 2.0 GWh)
 
-A major new pumped storage project, Coire Glas near Loch Ness, has been approved and could add 1,500 MW with 30 GWh of storage capacity,with nearly nearly double the energy storage of all existing British facilities combined it should hopefully be able to run for 20 hours at full capacity. Coire Glas could rival some of Europe's largest pumped storage schemes like Grand Maison in the French Alps.
+A major new pumped storage project, Coire Glas near Loch Ness, has been approved and could add 1,500 MW with 30 GWh of storage capacity, with nearly double the energy storage of all existing British facilities combined it should hopefully be able to run for 20 hours at full capacity. Coire Glas could rival some of Europe's largest pumped storage schemes like Grand Maison in the French Alps.
 
