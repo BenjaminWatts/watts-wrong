@@ -1,0 +1,24 @@
+{
+  "name": "Watt's Wrong?",
+  "short_name": "Watt's Wrong?",
+  "description": "A comprehensive guide to what's wrong with Britain's electricity and energy system - covering grid infrastructure, renewable energy policies, market failures, and policy chaos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1E3A8A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/covers/watts-wrong-cover.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "books",
+    "education",
+    "reference"
+  ],
+  "lang": "en-GB"
+}

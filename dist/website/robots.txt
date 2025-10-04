@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benjaminwatts.github.io/watts-wrong/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

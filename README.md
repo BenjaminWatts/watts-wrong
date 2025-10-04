@@ -1,8 +1,13 @@
-# Watt's Wrong?
+# Watt's Wrong? - UK Energy Policy Analysis
 
-**🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧**
+[![Build and Deploy](https://github.com/benjaminwatts/watts-wrong/workflows/Build%20and%20Deploy%20Book/badge.svg)](https://github.com/benjaminwatts/watts-wrong/actions)
+[![Build Assets](https://github.com/benjaminwatts/watts-wrong/workflows/Build%20Downloadable%20Assets/badge.svg)](https://github.com/benjaminwatts/watts-wrong/actions)
+[![Website](https://img.shields.io/badge/Website-Read%20Online-blue)](https://benjaminwatts.github.io/watts-wrong/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-*A comprehensive guide to what's wrong with Britain's electricity and energy system - perfect for newcomers seeking context and experts wanting to explore beyond their specialty*
+> **🚧 DRAFT IN PROGRESS - WORK IN PROGRESS 🚧**
+
+*A comprehensive guide to what's wrong with Britain's electricity and energy system - covering grid infrastructure, renewable energy policies, market failures, and policy chaos. Perfect for energy professionals, policymakers, and anyone interested in understanding UK energy dysfunction.*
 
 > **⚠️ IMPORTANT NOTICE:** This book is currently a **DRAFT IN PROGRESS**. Content is being actively developed and may contain incomplete sections, placeholder text, or information that requires verification. Please check back regularly for updates and improvements.
 
@@ -12,7 +17,26 @@
 
 ## 📖 Read Online
 
-This book is available to read online at: [https://benjaminwatts.github.io/watts-wrong/](https://benjaminwatts.github.io/watts-wrong/)
+**🌐 [Read the book online](https://benjaminwatts.github.io/watts-wrong/)** - Complete with interactive table of contents, chapter navigation, and mobile-optimized reading experience.
+
+## 🎯 Target Audience
+
+- **Energy Professionals** seeking comprehensive understanding beyond their specialty
+- **Policy Makers** analyzing UK energy system failures and opportunities
+- **Researchers & Students** studying energy policy, economics, and regulation
+- **Industry Stakeholders** understanding market dynamics and regulatory challenges
+- **Concerned Citizens** wanting to understand Britain's energy system problems
+
+## 🔍 Key Topics Covered
+
+- **Grid Infrastructure** - Transmission constraints, regional disparities, and connectivity issues
+- **Renewable Energy Policy** - Feed-in tariffs, ROCs, CFD mechanisms, and subsidy chaos
+- **Market Failures** - Price caps, electricity levies, smart meter rollout problems
+- **Policy Inconsistencies** - Brexit impacts, regulatory fragmentation, and political instability
+- **Consumer Issues** - Energy poverty, billing problems, and market manipulation
+- **Future Challenges** - Energy storage, grid balancing, and transition planning
+
+## 📚 Table of Contents
 
 ## 📥 Download Latest Builds
 

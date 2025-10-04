@@ -13,6 +13,18 @@ const OUTPUT_DIR = path.join(__dirname, '..', 'dist');
 const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
 const WEBSITE_DIR = path.join(OUTPUT_DIR, 'website');
 
+// SEO Configuration
+const SEO_CONFIG = {
+    baseUrl: 'https://benjaminwatts.github.io/watts-wrong/',
+    description: 'A comprehensive guide to what\'s wrong with Britain\'s electricity and energy system - covering grid infrastructure, renewable energy policies, market failures, and policy chaos.',
+    keywords: 'UK energy policy, British electricity system, energy grid, renewable energy, energy markets, energy regulation, energy infrastructure, energy economics, policy analysis, energy transition, grid balancing, energy subsidies, energy pricing, energy storage, smart grid, energy efficiency, climate policy, carbon pricing, energy security',
+    author: 'Ben Watts',
+    publisher: 'Ben Watts',
+    image: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-cover.png',
+    twitterHandle: '@BenjaminWatts',
+    language: 'en-GB'
+};
+
 async function buildWebsite() {
     console.log('🌐 Building Website for GitHub Pages...');
     
@@ -47,6 +59,9 @@ async function buildWebsite() {
         
         // Generate chapter navigation
         await generateChapterNavigation(chapters);
+        
+        // Generate SEO files
+        await generateSEOFiles(chapters);
         
         // Copy download files to website (after all other operations)
         await copyDownloads();
@@ -441,16 +456,112 @@ function getChapterPart(chapterIndex, config) {
     return part ? part.title : 'Unknown Part';
 }
 
+function generateSEOMetaTags(title, description, url, image, isChapter = false) {
+    const pageDescription = description || SEO_CONFIG.description;
+    const pageTitle = isChapter ? `${title} - ${BOOK_TITLE}` : title;
+    const pageUrl = `${SEO_CONFIG.baseUrl}${url}`;
+    const pageImage = image || SEO_CONFIG.image;
+    
+    return `
+    <!-- SEO Meta Tags -->
+    <title>${pageTitle}</title>
+    <meta name="description" content="${pageDescription}">
+    <meta name="keywords" content="${SEO_CONFIG.keywords}">
+    <meta name="author" content="${SEO_CONFIG.author}">
+    <meta name="publisher" content="${SEO_CONFIG.publisher}">
+    <meta name="language" content="${SEO_CONFIG.language}">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="${pageUrl}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="${isChapter ? 'article' : 'book'}">
+    <meta property="og:title" content="${pageTitle}">
+    <meta property="og:description" content="${pageDescription}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${pageImage}">
+    <meta property="og:image:alt" content="${BOOK_TITLE} book cover">
+    <meta property="og:site_name" content="${BOOK_TITLE}">
+    <meta property="og:locale" content="en_GB">
+    ${isChapter ? `<meta property="article:author" content="${SEO_CONFIG.author}">` : ''}
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="${SEO_CONFIG.twitterHandle}">
+    <meta name="twitter:creator" content="${SEO_CONFIG.twitterHandle}">
+    <meta name="twitter:title" content="${pageTitle}">
+    <meta name="twitter:description" content="${pageDescription}">
+    <meta name="twitter:image" content="${pageImage}">
+    <meta name="twitter:image:alt" content="${BOOK_TITLE} book cover">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#1E3A8A">
+    <meta name="msapplication-TileColor" content="#1E3A8A">
+    <meta name="apple-mobile-web-app-title" content="${BOOK_TITLE}">
+    <meta name="application-name" content="${BOOK_TITLE}">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "${isChapter ? 'Article' : 'Book'}",
+        "name": "${pageTitle}",
+        "description": "${pageDescription}",
+        "author": {
+            "@type": "Person",
+            "name": "${SEO_CONFIG.author}"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "${SEO_CONFIG.publisher}"
+        },
+        "url": "${pageUrl}",
+        "image": "${pageImage}",
+        "inLanguage": "${SEO_CONFIG.language}",
+        "datePublished": "2024-01-01",
+        "dateModified": "${new Date().toISOString().split('T')[0]}",
+        ${isChapter ? `"articleSection": "Energy Policy",
+        "articleBody": "${pageDescription.replace(/"/g, '\\"')}",` : `
+        "bookFormat": "EBook",
+        "numberOfPages": "500",
+        "isbn": "978-0-000000-00-0",
+        "genre": "Non-fiction, Energy Policy, Economics",`}
+        "keywords": "${SEO_CONFIG.keywords}",
+        "about": [
+            {
+                "@type": "Thing",
+                "name": "Energy Policy"
+            },
+            {
+                "@type": "Thing", 
+                "name": "UK Energy System"
+            },
+            {
+                "@type": "Thing",
+                "name": "Electricity Grid"
+            },
+            {
+                "@type": "Thing",
+                "name": "Renewable Energy"
+            }
+        ]
+    }
+    </script>`;
+}
+
 function generateChapterHTML(title, content, currentIndex, totalChapters, chapters, part) {
     const prevChapter = currentIndex > 0 ? chapters[currentIndex - 1] : null;
     const nextChapter = currentIndex < totalChapters - 1 ? chapters[currentIndex + 1] : null;
+    const chapterFilename = chapters[currentIndex]?.filename || `chapter-${currentIndex + 1}`;
     
     return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${title} - ${BOOK_TITLE}</title>
+    ${generateSEOMetaTags(title, `Chapter ${currentIndex + 1} of ${BOOK_TITLE}: ${title}`, chapterFilename, SEO_CONFIG.image, true)}
     <link rel="stylesheet" href="assets/website.css">
 </head>
 <body>
@@ -515,7 +626,7 @@ async function generateIndexHTML(chapters) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${BOOK_TITLE} - Online Reading</title>
+    ${generateSEOMetaTags(`${BOOK_TITLE} - Online Reading`, SEO_CONFIG.description, '', SEO_CONFIG.image, false)}
     <link rel="stylesheet" href="assets/website.css">
 </head>
 <body>
@@ -630,6 +741,83 @@ async function generateChapterNavigation(chapters) {
     }));
     
     await fs.writeJson(path.join(WEBSITE_DIR, 'chapters.json'), chapterData, { spaces: 2 });
+}
+
+async function generateSEOFiles(chapters) {
+    console.log('  🔍 Generating SEO files...');
+    
+    // Generate sitemap.xml
+    const sitemap = generateSitemap(chapters);
+    await fs.writeFile(path.join(WEBSITE_DIR, 'sitemap.xml'), sitemap);
+    
+    // Generate robots.txt
+    const robots = generateRobotsTxt();
+    await fs.writeFile(path.join(WEBSITE_DIR, 'robots.txt'), robots);
+    
+    // Generate manifest.json for PWA
+    const manifest = generateManifest(chapters);
+    await fs.writeFile(path.join(WEBSITE_DIR, 'manifest.json'), manifest);
+}
+
+function generateSitemap(chapters) {
+    const currentDate = new Date().toISOString();
+    
+    let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>${SEO_CONFIG.baseUrl}</loc>
+        <lastmod>${currentDate}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>`;
+    
+    chapters.forEach(chapter => {
+        sitemap += `
+    <url>
+        <loc>${SEO_CONFIG.baseUrl}${chapter.filename}</loc>
+        <lastmod>${currentDate}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>`;
+    });
+    
+    sitemap += `
+</urlset>`;
+    
+    return sitemap;
+}
+
+function generateRobotsTxt() {
+    return `User-agent: *
+Allow: /
+
+Sitemap: ${SEO_CONFIG.baseUrl}sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1`;
+}
+
+function generateManifest(chapters) {
+    return JSON.stringify({
+        "name": BOOK_TITLE,
+        "short_name": "Watt's Wrong?",
+        "description": SEO_CONFIG.description,
+        "start_url": "/",
+        "display": "standalone",
+        "background_color": "#ffffff",
+        "theme_color": "#1E3A8A",
+        "orientation": "portrait",
+        "icons": [
+            {
+                "src": "assets/covers/watts-wrong-cover.png",
+                "sizes": "512x512",
+                "type": "image/png",
+                "purpose": "any maskable"
+            }
+        ],
+        "categories": ["books", "education", "reference"],
+        "lang": "en-GB"
+    }, null, 2);
 }
 
 async function copyDownloads() {
