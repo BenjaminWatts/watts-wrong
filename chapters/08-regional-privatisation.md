@@ -1,15 +1,14 @@
 # Chapter 8: Regional Privatisation Model - How Fragmentation Hurts
 
-
 ## Pre-privatisation
 
 Prior to privatisation in the 1990s, the electricity system in Britain comprised of:
 
--- **CEGB**: transmission grid and all power stations
+-- **Central Electricity Generating Board (CEGB)**: transmission grid and all power stations
 -- **Regional Electricity Boards**: local distribution cables and retail (tariffs, billing etc) - there were 12 in total
--- **Scotland**: 2 verticallly integrated power companies
+-- **Scotland**: 2 vertically integrated power companies
 
-The decision to privatise is well doumented elsewhere. One of the main objectives was to create retail competition as a downward pressure on prices. However there were a number of issues:
+The decision to privatise is well documented elsewhere. One of the main objectives was to create retail competition as a downward pressure on prices. However, there were a number of issues:
 
 __ **Existing integration**: the regional grids were integrated with the local retail operations 
 -- **Barriers to entry**: enticing completely new entrants to a new market seemed unlikely
@@ -29,13 +28,13 @@ In 1990, regional electricity companies were installing, maintaining and manuall
 
 **Bureaucratisation**
 
-The cost of management and administration has soared. Executive pay at Distribution Network Operators has increased dramatically since 1990 - from around £50,000-80,000 for senior managers in the public sector Regional Electricity Boards to £500,000-£2 million for CEOs of today's DNOs. Even accounting for inflation (where £1 in 1990 is worth about £2.50 today), this represents a real increase of 2.5x to 16x in executive compensation. The broader cost of management, administration, and corporate overhead has grown from around 5-8% of total costs in 1990 to 15-20% today. This is because having a privatised structure creates more executive and management jobs at the government regulator (Ofgem), as well as an army of consultants and accountants that support the marathon price control process. Every few years, companies negotiate with regulators and are eventually told how much, as monopolies, they are allowed to charge customers. Having 14 regional areas means this process and cost is replicated 14 times.
+The cost of management and administration has soared. Executive pay at Distribution Network Operators (DNOs) has increased dramatically since 1990 - from around £50,000-80,000 for senior managers in the public sector Regional Electricity Boards to £500,000-£2 million for CEOs of today's DNOs. Even accounting for inflation (where £1 in 1990 is worth about £2.50 today), this represents a real increase of 2.5x to 16x in executive compensation. The broader cost of management, administration, and corporate overhead has grown from around 5-8% of total costs in 1990 to 15-20% today. This is because having a privatised structure creates more executive and management jobs at the government regulator (Ofgem), as well as an army of consultants and accountants that support the marathon price control process. Every few years, companies negotiate with regulators and are eventually told how much, as monopolies, they are allowed to charge customers. Having 14 regional areas means this process and cost is replicated 14 times.
 
 **Outdated Remuneration**
 
 Under privatisation, network companies get a guaranteed return on capital for every pound of assets, be it pylons, substations or pipelines. Given this, the assumption is that left to their own devices, the network company will want to invest more than is strictly necessary, and that the regulator is therefore required to limit their expenditure, which they do within the price control.
 
-To be fair, this process can work quite neatly when not much is changing. The budgeting process takes last year's figures as a starting point, and the main action each year is that some assets nearing the end of their working life get replaced, an inflation increase is applied, and companies get some productivity targets. This was broadly the world that existed up until the 2010s, but since then we've been radically departing from this stable model for the following reasons:
+To be fair, this process can work quite neatly when not much is changing. The budgeting process takes last year's figures as a starting point, and the main action each year is that some assets nearing the end of their working life get replaced, an inflation increase is applied, and companies get some productivity targets. This was broadly the world that existed up until the 2010s, but since then we've been radically departing from this stable model for the following reasons.
 
 ## Peak Gas
 
@@ -43,7 +42,7 @@ Gas currently reaches around 85-90% of British homes. Until recently, it was the
 
 This creates a fundamental problem with the privatised network model. From the Government, consumer, and environment's perspective it makes sense over time to abandon the gas network. However, from the perspective of a privatised gas network company, the incentive is to maximise the returns from the assets they have for the longest potential period. At the moment, for example, they have a particularly strong incentive to replace any infrastructure (such as any remaining old steel pipes) with new plastic ones, as this will get from the regulator a guaranteed return on these new assets for 15-25 years.
 
-The regional structure compounds this problem. With 8 regional gas networks, each facing similar challenges, there's no coordinated approach to managing the decline. Each company fights to maintain its customer base and asset value, even when the overall system would benefit from economies of scale. The result is likely to be higher costs for remaining customers and slower progress toward net zero, as the privatised model prioritises shareholder returns over system efficiency.
+The regional structure compounds this problem. With 8 regional gas networks, each facing similar challenges, there's no coordinated approach to managing the decline. Each company fights to maintain its customer base and asset value, even when the overall system would benefit from economies of scale. The result is likely to be higher costs for remaining customers and slower progress toward net-zero, as the privatised model prioritises shareholder returns over system efficiency.
 
 Worse still, this legacy burden is likely to fall most acutely on poorer households that are slower to embrace heat pumps and other low-carbon technologies. As wealthier households transition away from gas, the remaining customers will face higher bills to maintain the same network infrastructure. This creates a regressive effect where the costs of the energy transition are borne disproportionately by those least able to afford them, while the benefits accrue to those who can afford to upgrade their heating systems first. 
 
@@ -53,7 +52,7 @@ The local electricity distribution cables for a typical residential home with ga
 
 This problem is also exacerbated by the use of single-phase (instead of three-phase) electricity supplies in the UK, because homes can only draw power from one phase of the distribution network, concentrating demand on individual cables rather than spreading it across three phases. If the houses in a street that have upgraded to heat pumps and EVs happen to share the same phase of the three phases supplied to the street, then the network company may have to undertake expensive cable upgrades even if only a minority of houses on the street have made these upgrades. 
 
-This creates a fundamental problem with the privatised model. Left to their own devices, network companies would want to rewire everything with expensive physical upgrades to handle the new demand. However, in reality there is a range of smart technologies - from dynamic load management and smart inverters to battery storage and demand response systems - that can avoid or at least delay many network upgrades. The regulatory price control process, designed to prevent over-investment, now acts as a barrier to the rapid expansion needed for net zero.
+This creates a fundamental problem with the privatised model. Left to their own devices, network companies would want to rewire everything with expensive physical upgrades to handle the new demand. However, in reality there is a range of smart technologies - from dynamic load management and smart inverters to battery storage and demand response systems - that can avoid or at least delay many network upgrades. The regulatory price control process, designed to prevent over-investment, now acts as a barrier to the rapid expansion needed for net-zero.
 
 The regional structure compounds this problem. While the government and Ofgem claim there is a coordinated approach through various strategies and investment frameworks, the reality is more fragmented. With 14 separate electricity distribution networks, each facing similar electrification challenges, coordination remains limited. Each company makes investment decisions based on local regulatory incentives rather than national energy transition needs. The result is likely to be slower electrification progress, higher costs from piecemeal upgrades, and a system that prioritises regulatory compliance over strategic network development. 
 
@@ -67,7 +66,7 @@ Since 2022, this high leverage has become a major problem. Rising interest rates
 
 The fundamental problem with Britain's regional privatisation model is that it was designed for a stable, predictable world that no longer exists. The energy transition requires rapid, coordinated change across the entire system, but the current structure creates perverse incentives that work against this goal.
 
-Network companies are incentivised to maximise returns on existing assets rather than facilitate the transition to net zero. The fragmented regional structure prevents coordinated strategic planning. High leverage makes companies vulnerable to interest rate shocks and creates pressure to pass costs through to consumers. And the regulatory framework, designed to prevent over-investment in a stable world, now acts as a barrier to the rapid expansion needed for decarbonisation.
+Network companies are incentivised to maximise returns on existing assets rather than facilitate the transition to net-zero. The fragmented regional structure prevents coordinated strategic planning. High leverage makes companies vulnerable to interest rate shocks and creates pressure to pass costs through to consumers. And the regulatory framework, designed to prevent over-investment in a stable world, now acts as a barrier to the rapid expansion needed for decarbonisation.
 
 One potential solution is to create a single national distribution system operator. This would deliver significant advantages over the current fragmented model, and would bring Britain in line with international best practice. While Britain has 14 distribution companies for a population of 67 million, France has just one main operator (Enedis) serving 95% of the country's 68 million people. Other European countries with similar populations, such as Spain and Italy, also have far fewer distribution companies than Britain. The UK's fragmentation is particularly striking given its relatively small geographic size and population.
 

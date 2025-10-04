@@ -10,7 +10,7 @@ Before slating it, it's worth noting biomass technologies have a number of advan
 
 - **Flexible storage**: biomass fuels such as wood pellets, biodiesel/ethanol can be stored in silos or big tanks just like fossil fuels, ready to be burnt when they're needed. Compared to electrified renewable technologies like wind and solar, they don't necessitate storing energy in batteries that use rare earth materials, and they're often not too much of a risk to the environment when they're stored. They can also be used for heat (e.g. a stove), transport (e.g. a biodiesel car/truck) or power generation (e.g. Drax).
 - **Conversion**: you can often repurpose or convert existing fossil fuel appliances to run on biomass fuels. Drax power station previously burnt coal, diesel cars and trucks can be converted to run on vegetable oil derived biodiesel, coal fireplaces can be retrofitted with a wooden stove.
-- **Consumer Adoption**: because they're tangible and similar to fossil fuels, they're often easier to persuade consumers to switch to. Biodiesel and bioethanol fuelled cars engender less range anxiety than EVs. Biomass boilers require less modification to home radiators than heatpumps. 
+- **Consumer Adoption**: because they're tangible and similar to fossil fuels, they're often easier to persuade consumers to switch to. Biodiesel and bioethanol fuelled cars engender less range anxiety than EVs. Biomass boilers require less modification to home radiators than heat pumps. 
 
 ## So what's the problem with Biomass?
 
