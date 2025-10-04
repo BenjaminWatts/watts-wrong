@@ -468,10 +468,10 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
     const pageTitle = isChapter ? `${title} - ${BOOK_TITLE}` : title;
     const pageUrl = `${SEO_CONFIG.baseUrl}${url}`;
     
-    // Use optimized social media images when available, fallback to primary image
+    // Use primary image for now (social media optimized images not yet created)
     const pageImage = image || SEO_CONFIG.images.primary;
-    const ogImage = image || SEO_CONFIG.images.socialOG || SEO_CONFIG.images.primary;
-    const twitterImage = image || SEO_CONFIG.images.socialTwitter || SEO_CONFIG.images.primary;
+    const ogImage = image || SEO_CONFIG.images.primary;
+    const twitterImage = image || SEO_CONFIG.images.primary;
     
     return `
     <!-- SEO Meta Tags -->
@@ -493,8 +493,8 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
     <meta property="og:description" content="${pageDescription}">
     <meta property="og:url" content="${pageUrl}">
     <meta property="og:image" content="${ogImage}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1536">
     <meta property="og:image:alt" content="${BOOK_TITLE} book cover - Britain's energy system analysis">
     <meta property="og:site_name" content="${BOOK_TITLE}">
     <meta property="og:locale" content="en_GB">
