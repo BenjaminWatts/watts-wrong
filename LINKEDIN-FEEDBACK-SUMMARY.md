@@ -55,12 +55,20 @@ This document summarizes the valuable feedback received from LinkedIn comments o
 - **Focus**: Analyze systemic issues with PV installation quality and standards
 - **Key Points**: Minimum compliance mentality, suboptimal installations, policy and incentive misalignment
 
+### 8. **Solar Cost-Shift and Cross-Subsidy Analysis**
+- **Source**: Lewis Bowick (Energy Systems Consultant at Energy Systems Catapult)
+- **Issue**: `solar-cost-shift-analysis.md`
+- **Priority**: High
+- **Focus**: Analyze sophisticated economic effects of domestic solar cost-shifting
+- **Key Points**: Cross-subsidy mechanisms, volume-based charge bypass, system-wide economic impacts
+
 ## 📈 Priority Matrix
 
 ### High Priority Issues
 1. **North Sea Oil and Gas Content** - Significant content gap
 2. **Distribution Network Investment Analysis** - Critical infrastructure challenge
 3. **CFD Cost-Benefit Analysis** - Key policy mechanism needs deeper analysis
+4. **Solar Cost-Shift and Cross-Subsidy Analysis** - Sophisticated economic analysis challenge
 
 ### Medium Priority Issues
 1. **Insulation Costs and Scale Analysis** - Data verification needed
