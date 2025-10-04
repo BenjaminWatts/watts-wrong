@@ -31,46 +31,49 @@ energy dysfunction.</p>
 <p>This book systematically covers Britain’s energy system problems
 across 20 chapters:</p>
 <ol type="1">
-<li><strong><a href="01-introduction.md">Introduction</a></strong> -
-Welcome and overview</li>
-<li><strong><a href="02-biomass.md">Biomass</a></strong> - The biomass
-energy problem</li>
-<li><strong><a href="03-feed-in-tariffs-and-rocs.md">Feed-in Tariffs and
-ROCs</a></strong> - Renewable energy subsidies</li>
-<li><strong><a href="04-nimbys-wind-ban.md">NIMBYs and Wind
-Ban</a></strong> - Opposition to wind energy</li>
-<li><strong><a href="05-political-instability.md">Political
-Instability</a></strong> - Policy inconsistency</li>
-<li><strong><a href="06-transmission-constraints.md">Transmission
-Constraints</a></strong> - Grid infrastructure limitations</li>
-<li><strong><a href="07-scotland.md">Scotland</a></strong> - Scottish
-energy independence</li>
-<li><strong><a href="08-regional-privatisation.md">Regional
+<li><strong><a href="01-01-introduction.html">Introduction</a></strong>
+- Welcome and overview</li>
+<li><strong><a href="02-02-biomass.html">Biomass</a></strong> - The
+biomass energy problem</li>
+<li><strong><a href="03-03-feed-in-tariffs-and-rocs.html">Feed-in
+Tariffs and ROCs</a></strong> - Renewable energy subsidies</li>
+<li><strong><a href="04-04-north-south-and-nimbys.html">North-South and
+NIMBYs</a></strong> - Geographic and political opposition to energy
+infrastructure</li>
+<li><strong><a href="05-05-nuclear.html">Nuclear</a></strong> - Nuclear
+power policy and development</li>
+<li><strong><a href="06-08-regional-privatisation.html">Regional
 Privatisation</a></strong> - Market fragmentation</li>
-<li><strong><a href="09-smart-meters.md">Smart Meters</a></strong> -
-Digital infrastructure rollout</li>
-<li><strong><a href="10-electricity-levies.md">Electricity
+<li><strong><a href="07-09-smart-meters.html">Smart Meters</a></strong>
+- Digital infrastructure rollout</li>
+<li><strong><a href="08-10-electricity-levies.html">Electricity
 Levies</a></strong> - Hidden costs and taxes</li>
-<li><strong><a href="11-price-cap.md">Price Cap</a></strong> - Energy
-price regulation</li>
-<li><strong><a href="12-epcs.md">EPCs</a></strong> - Energy Performance
-Certificates</li>
-<li><strong><a href="13-rhi-vs-bus.md">RHI vs Bus</a></strong> -
+<li><strong><a href="09-11-price-cap.html">Price Cap</a></strong> -
+Energy price regulation</li>
+<li><strong><a href="10-12-epcs.html">EPCs</a></strong> - Energy
+Performance Certificates</li>
+<li><strong><a href="11-13-rhi-vs-bus.html">RHI vs Bus</a></strong> -
 Renewable Heat Incentive comparison</li>
-<li><strong><a href="14-cfd-vs-marginal-pricing.md">CFD vs Marginal
+<li><strong><a href="12-14-cfd-vs-marginal-pricing.html">CFD vs Marginal
 Pricing</a></strong> - Energy market mechanisms</li>
-<li><strong><a href="15-2022-subsidies.md">2022 Subsidies</a></strong> -
-Emergency energy support</li>
-<li><strong><a href="16-exercise-duty-road-pricing.md">Exercise Duty and
-Road Pricing</a></strong> - Transport energy policy</li>
-<li><strong><a href="17-brexit-friction.md">Brexit Friction</a></strong>
-- EU exit impacts on energy</li>
-<li><strong><a href="18-9-5-school-holidays.md">9-5 School
-Holidays</a></strong> - Demand management challenges</li>
-<li><strong><a href="19-planning-problem.md">Planning
-Problem</a></strong> - Infrastructure development barriers</li>
-<li><strong><a href="20-conclusion.md">Conclusion</a></strong> - How to
-fix Britain’s energy system</li>
+<li><strong><a
+href="13-15-flexibility-balancing-storage.html">Flexibility, Balancing
+and Storage</a></strong> - The grid’s hidden challenges and balancing
+mechanisms</li>
+<li><strong><a href="14-16-exercise-duty-road-pricing.html">Exercise
+Duty and Road Pricing</a></strong> - Transport energy policy</li>
+<li><strong><a href="15-17-brexit-friction.html">Brexit
+Friction</a></strong> - EU exit impacts on energy</li>
+<li><strong><a href="16-18-interest-rates.html">Interest
+Rates</a></strong> - Impact of interest rates on energy investment</li>
+<li><strong><a href="17-19-shale-gas.html">Shale Gas - A Missed
+Opportunity</a></strong> - Economic benefits, environmental
+considerations, and political factors</li>
+<li><strong><a href="18-20-power-versus-other-sectors.html">Power Versus
+Other Sectors</a></strong> - Energy sector competition and policy
+priorities</li>
+<li><strong><a href="19-21-glossary.html">Glossary</a></strong> -
+Commonly used acronyms</li>
 </ol>
 <h2 id="how-to-use-this-book">How to Use This Book</h2>
 <h3 id="for-beginners">For Beginners</h3>
@@ -117,7 +120,7 @@ to the repository</li>
 relied on it since first burning firewood. With industrialisation in the
 19th and 20th centuries, it got displaced by more abundant and energy
 dense fossil fuels like coal (and later oil and gas). In Britain today,
-the mostly use biomass in wood fires stoves heating homes and at the
+the mostly used biomass is in wood fires stoves heating homes and at the
 massive Drax power station.</p>
 <h2 id="whats-good-about-biomass">What’s good about biomass?</h2>
 <p>Before slating it, it’s worth noting biomass technologies have a
@@ -140,19 +143,19 @@ retrofitted with a wooden stove.</li>
 similar to fossil fuels, they’re often easier to persuade consumers to
 switch to. Biodiesel and bioethanol fuelled cars engender less range
 anxiety than EVs. Biomass boilers require less modification to home
-radiators than heatpumps.</li>
+radiators than heat pumps.</li>
 </ul>
 <h2 id="so-whats-the-problem-with-biomass">So what’s the problem with
 Biomass?</h2>
 <p>In a nutshell, biomass isn’t efficient. It’s a very old technology,
-dating to cavepeople’s first use of firewood, and we have to rely on
+dating to cave people’s first use of firewood, and we have to rely on
 some plant’s growth cycle to capture stored energy. Plants aren’t that
 efficient at storing the energy they photosynthesize from sunlight. To
 get any meaningful contribution to our energy needs from biomass
 requires large scale cultivation of crops and plants. And when we burn
 biomass fuels in power stations or stoves, we are lucky to usefully
 extract 30 or 40% of the energy the plants have captured. All together,
-this means to get any siginificant proportion of our energy from biomass
+this means to get any significant proportion of our energy from biomass
 requires converting massive tracts of land to growing large numbers of
 similar plants or crops. Such monocultures can’t fail to have profound
 impacts on ecosystems affecting other wildlife, and competing with use
@@ -266,6 +269,20 @@ been so severe that the carbon emissions from land-use change exceed the
 carbon savings from using biofuels instead of fossil fuels. The cost of
 manufacturing biofuels significantly higher than fossil fuel derived
 petrol and diesel too, at least before taxes are added.</p>
+<p>Perhaps worth mentioning some quantification of the inefficiency of
+said biofuels. Suppose oilseed rape is used as an input to the
+production of biofuel. Rapeseed yield can be up to 3,000kg/ha per
+harvest, i.e. 0.3kg/m²; 1kg rapeseed contains about 0.5kg oil; with oil
+containing 38MJ/kg the energy gained is consequently 5.7MJ/m². This
+energy spread over one year (1 harvest per year) results in 5,700,000J
+/365/24/60/60 s = 0.180W/m² average power. Conversion to bio-diesel
+incurs certainly some additional losses. In contrast, the solar
+irradiation at sea level is about 1kW. With on average 4h/day and an
+efficiency of 20%, a 1m² solar panel would produce an about
+1000<em>4/24</em>0.20 = 33W average power. Therefore, a factor of 184
+more power can be harvested from solar panels than from growing rapeseed
+to produce biofuels. Consequently, biofuels from crops are indeed
+questionable in terms of efficiency.</p>
 <hr />
 <h1
 id="chapter-3-feed-in-tariffs-and-rocs---how-subsidies-went-wrong">Chapter
@@ -273,10 +290,10 @@ id="chapter-3-feed-in-tariffs-and-rocs---how-subsidies-went-wrong">Chapter
 <h2 id="introduction-1">Introduction</h2>
 <p>It’s often difficult for new technologies to get off the ground. Not
 only do you have to get the cost of manufacturing kit down, and the kit
-more reliable, but you also need a supply chain to distribute and an
+more reliable, but you also need a supply chain to distribute and a
 qualified workforce to install and maintain the equipment. This is
 particularly true if you want something installed en masse to millions
-of homnes and businesses, but also a handful of larger sites like power
+of homes and businesses, but also a handful of larger sites like power
 stations.</p>
 <h2 id="pv">PV</h2>
 <p>Solar photovoltaic (or PV) technology is a watershed moment for
@@ -290,12 +307,12 @@ to be awake, working and using electricity. Also, because it can be
 installed “behind the meter” of buildings, it offers the chance to
 bypass the charges of local energy grids, taxes and allow end users to
 generate some of their own power.</p>
-<h3 id="feed-in-tariff">Feed in tariff</h3>
+<h3 id="feed-in-tariff">Feed-in tariff</h3>
 <p>The UK isn’t blessed with the world’s sunniest climate, but despite
-this a well positioned kilowatt of PV panels will generate an average of
-about 1kwh/day of power in winter and 4kwh/day in summer. A typical
-house without electric heating, a heatpump or an EV might use 3,000kwh
-of electricity in a year, and a typical roof can accommodate 3-5kw of PV
+this a well positioned kw of PV panels will generate an average of about
+1kwh/day of power in winter and 4kwh/day in summer. A typical house
+without electric heating, a heat pump or an EV might use 3,000kwh of
+electricity in a year, and a typical roof can accommodate 3-5kw of PV
 panels. So on a net, year round basis, PV can make a typical UK house
 self-sufficient for electricity, although in reality they will have a
 daytime surplus in summer and maintain a heavy grid reliance in
@@ -365,7 +382,7 @@ institutions hesitant to lend for home retrofit.</p>
 payments will continue until 2044 and its legacy lives on in several
 problematic ways:</p>
 <p><strong>Wealth Inequality</strong>: The scheme disproportionately
-benefitted wealthier households who could afford the £12,000-15,000
+benefited wealthier households who could afford the £12,000-15,000
 upfront investment in the 2010s. This created a form of “solar
 aristocracy” where affluent homeowners received decades of premium
 payments while others missed out.</p>
@@ -567,18 +584,18 @@ the same suppliers. Regulation on competition is identical. Taxes are
 the same. And while the Scottish Government is devolved some powers in
 the energy space, which it has used to permit more onshore wind
 development in the planning system and offer more generous support for
-heatpumps and insulation over the years compared with Westminster
+heat pumps and insulation over the years compared with Westminster
 administrations, this understanding misses key historical aspects.</p>
 <p>History lessons can often be a bit boring, and many younger readers
 may be questioning why reading about what went on in the 1980s and 1990s
 might seem irrelevant. But we need to set the scene: Scotland and the
 Highlands in particular are absolutely front and center of the
 decarbonisation strategy that the UK is taking. The central challenge of
-our electricity system over the next 10-20 years is to deliver ever
-increasing, affordable and reliable supplies of wind energy, managed
-intelligently and flexibly with modern technology from north to south.
-Understanding why this is such a challenge requires going back to how
-the system was originally designed, and what the institutional and
+our electricity system over the next 10-20 years is to deliver
+ever-increasing, affordable and reliable supplies of wind energy,
+managed intelligently and flexibly with modern technology from north to
+south. Understanding why this is such a challenge requires going back to
+how the system was originally designed, and what the institutional and
 political frictions are as well as those of physical geography.</p>
 <p>In England, the electricity grid started as private (or municipal)
 undertakings in major cities in the late 19th century, with coal power
@@ -624,7 +641,7 @@ widespread use of remote controlled charging. The Scottish electricity
 companies also had powerful retail brands, with high street shops and a
 local (nationalist) identity. Even British Gas identifies itself as
 Scottish Gas north of the border. Even when customers were allowed to
-chose a supplier in Scotland after 1998, far fewer chose to switch than
+choose a supplier in Scotland after 1998, far fewer chose to switch than
 in England. And companies with origins south of the border found it much
 harder to win customers in Scotland.</p>
 <h2 id="merging-wholesale-markets">Merging wholesale markets</h2>
@@ -663,8 +680,9 @@ automatic bill savings for communities located close to wind farms. With
 the recent rejection of regional (and zonal) pricing; this looks set to
 remain the case for the large part; however there are <a
 href="https://www.elexon.co.uk/bsc/mod-proposal/p441/">ways</a> for
-groups of energy users and generators the same energy supplier and
-primary substation to avoid some grid levies for electricity.</p>
+groups of energy users and generators to use the same energy supplier
+and primary substation in order to avoid some grid levies for
+electricity.</p>
 <p>Given how complex the planning and engineering can be, if a developer
 or operator of a wind farm disturbs the day-to-day life of local
 communities, getting recourse or compensation through legal means
@@ -675,11 +693,13 @@ has long harboured a scepticism for wind and solar, and despite the need
 for state financial support has preferred nuclear energy. Following
 their return to office in 2010 and coupled with the rapid expansion of
 onshore wind farms in conservative leaning rural districts, the
-Government in 2015 effectively banned any new onshore wind in England.
-In Wales, Scotland and Northern Ireland the decision was taken by their
-respective Governments to continue with onshore wind. The decision in
-England was a mistake which was particularly profound because of the
-lack of mitigation for the consequences:</p>
+Government in 2015 effectively banned any new onshore wind in England
+(QUESTION: through what mechanism? For instance, a single objection can
+halt the planning process?). In Wales, Scotland and Northern Ireland the
+decision was taken by their respective Governments to continue with
+onshore wind. The decision in England was a mistake which was
+particularly profound because of the lack of mitigation for the
+consequences:</p>
 <ol type="1">
 <li><strong>Connect and manage</strong> - Britain took the view that it
 was acceptable for wind developers to build projects in areas that were
@@ -803,7 +823,7 @@ over 235,000 people, this represents around £85 per person annually in
 additional council revenue from renewable energy - a significant boost
 for one of Britain’s most sparsely populated and economically challenged
 regions.</p>
-<p>It’s a bit like all British billpayers (including Scots) agreeing to
+<p>It’s a bit like all British bill payers (including Scots) agreeing to
 a debt repayment surcharge on their electricity bills to concentrate
 energy infrastructure projects in Scotland. While Scottish consumers pay
 the same levies as everyone else, they represent only about 10% of the
@@ -949,12 +969,12 @@ Belgium, Netherlands) to the South East of England, and when you look at
 the flows this is exactly what happens much of the time.</p>
 <p>This fragmentation raises the question of whether Britain might need
 to consider merging or reorganising its grid further - beyond the
-National System Operator that the government recently created. While the
-NESO was a step toward better coordination, the fundamental problem of
-multiple transmission companies with different objectives and regulatory
-frameworks remains. A truly unified transmission system might be
-necessary to efficiently manage the north-south flows that Scotland’s
-renewable energy boom requires.</p>
+National Energy System Operator (NESO) that the government recently
+created. While the creation of NESO was a step toward better
+coordination, the fundamental problem of multiple transmission companies
+with different objectives and regulatory frameworks remains. A truly
+unified transmission system might be necessary to efficiently manage the
+north-south flows that Scotland’s renewable energy boom requires.</p>
 <h2 id="unexplored-solutions">Unexplored Solutions</h2>
 <p>The extent of the transmission gap between the north of Scotland, the
 Central belt and the rest of England and Wales is finally being
@@ -962,9 +982,9 @@ addressed. While the continued growth of renewables continues to put
 more strain and set higher standards or move the goal posts up, by the
 2030s it’s expected that many of the current issues will be in the past
 assuming that grid upgrades go ahead as planned and expected. Other
-accelerations for example the growth in grid scale battery storage and
-smart grid technology could also have a rapid impact on what remains
-quite an unsophisticated and unmanaged grid today.</p>
+accelerations such as the growth in grid scale battery storage and smart
+grid technology could also have a rapid impact on what remains quite an
+unsophisticated and unmanaged grid today.</p>
 <p>That said there are a number of other levers which with correct
 coordination the respective parts of government could start to
 accelerate in a way that might receive political consent and mitigate or
@@ -1047,7 +1067,7 @@ debates about reactor designs, locations, and costs. The contrast in
 outcomes is stark: today nuclear provides over 70% of France’s
 electricity at some of the lowest prices in Europe, while Britain’s
 aging nuclear fleet supplies just 15%, is owned by the French state
-supplier EdF and is mostly due for retirement.</p>
+supplier EDF and is mostly due for retirement.</p>
 <p>That said, the French approach isn’t without long term challenges of
 its own. Having built so many nuclear reactors so quickly, the French
 grid effectively became saturated with nuclear energy. To find markets,
@@ -1058,7 +1078,7 @@ The massive, geographically mobile workforce and domestic supply chain
 which had grown up around the nationwide attempt that built 56 nuclear
 reactors in 15 years started to disintegrate. Talented workers went
 elsewhere or retired. Intermediate suppliers ramped down production
-facilities. In the years between 2022 when Civaux was finished and 2024
+facilities. In the years between 2002 when Civaux was finished and 2024
 when Flamanville C was finished France didn’t open a single new nuclear
 reactor. This important point is often ignored in British discourse
 comparing energy policy on either side of the channel. However, with 14
@@ -1071,7 +1091,7 @@ epitomise stability and self-sufficiency in energy production had
 instead created a multi-generational boom-bust cycle.</p>
 <p>Financially, the French approach is also laying the foundations for
 longer term challenges. The investment in nuclear energy assumed a 0%
-discount rate. Given the vast upfront and decomissioning costs of
+discount rate. Given the vast upfront and decommissioning costs of
 nuclear power, there is a huge financial burden on future generations of
 decommissioning and containing the nuclear waste. It’s quite difficult
 to measure the lifetime (or lifecycle) cost of nuclear in terms that you
@@ -1083,15 +1103,15 @@ after 3 years of inflation), while gas-fired electricity costs 40-80
 EUR/MWh depending on gas prices and plant efficiency.</p>
 <p>The main advantage of the French approach is stability. When
 wholesale energy prices spiked in 2022, France should at least in theory
-have been well placed to ride out the period of high prices. The cost of
+have been well-placed to ride out the period of high prices. The cost of
 nuclear power generation in the short-run is relatively low, nuclear
 fuel costs only about 5-7 EUR/MWh generated compared with a peak of
 500-600EUR/MWh in 2022. The value of nuclear exports should have
 massively boosted France’s balance of trade and the trading results of
-its state-owned electricity generator, EdF. And even if energy prices in
+its state-owned electricity generator, EDF. And even if energy prices in
 France were allowed to rise, to respect the country’s commitments to the
 EU single energy market, there would be considerable tax revenue from
-France’s energy companies, most significantly EdF to offset the cost of
+France’s energy companies, most significantly EDF to offset the cost of
 any state support afforded to households and businesses.</p>
 <p>However, EDF’s financial position has deteriorated significantly in
 recent years. The company’s debt ballooned to over €60 billion by 2022,
@@ -1119,7 +1139,7 @@ source, hydroelectric power, was severely affected by drought conditions
 across Europe. Reservoir levels fell to historic lows, cutting hydro
 generation by 40% compared to normal years and forcing France to import
 electricity rather than export it. Heatwave conditions also restricted
-cooling water intake on some river sited nuclear plants for a whilte
+cooling water intake on some river sited nuclear plants for a while
 too.</p>
 <p>The combination of these two crises meant that France, normally
 Europe’s largest electricity exporter, became a net importer for the
@@ -1160,9 +1180,9 @@ that never materialised. Together, these plants currently generate about
 1990s.</p>
 <h2 id="hinkley-point">Hinkley Point</h2>
 <p>The vast new nuclear plant at Hinkley Point C (3,200 MW) has been
-under construction since the year 2017. When constructed it will be the
+under construction since the year 2017. When completed it will be the
 largest nuclear plant ever constructed in Britain. Hinkley Point C is an
-EPR reactor; which</p>
+EPR reactor.</p>
 <p>The construction has been a disaster. It was originally supposed to
 open in 2023, but is now not expected until 2030 at the earliest. Every
 year that its completion is delayed, the National Grid is without 3GW of
@@ -1184,45 +1204,45 @@ even argue that the delay is saving customers money; at least until
 power prices rise.</p>
 <h2 id="more-nuclear-plants">More nuclear plants</h2>
 <p>A follow-on nuclear project at Sizewell C has been announced by the
-UK Government, replicacting about 85% of the EPR design from Hinkley
+UK Government, replicating about 85% of the EPR design from Hinkley
 Point. As with Hinkley Point, by using an existing nuclear site, it is
 hoped that the local population will be more amenable to the project,
 recruiting staff with the right skills will be easier, and there will be
 an existing grid connection to use.</p>
 <p>The financing model for Sizewell C is called RAB (Regulated Asset
 Base) and is the opposite of Hinkley Point; the taxpayer/billpayer will
-finance and take on the risk of construction. EDF was relucant,
+finance and take on the risk of construction. EDF was reluctant,
 especially after Hinkley Point to repeat the CfD arrangement. RAB
-(Regulated Assset Base) is the same as the water industry and some other
+(Regulated Asset Base) is the same as the water industry and some other
 privatised monopoly utilities.</p>
 <p>If lessons are learnt from Hinkley Point, it’s feasible that Sizewell
 C could end up being cheaper or at least that not much more expensive
-than Hinkley Point. Hinkley Point the first in a generation nuclear
-project in Britain, and the first time and EPR reactor had been built in
+than Hinkley Point. Hinkley Point is the first in a generation nuclear
+project in Britain, and the first time an EPR reactor had been built in
 the UK. If some savings passed through to Sizewell C, the billpayers
 would benefit from the savings, unlike the CfD arrangement where savings
 would accrue to EDF.</p>
 <p>However, underspend on nuclear plants is not the norm! And
 substantial increases in interest rates since 2012 (when they were close
 to zero), mean that with the best engineering advances, it’s much more
-likely that, should things go wrong at Sizewell that billpayers will end
-up paying for any increases in the budget and suffer the consequences of
+likely that, should things go wrong at Sizewell, billpayers will end up
+paying for any increases in the budget and suffer the consequences of
 any delays to the generation of power from it.</p>
 <p>Bloomberg New Energy Finances has recently estimated the cost of
 Sizewell C’s power in levelised cost terms (a sort of average NPV or net
 present value) at £286/MWh; which is extremely high. It’s no surprise
-perhaps that EDF is choosing ditch the EPR and build a lower price
+perhaps that EDF is choosing to ditch the EPR and build a lower price
 simpler reactor for the 6 new projects it intends to build in France by
 2038. However, this begs the question whether the UK is wise to continue
 using the combination of EDF and the existing EPR design.</p>
 <h2 id="is-nuclear-reliable">Is nuclear reliable?</h2>
 <p>Traditionally, the strongest argument for nuclear power is its
 supposed reliability. Compared to the main low carbon alternatives (wind
-and solar), nuclear is “dispatchable”, you can control the if a nuclear
+and solar), nuclear is “dispatchable”, you can control if a nuclear
 reaction is to take place and the amount of power that’s produced.
 Unless a drought prevents a nuclear plant getting cooling water, you’re
 generally not affected by weather, and a nuclear plant is designed to
-run 80% of the time, with planned outages just for maintainence.</p>
+run 80% of the time, with planned outages just for maintenance.</p>
 <p>More recently, this reliability has come into serious doubt for two
 reasons:</p>
 <h3 id="construction-delays">Construction Delays</h3>
@@ -1239,7 +1259,10 @@ billion versus an original €19 billion estimate (€11,600-13,000/MW).
 Hungary’s Paks 2 project (2,400 MW) was originally planned for €12.5
 billion but has been suspended due to escalating costs. The pattern is
 clear: nuclear construction in Europe averages 10-15 year delays and
-3-6x cost overruns, with final costs of €7,000-13,000/MW.</p>
+3-6x cost overruns, with final costs of €7,000-13,000/MW. Note: In “How
+Big Things Get Done”, author Bent Flyvbjerg highlights nuclear power
+plants as notoriously underperforming megaprojects due to cost overruns,
+findings which are mostly data driven.</p>
 <p>An incomplete nuclear plant is useless. Not only do they not generate
 any power, but given the scale of investment involved, grid planners
 need to know with reasonable certainty when a nuclear-sized plant will
@@ -1323,13 +1346,14 @@ id="chapter-8-regional-privatisation-model---how-fragmentation-hurts">Chapter
 <h2 id="pre-privatisation">Pre-privatisation</h2>
 <p>Prior to privatisation in the 1990s, the electricity system in
 Britain comprised of:</p>
-<p>– <strong>CEGB</strong>: transmission grid and all power stations –
-<strong>Regional Electricity Boards</strong>: local distribution cables
-and retail (tariffs, billing etc) - there were 12 in total –
-<strong>Scotland</strong>: 2 verticallly integrated power companies</p>
-<p>The decision to privatise is well doumented elsewhere. One of the
+<p>– <strong>Central Electricity Generating Board (CEGB)</strong>:
+transmission grid and all power stations – <strong>Regional Electricity
+Boards</strong>: local distribution cables and retail (tariffs, billing
+etc) - there were 12 in total – <strong>Scotland</strong>: 2 vertically
+integrated power companies</p>
+<p>The decision to privatise is well documented elsewhere. One of the
 main objectives was to create retail competition as a downward pressure
-on prices. However there were a number of issues:</p>
+on prices. However, there were a number of issues:</p>
 <p>__ <strong>Existing integration</strong>: the regional grids were
 integrated with the local retail operations – <strong>Barriers to
 entry</strong>: enticing completely new entrants to a new market seemed
@@ -1356,20 +1380,20 @@ tariffs. With no switching, the volume of customers joining or leaving
 the supplier was much smaller.</p>
 <p><strong>Bureaucratisation</strong></p>
 <p>The cost of management and administration has soared. Executive pay
-at Distribution Network Operators has increased dramatically since 1990
-- from around £50,000-80,000 for senior managers in the public sector
-Regional Electricity Boards to £500,000-£2 million for CEOs of today’s
-DNOs. Even accounting for inflation (where £1 in 1990 is worth about
-£2.50 today), this represents a real increase of 2.5x to 16x in
-executive compensation. The broader cost of management, administration,
-and corporate overhead has grown from around 5-8% of total costs in 1990
-to 15-20% today. This is because having a privatised structure creates
-more executive and management jobs at the government regulator (Ofgem),
-as well as an army of consultants and accountants that support the
-marathon price control process. Every few years, companies negotiate
-with regulators and are eventually told how much, as monopolies, they
-are allowed to charge customers. Having 14 regional areas means this
-process and cost is replicated 14 times.</p>
+at Distribution Network Operators (DNOs) has increased dramatically
+since 1990 - from around £50,000-80,000 for senior managers in the
+public sector Regional Electricity Boards to £500,000-£2 million for
+CEOs of today’s DNOs. Even accounting for inflation (where £1 in 1990 is
+worth about £2.50 today), this represents a real increase of 2.5x to 16x
+in executive compensation. The broader cost of management,
+administration, and corporate overhead has grown from around 5-8% of
+total costs in 1990 to 15-20% today. This is because having a privatised
+structure creates more executive and management jobs at the government
+regulator (Ofgem), as well as an army of consultants and accountants
+that support the marathon price control process. Every few years,
+companies negotiate with regulators and are eventually told how much, as
+monopolies, they are allowed to charge customers. Having 14 regional
+areas means this process and cost is replicated 14 times.</p>
 <p><strong>Outdated Remuneration</strong></p>
 <p>Under privatisation, network companies get a guaranteed return on
 capital for every pound of assets, be it pylons, substations or
@@ -1383,7 +1407,7 @@ point, and the main action each year is that some assets nearing the end
 of their working life get replaced, an inflation increase is applied,
 and companies get some productivity targets. This was broadly the world
 that existed up until the 2010s, but since then we’ve been radically
-departing from this stable model for the following reasons:</p>
+departing from this stable model for the following reasons.</p>
 <h2 id="peak-gas">Peak Gas</h2>
 <p>Gas currently reaches around 85-90% of British homes. Until recently,
 it was the standard assumption that new build homes and particularly
@@ -1408,7 +1432,7 @@ networks, each facing similar challenges, there’s no coordinated
 approach to managing the decline. Each company fights to maintain its
 customer base and asset value, even when the overall system would
 benefit from economies of scale. The result is likely to be higher costs
-for remaining customers and slower progress toward net zero, as the
+for remaining customers and slower progress toward net-zero, as the
 privatised model prioritises shareholder returns over system
 efficiency.</p>
 <p>Worse still, this legacy burden is likely to fall most acutely on
@@ -1447,7 +1471,7 @@ reality there is a range of smart technologies - from dynamic load
 management and smart inverters to battery storage and demand response
 systems - that can avoid or at least delay many network upgrades. The
 regulatory price control process, designed to prevent over-investment,
-now acts as a barrier to the rapid expansion needed for net zero.</p>
+now acts as a barrier to the rapid expansion needed for net-zero.</p>
 <p>The regional structure compounds this problem. While the government
 and Ofgem claim there is a coordinated approach through various
 strategies and investment frameworks, the reality is more fragmented.
@@ -1487,7 +1511,7 @@ exists. The energy transition requires rapid, coordinated change across
 the entire system, but the current structure creates perverse incentives
 that work against this goal.</p>
 <p>Network companies are incentivised to maximise returns on existing
-assets rather than facilitate the transition to net zero. The fragmented
+assets rather than facilitate the transition to net-zero. The fragmented
 regional structure prevents coordinated strategic planning. High
 leverage makes companies vulnerable to interest rate shocks and creates
 pressure to pass costs through to consumers. And the regulatory
@@ -1593,8 +1617,9 @@ we aren’t getting the return on investment we should from it.</p>
 67% completion - meaning one in three homes still lacks a smart meter.
 Even more concerning, of the 39 million smart meters installed, 3.9
 million are not functioning in full smart mode due to connectivity
-issues or technical problems. This means the actual functional
-completion rate is even lower than the headline figure suggests.</p>
+issues or technical problems. (NOTE: please provide source for this
+assertion). This means the actual functional completion rate is even
+lower than the headline figure suggests.</p>
 <p>One of the reasons why it has been so expensive is that it has gone
 on for such a long time. Indeed, it’s gone on for so long that the
 original minister who agreed to the smart meter rollout back in 2009 was
@@ -1701,17 +1726,16 @@ environmentally beneficial, even though it would have been undesirable
 for energy companies that supply gas.</p>
 <p><strong>Network connectivity</strong> Smart meters send really tiny
 amounts of data, back to electricity companies, in substance it’s a
-single number telling them how many kilowatt hours is used every half
-hour. Meters need something similar to an internet connection to send
-this information back. The most obvious way to do this would be over
-mobile phone networks, where the volume of data would be trivial
-compared to modern 5G smart phone browsing. The obvious fall back in
-areas lacking a phone signal from at least one of the mobile networks
-would probably be to drop into the home wifi connection, in the same way
-many of our other devices (Smart TV, Doorbell, Printer etc) do. For the
-very few homes that lack both mobile connection and wifi (which would be
-tiny), then there are satellite and radio options which could work
-out.</p>
+single number telling them how many kWh is used every half hour. Meters
+need something similar to an internet connection to send this
+information back. The most obvious way to do this would be over mobile
+phone networks, where the volume of data would be trivial compared to
+modern 5G smartphone browsing. The obvious fallback in areas lacking a
+phone signal from at least one of the mobile networks would probably be
+to drop into the home Wi-Fi connection, in the same way many of our
+other devices (Smart TV, Doorbell, Printer etc.) do. For the very few
+homes that lack both mobile connection and Wi-Fi (which would be tiny),
+then there are satellite and radio options which could work out.</p>
 <p>What the Government instead decided to do was to split the country
 into two regions. First, Government divided the country between the
 North and South along a line roughly between Liverpool and Leeds. So all
@@ -1733,7 +1757,7 @@ gas meters are clustered together in basements or alleyways. And even in
 Scotland and the North of England, the majority of the population is
 urbanised. The decision to award an exclusive contract to Arqiva for
 these areas also prevents energy suppliers falling back to use O2, even
-though in most built up areas, a mobile signal would be readilly
+though in most built-up areas, a mobile signal would be readily
 available.</p></li>
 <li><p>In the Southern region, many rural areas originally lack an O2
 signal, but did have coverage from Vodafone/EE/Three. The most remote
@@ -1753,7 +1777,7 @@ was therefore taken to mandate energy suppliers provide customers with
 an in-home screen device (IHD) to present live and summary information
 from the smart meter.</p>
 <p>This added significantly to the cost because they are a separate
-piece of hardware that needs to be user friendly and have a power
+piece of hardware that needs to be user-friendly and have a power
 supply. To be diplomatic, the IHDs which energy suppliers eventually
 procured are of variable quality and ease of use to the average
 customer. If IHDs break, energy suppliers have to replace them which can
@@ -1763,8 +1787,8 @@ small amounts), for negligible benefit to most consumers.</p>
 the accessibility improvements which have happened to them makes the
 continued requirement for an in home display (IHD) verging on the
 absurd.</p>
-<p><strong>A network rollout makes infinitely more sense</strong>
-Connecting all the previous downsides, the overarching mistake
+<p><strong>A network rollout makes infinitely more sense</strong></p>
+<p>Connecting all the previous downsides, the overarching mistake
 Government made was not to consolidate smart meter rollout to
 electricity network companies. This was the approach taken in most other
 European countries, including Italy (99% completion), Sweden (95%
@@ -1776,7 +1800,7 @@ when accounting for the 3.9 million smart meters that aren’t working
 properly. Had the Government taken a network rollout approach, we’d have
 made much better progress, at a lower cost, with greater reliability and
 a better consumer experience. As noted in <a
-href="./08-regional-privatisation.md">Chater 8</a>, a single national
+href="./08-regional-privatisation.md">Chapter 8</a>, a single national
 network operator might implement such a technology rollout even
 better.</p>
 <hr />
@@ -1785,14 +1809,14 @@ better.</p>
 <p>In the UK, there’s been considerable interest of late in high energy
 prices. While generally true, the reality is more mixed:</p>
 <ol type="1">
-<li><p>The standard cost of electricity per kilowatt hour is about 25p
-and is similar for business and residential consumers. This is expensive
-by international standards, especially for businesses, though not that
+<li><p>The standard cost of electricity per kWh is about 25p and is
+similar for business and residential consumers. This is expensive by
+international standards, especially for businesses, though not that
 expensive by European levels and for the residential sector.</p></li>
-<li><p>The standard cost of gas per kilowatt hour is much lower, at
-about 7p. This is relatively cheap by international standards,
-particularly for residential consumers, though business gas prices are a
-bit higher because of extra environmental and carbon charges that they
+<li><p>The standard cost of gas per kWh is much lower, at about 7p. This
+is relatively cheap by international standards, particularly for
+residential consumers, though business gas prices are a bit higher
+because of extra environmental and carbon charges that they
 face.</p></li>
 </ol>
 <p>There are quite a few reasons why British energy users have such
@@ -1800,7 +1824,7 @@ mixed fortunes:</p>
 <p><strong>Reliance on Gas for Electricity</strong> The UK is
 particularly dependent on gas not just for heating, but also to generate
 electricity. Unlike France, Britain has much less nuclear power. Outside
-Scotland, Britain lacks the geography for much hydro power, at least
+Scotland, Britain lacks the geography for much hydropower, at least
 compared to the Nordics, Alpine countries, Spain or Canada. And compared
 to Germany, Poland, US, China and India, Britain shifted entirely from
 coal power, which used to generate nearly all our electricity.</p>
@@ -1812,21 +1836,21 @@ was considered a premium fuel for heating and industry, and the CEGB
 capacity before privatisation, preferring coal for electricity
 production. However, there were significant advances in gas turbine
 technology at power stations in the 1980s and 1990s, and it was cheaper
-and easier to build new gas-fired power stations. Combined cycle gas
-power stations (CCGTs) became the preference for newly privatised energy
-companies, and between 1990 and 2010, around 30 major CCGT plants were
-built around the UK in a “dash for gas”.</p>
+and easier to build new gas-fired power stations. Combined Cycle Gas
+Turbine (CCGT) power stations became the preference for newly privatised
+energy companies, and between 1990 and 2010, around 30 major CCGT plants
+were built around the UK in a “dash for gas”.</p>
 <p>Investment in new nuclear plants basically stopped after the
 completion of Sizewell in the 1990s, which had been initiated before
-privatisation, but which dragged on and was massively overbudget. Given
+privatisation, but which dragged on and was massively over budget. Given
 the scale and long term risk of nuclear investment, coupled with cheap
 gas and wholesale power prices privatised utilities were unable and
 unwilling to invest in new nuclear plants, and the existing plants which
 were privatised eventually went bankrupt and were sold to the French
-state utility EdF.</p>
+state utility EDF.</p>
 <p>The wholesale price mechanism used in Britain sets the price of
 electricity at the cost of the most expensive power generator in each
-half hourly period. 98% of the time, this is a gas power station. And so
+half-hourly period. 98% of the time, this is a gas power station. And so
 wholesale electricity prices in Britain closely shadow gas prices,
 although there is considerable movement from day to day and hour to hour
 depending on the level of demand. This is because the most efficient gas
@@ -1898,7 +1922,7 @@ a single fuel i.e. electricity rather than a mix of different fuels, it
 was felt that the administration would be simpler. As the levies would
 not be traditional excise duties like road fuel (petrol and diesel) the
 Government could also avoid presenting them as tax rises.</p>
-<p><strong>Electricity levies discourage heatpumps</strong> When they
+<p><strong>Electricity levies discourage heat pumps</strong> When they
 were first introduced, electricity levies weren’t that significant. In
 2012, the cost of electricity for households was around 12-14p/kWh and
 gas was around 5-6p/kWh, a ratio of roughly 2.5 to 1. However, over
@@ -1936,38 +1960,39 @@ electricity has become so expensive relative to gas, and why the current
 price ratio is now closer to 4:1 rather than the ratio of 2.5:1 of
 2012.</p>
 <p>At this level, electricity bill levies are a significant detractor
-from the effort to sell and install heatpumps (and in some cases EVs). A
-well installed heatpump is about 350% efficient, and a well installed
-gas boiler about 90% efficient. But a heatpump is typically 4 times more
-expensive to purchase (£8,000-12,000) than a gas boiler
+from the effort to sell and install heat pumps (and in some cases EVs).
+A well installed heat pump is about 350% efficient, and a well installed
+gas boiler about 90% efficient. But a heat pump is typically 4 times
+more expensive to purchase (£8,000-12,000) than a gas boiler
 (£2,000-3,000).</p>
 <p>If we didn’t have levies on electricity bills, but had instead funded
 the costs through general taxation, and the cost of electricity were
 still just 2.5 times more expensive than gas (currently 7p), then
-heating homes with heatpumps would be around 35-40% cheaper, with a
+heating homes with heat pumps would be around 35-40% cheaper, with a
 typical saving (assuming annual heating/hotwater use of 12,000 kWh) of
 £400-550/year, especially if homes ditched their gas connection and
 avoided £100-150 of standing charges.</p>
 <p>Taking this argument further still, if we had instead put the cost of
 levies onto gas bills rather than general taxation, then the cost of
 electricity would be about 1.5 times more expensive than gas. At this
-level, then heating homes with heatpumps would be around 65% cheaper
+level, then heating homes with heat pumps would be around 65% cheaper
 than gas, with a typical saving of £600-750/year. For homes with solar
-PV and/or a battery, then heatpump savings would be even greater,
+PV and/or a battery, then heat pump savings would be even greater,
 perhaps £1,000/year. With this sort of savings, many homeowners could
-have achieved a clear payback in 5-10 years, and heatpumps would quickly
-have been popular without Government support or major subsidies.</p>
+have achieved a clear payback in 5-10 years, and heat pumps would
+quickly have been popular without Government support or major
+subsidies.</p>
 <p>However, because the Government continued with imposing large levies
 on electricity bills, it has been far more difficult to persuade
-homeowners of the rationale to install heatpumps. This has meant:</p>
+homeowners of the rationale to install heat pumps. This has meant:</p>
 <ol type="1">
 <li>The Government is now paying an upfront grant of £7,500 per property
-(as well as a VAT exemption worth another £2,000 on average). If
-heatpump installations hit 800,000 a year in 2028 as the Government
-hopes, these grants will cost £6bn a year. This is a massive figure, for
+(as well as a VAT exemption worth another £2,000 on average). If heat
+pump installations hit 800,000 a year in 2028 as the Government hopes,
+these grants will cost £6bn a year. This is a massive figure, for
 context the total budget for all the primary schools in England is about
 £6-7bn.</li>
-<li>Because heatpump installations rely on grant funding that’s on an
+<li>Because heat pump installations rely on grant funding that’s on an
 unsustainable path, installers aren’t recruiting and training enough new
 installers. They’re rightly nervous given how previous Governments have
 cut support for Feed in Tariffs (FiTs) and other energy efficiency
@@ -1976,7 +2001,7 @@ grants like ECO.</li>
 having to subsidise the training, by offering grants and funding for
 training programs, creating yet another taxpayer-funded intervention in
 what should be a self-sustaining market.</li>
-<li>Only affluent households are installing heatpumps. This means the
+<li>Only affluent households are installing heat pumps. This means the
 taxpayer is subsidising the better off to get expensive heating systems
 they could afford anyway, while poorer households continue to struggle
 with high electricity bills. Research shows that 70% of heat pump
@@ -1995,11 +2020,11 @@ percentage.</p>
 it would be feasible to move many of the levies onto gas. But while this
 could plug much of the gap, and many energy users using a mix of
 electricity and gas might not notice much overall change in their bills,
-there would still be winners and losers. Levies or taxes migt also need
+there would still be winners and losers. Levies or taxes might also need
 to be extended to LPG, heating oil and coal fuels to avoid a perverse
 incentive for energy users to shift from mains gas to one of these
 alternatives, all of which have higher carbon emissions and local air
-pollution. However doing so would probably require the Government
+pollution. However, doing so would probably require the Government
 formally creating or increasing excise duties, which are taxes, and this
 would draw more potentially unwelcome political attention.</p>
 <p>The basic rebalancing proposal has been around for a decade, and
@@ -2010,7 +2035,7 @@ cost of the most basic need for heating in the winter months.</p>
 <p>Of course, rebalancing from electricity to gas has a positive effect
 on both sides of the coin. It doesn’t therefore take that much to
 significantly alter the economics of a home contemplating an investment
-in a heatpump.</p>
+in a heat pump.</p>
 <p><strong>Impact of Electricity Levies on EVs</strong> It’s true that
 electricity levies also have some impact on discouraging the adoption of
 EVs. However, as explained in <a
@@ -2044,9 +2069,9 @@ to be the main lever to keep energy prices competitive, if a majority of
 households aren’t active in the market, something is inadequate or
 missing. There were some efforts to boost the volume of switching,
 though the advent of price comparison sites since year x had
-dramatically cut the</p>
+dramatically cut the ???? SOMETHING is missing ????</p>
 <p>Political concern therefore continued to grow. Eventually, in 2018 a
-price cap was introduced. Customers remain free to chose a tariff from
+price cap was introduced. Customers remain free to choose a tariff from
 different suppliers. However, if a customer at any point hasn’t actively
 agreed a tariff, suppliers are obliged to enroll residential customers
 onto a default, price-capped tariff.</p>
@@ -2100,7 +2125,7 @@ price-cap tariff to all customers at rates that weren’t keeping pace
 with the spike in wholesale costs. For the first time since competition,
 it was no longer advantageous for householders to shop around for energy
 tariffs, but instead accept the default, price-cap tariff from their
-supplier. This advice was quickly diseminated by consumer groups,
+supplier. This advice was quickly disseminated by consumer groups,
 influencers like Martin Lewis and the media. Suppliers started
 withdrawing their fixed tariffs. Then around 30 suppliers went bust -
 including Bulb Energy, which required a £2.2 billion taxpayer bailout
@@ -2264,10 +2289,11 @@ both more likely and more expensive.</p>
 id="chapter-12-epcs---energy-performance-certificates-that-dont-work">Chapter
 12: EPCs - Energy Performance Certificates That Don’t Work</h1>
 <p>Energy Performance Certificates are supposed to inform users of the
-energy costs and environmnetal impact of buildings. There are separate
+energy costs and environmental impact of buildings. There are separate
 certificates for residential homes and commercial premises. EPCs were
-introduced in the year x, last x years and are required whenever a
-building is offered for rent or sale.</p>
+introduced in the year 2007 <a
+href="https://en.wikipedia.org/wiki/Energy_Performance_Certificate_(United_Kingdom)">source</a>
+and are required whenever a building is offered for rent or sale.</p>
 <p>For a variety of reasons, the EPC system as it exists at the moment
 is dysfunctional.</p>
 <h1 id="quality-of-assessment">Quality of Assessment</h1>
@@ -2342,34 +2368,41 @@ EPC running costs don’t reflect the real financial impact of the
 property’s energy performance.</p>
 <h3 id="heat-loss">Heat Loss</h3>
 <p>The heat loss of a building is the amount of heat that it looses at a
-given temperature. It can be expressed either as a number of watts per
-degree that the outside air temperature falls below 16C or so
-e.g. 100W/C, or alternatively a design heat loss e.g. 5KW, which is the
+given temperature. It can be expressed either as a number of Watts per
+degree that the outside air temperature falls below 16°C or so,
+e.g. 100W/°C, or alternatively a design heat loss e.g. 5KW, which is the
 amount of heat needed to keep the house inside at a comfortable 21C when
-the oustide temperature is at the minimum that can be reasonably
-expected, depending where in the UK you are this is between -2C and 2C
-or so.</p>
-<p>Knowing the heatloss of building had some value, but ultimately
+the outside temperature is at the minimum that can be reasonably
+expected, depending on where in the UK you are this is between -2C and
+2C or so.</p>
+<p>Knowing the heat loss of buildings had some value, but ultimately
 wasn’t that important in an age when most buildings were heated with
 boilers. Most boilers are dramatically oversized for the heat loss of
 the building, which allows them to rapidly heat them on demand, which in
 turn allows the central heating to be turned on separately in the
 morning and evening on a day when all occupants go out during the
 daytime. To give you a feeling of typical oversizing, a typical gas
-combi boiler might have an output of 25KW or so, even though the design
+combi-boiler might have an output of 25KW or so, even though the design
 heat loss of a typical house might be 5-10KW.</p>
-<p>However, for heatpumps, and in particular those thinking of
-installing a heatpump, the design heat loss is incredibly important.
-It’s the single figure that indicates ho large the heatpump you might
+<p>That said, the power rating of combi boilers is usually set to
+provide hot water at nearly full flow rate; for instance, a flow of
+10l/min heated up from 10°C to 55°C, i.e. ΔT of 45°C, requires about
+33kW. Consequently, the majority of home users are now accustomed to
+appliances with high peak power output which a heat pump is unlikely to
+match.</p>
+<p>However, for heat pumps, and in particular those thinking of
+installing a heat pump, the design heat loss is incredibly important.
+It’s the single figure that indicates how large the heat pump you might
 want to install in the house is. It’s a pre-requisite for rough
 installation cost estimate.</p>
 <hr />
 <h1 id="chapter-13-rhi-vs-bus---heating-policy-confusion">Chapter 13:
 RHI vs BUS - Heating Policy Confusion</h1>
+<p>NOTE: What do RHI and BUS stand for?</p>
 <h2
 id="the-last-50-years---the-rise-and-rise-of-the-gas-combi-boiler">The
-last 50 years - the rise and rise of the gas combi boiler</h2>
-<p>For the last 50 years, Britain has benefitted from easy access to
+last 50 years - the rise and rise of the gas combi-boiler</h2>
+<p>For the last 50 years, Britain has benefited from easy access to
 natural gas. Nowadays 85-90% of homes are heated with natural gas, which
 replaced a number of inferior solutions, including:</p>
 <ol type="1">
@@ -2381,11 +2414,11 @@ rural areas, but has been squeezed out of most suburbs and larger
 villages by the arrival of natural gas</li>
 </ol>
 <p>Over the same period, the number of homes and buildings with proper
-central heating has grown from x% to x%. Whereas previously, homes might
-have had a number of manually controlled fireplaces, and some rooms
-e.g. bedrooms and kitchen/bathrooms that went largely unheated. This has
-significant health benefits, especially for the vulnerable and
-elderly.</p>
+central heating has grown from x% to x% (TODO: find dumers and source).
+Whereas previously, homes might have had a number of manually controlled
+fireplaces, and some rooms e.g. bedrooms and kitchen/bathrooms that went
+largely unheated. This has significant health benefits, especially for
+the vulnerable and elderly.</p>
 <p>More recently, combi (combination) gas boilers have also enabled many
 homes to ditch having a separate hot water tank. By burning a lot of gas
 very quickly, much quicker than typically used for central heating, they
@@ -2396,8 +2429,8 @@ storage space, which is of particular value in smaller properties and in
 parts of the country like London and the South East which have seen the
 most rapid growth in property prices.</p>
 <p>The volume of gas boiler sales has also meant significant
-improvements in their efficicency, which in well installed properties
-can now push 90%.</p>
+improvements in their efficiency, which in well installed properties can
+now push 90%.</p>
 <h2 id="turning-tide-post-2000">Turning tide post 2000</h2>
 <p>In the last 20-25 years, the previous infallible status of gas combi
 boilers has started to wane somewhat.</p>
@@ -2445,7 +2478,7 @@ we commit ourselves for that boiler’s lifetime, typically 10-15 years,
 to importing more foreign gas. And when we buy energy from abroad rather
 than making it ourselves, that money creates very few jobs in our own
 country, and raises very little in tax revenues for our Government.
-Instead it helps other countries.</p>
+Instead, it helps other countries.</p>
 <p>The balance of trade is rather neglected as a concept. Put simply, it
 shows the net surplus or deficit in how much the country as a whole
 spends. If you look at oil and gas over the last 25 years, then as a
@@ -2474,20 +2507,20 @@ Opportunity</a>.</em></p>
 <h1
 id="chapter-14-cfd-vs-marginal-pricing---market-design-disasters">Chapter
 14: CfD vs Marginal Pricing - Market Design Disasters</h1>
-<p>There is a urban myth that all British electricity is expensive
+<p>There is an urban myth that all British electricity is expensive
 because of the role of gas fired power.</p>
 <p><strong>PPAs</strong> Most commonly associated with renewable
 projects like wind and solar, a PPA contract is a bilateral, over the
-counter agreement that bypasses the wholesale electricity market an
-enables generators to sell their power at a longer term more fixed rate
-to an energy supplier or an industrial customer that uses lots of
+counter agreement that bypasses the wholesale electricity market and
+enables generators to sell their power at a longer term ??more?? fixed
+rate to an energy supplier or an industrial customer that uses lots of
 electricity. This agreement can be mutually beneficial because it can
 allow the energy consumer to fix their prices (potentially indexed by
 inflation) and for the generator to insulate themselves from any
-flucations in wholesale prices. This is particularly important for
+fluctuation in wholesale prices. This is particularly important for
 obtaining debt finance at reasonable rates, because without this sort of
-guarantee, the profits of renewable power generators can be incredbly
-voltaile.</p>
+guarantee, the profits of renewable power generators can be incredibly
+volatile.</p>
 <p><strong>CfDs</strong> The Government CfD programme is designed to
 stabilise the cost of renewable electricity relative to the more
 volatile wholesale gas price. The way is does this is to effectively
@@ -2500,13 +2533,14 @@ consumers as a credit. This means that both from the perspective of the
 renewable generator and the end consumer, there is essentially a fixed
 price for the power that is generated under CfDs. So while the wholesale
 power market continues to exist, and operates as a market of last resort
-to enable fine tuning of the electricity grid, there is much greater
-stability at an outer level. By the year 2030, over x% of Britain’s
-power is expected to be generated under CfDs. The more power which is
-generated under CfD’s the more stable power prices will become. The
-wholesale power price will remain important to generators and the grid
-for balancing the grid, but it will be increasingly irrelevant when it
-comes to determining consumer prices.</p>
+to enable fine-tuning of the electricity grid, there is much greater
+stability at an outer level. By the year 2030, over x% (TODO number and
+source) of Britain’s power is expected to be generated under CfDs. The
+more power which is generated under CfD’s the more stable power prices
+will become. The wholesale power price will remain important to
+generators and the grid for balancing the grid, but it will be
+increasingly irrelevant when it comes to determining consumer
+prices.</p>
 <hr />
 <h1
 id="chapter-15-flexibility-balancing-and-storage---the-grids-hidden-challenges">Chapter
@@ -2543,7 +2577,7 @@ times - a completely different type of stress that requires the grid to
 operate near its maximum capacity for extended periods. There are a
 number of complementary reasons for this sustained high demand:</p>
 <ol type="1">
-<li><p>It gets dark from 3pm onwards, especially in mid winter, further
+<li><p>It gets dark from 3pm onwards, especially in mid-winter, further
 north and on overcast days. This drives a need for lighting both in
 buildings and on streets that doesn’t exist to the same degree in the
 rest of the year. And while the development of LED lighting has
@@ -2657,11 +2691,11 @@ supply and demand in real-time. As we’ve increased our reliance on
 intermittent renewable sources like wind and solar, the traditional
 model of matching generation to demand has become increasingly complex
 and expensive. We’re also moving more of our heating from fossil fuels
-to electricity (mostly heatpumps), meaning in winter especially, our
+to electricity (mostly heat pumps), meaning in winter especially, our
 demand for electricity might start to grow dramatically (to date it
 hasn’t).</p>
 <h2 id="the-balancing-challenge">The Balancing Challenge</h2>
-<p>Unlike fossil fuels, electricity cannot be stored easilly, at not
+<p>Unlike fossil fuels, electricity cannot be stored easily, at not
 without other technologies and investment in big hydro dams and
 batteries. Grids are inflexible, supply and demand must be balanced
 second-by-second. The grid can only tolerate energy imbalances of about
@@ -2724,7 +2758,8 @@ charges.</p>
 <ol type="1">
 <li><p><strong>Reduced inertia</strong>: Traditional thermal plants
 provide system inertia naturally. As these close, we need to pay for
-synthetic inertia from batteries and other technologies.</p></li>
+synthetic inertia from batteries and other technologies such as
+grid-forming inverters.</p></li>
 <li><p><strong>More volatile prices</strong>: With intermittent
 renewables, electricity prices can swing from negative (when wind is
 high and demand low) to over £1,000/MWh (when demand is high and wind is
@@ -2833,11 +2868,11 @@ to run at full tilt for 5-7 hours:</p>
 <li>Foyers (300 MW -&gt; 6.7 hours, 2.0 GWh)</li>
 </ul>
 <p>A major new pumped storage project, Coire Glas near Loch Ness, has
-been approved and could add 1,500 MW with 30 GWh of storage
-capacity,with nearly nearly double the energy storage of all existing
-British facilities combined it should hopefully be able to run for 20
-hours at full capacity. Coire Glas could rival some of Europe’s largest
-pumped storage schemes like Grand Maison in the French Alps.</p>
+been approved and could add 1,500 MW with 30 GWh of storage capacity,
+with nearly double the energy storage of all existing British facilities
+combined it should hopefully be able to run for 20 hours at full
+capacity. Coire Glas could rival some of Europe’s largest pumped storage
+schemes like Grand Maison in the French Alps.</p>
 <hr />
 <h1
 id="chapter-16-exercise-duty-road-pricing---transport-energy-policy">Chapter
@@ -3064,7 +3099,7 @@ that treated the entire continent as one integrated market.</p>
 hold in different European markets. Wind and solar are intermittent, and
 enabling previously siloed national electricity markets to trade the
 inevitable surpluses and shortages which happen over time is of clear
-mutual benefit. This was perhaps most obvious for Britain (and Ireland),
+mutual benefit. This was perhaps most obvious to Britain (and Ireland),
 which account for around 40% of Europe’s wind resources, but which are
 separated by sea from the continent. However, prior to 2011, Britain’s
 international electricity connections were limited to just two cables:
@@ -3094,7 +3129,8 @@ than over land, typically costing 3-5 times more per kilometre. Despite
 this cost premium, the economic benefits of cross-border electricity
 trading have been substantial, allowing Britain to export surplus wind
 power to Europe during periods of high generation and import nuclear and
-hydro power from France and Norway during periods of low wind.</p>
+hydroelectric power from France and Norway during periods of low
+wind.</p>
 <h2 id="britains-interconnector-expansion">Britain’s Interconnector
 Expansion</h2>
 <p>Following BritNed in 2011, Britain embarked on a major expansion of
@@ -3238,7 +3274,7 @@ works on the ‘cap and trade’ principle, setting a cap on the total
 amount of certain greenhouse gases that can be emitted by installations
 covered by the system. After Brexit, the UK established its own UK
 Emissions Trading Scheme (UK ETS) in 2021, which is similar in design
-but operates independently from the EU ETS.</p>
+but operates independently of the EU ETS.</p>
 <p>This decoupling has implications for both markets. For the UK, it
 means having the flexibility to set its own carbon pricing and emissions
 targets, potentially allowing for more ambitious climate policies.
@@ -3271,9 +3307,9 @@ compared to the EU’s €73 (approximately £62) per tonne.</p>
 carbon prices have led to revenue shortfalls, with the UK raising over
 £1 billion less over a six-month period in 2023 compared to 2022 levels.
 If this trend continues, the Treasury could lose up to £3 billion
-annually. Additionally, the EU’s Carbon Border Adjustment Mechanism
-(CBAM), set to be fully implemented in 2026, could impose up to £800
-million in additional costs on UK exporters by 2030.</p>
+annually. Additionally, the EU’s CBAM, set to be fully implemented in
+2026, could impose up to £800 million in additional costs on UK
+exporters by 2030.</p>
 <p>To address these challenges, there have been discussions about
 linking the UK ETS with the EU ETS. Such a linkage could harmonize
 carbon prices, prevent competitive distortions, and reduce costs for
@@ -3310,7 +3346,7 @@ transmission losses, reducing overall efficiency. This not only
 undermines the environmental benefits of lower carbon pricing but also
 highlights the complexity of balancing economic and environmental
 objectives in cross-border energy trade. It can also drive up the cost
-of electricity relative to gas withint the UK, which hinders the
+of electricity relative to gas within the UK, which hinders the
 incentive for decarbonisation.</p>
 <h2 id="solutions-and-pathways-forward">Solutions and Pathways
 Forward</h2>
@@ -3318,10 +3354,10 @@ Forward</h2>
 harmonization with the EU on carbon prices and electricity trading
 presents a clear and viable solution. Even without a comprehensive
 re-entry into the EU single market, aligning the UK’s carbon pricing
-with the EU ETS could mitigate the risk of a Carbon Border Adjustment
-Mechanism (CBAM) and enhance the competitiveness of UK exports.
-Harmonizing carbon prices would also help stabilize the market, reduce
-revenue shortfalls, and prevent competitive imbalances.</p>
+with the EU ETS could mitigate the risk of the Eu’s CBAM and enhance the
+competitiveness of UK exports. Harmonizing carbon prices would also help
+stabilize the market, reduce revenue shortfalls, and prevent competitive
+imbalances.</p>
 <p>In terms of electricity trading, re-establishing closer ties with the
 EU’s energy market mechanisms could reduce trade friction, improve
 efficiency, and lower costs for consumers. This could involve
@@ -3352,13 +3388,13 @@ benefit.</p>
 short term electricity markets is the gas price. In long-term
 electricity markets, the equivalent metric is the interest rate.</p>
 <p>Starting my career in 2011 and despite having studied economics I
-have to admit that I didn’t realise until really quite recently quite
-how profound the effect of near zero interest rates was over the 2010
-decade. And while many people have learnt the hard way how its
+have to admit that I didn’t realise until really quite recently how
+profound the effect of near zero interest rates was over the 2010
+decade. And while many people have learnt the hard way how it’s
 unravelling the rise in interest rates post 2021 has changed the world
 of property, business and vehicle finance, It couldn’t have happened at
 a more prescient and disruptive time for the Energy transition.</p>
-<p>in Economics you learn that the interest rate is the connection or
+<p>In Economics, you learn that the interest rate is the connection or
 the price between now and the future. High interest rates mean that
 investors require a greater return on the capital in order to be better
 off than simply putting the money in a bank account or low risk
@@ -3367,31 +3403,32 @@ rates make it more attractive to put off any sort of capital or upfront
 investment like insulating a building, replacing a vehicle, installing a
 battery.</p>
 <h2 id="fossil-versus-low-carbon">Fossil versus Low Carbon</h2>
-<p>the biggest Divide between fossil fuels and the appliances we used
+<p>The biggest Divide between fossil fuels and the appliances we used
 them in and low carbon technologies brackets including renewables is the
-amount of extra upfront investment You need if you want to pursue the
+amount of extra upfront investment you need if you want to pursue the
 low carbon option. This paradigm holds true in all different levels and
 sectors of the energy system:</p>
-<p>###Gas Power versus Nuclear/Wind The upfront cost of a
-state-of-the-art CCGT gas power station is around £800-£1,200 per
-kilowatt. The equivalent figure for a nuclear plant like Hinkley Point
-is £6,000-£8,000 per kilowatt. For an offshore wind farm it’s around
-£3,000-£4,000 per kilowatt. However, when it comes to the running costs
+<h3 id="gas-power-versus-nuclearwind">Gas Power versus Nuclear/Wind</h3>
+<p>The upfront cost of a state-of-the-art CCGT power station is around
+£800-£1,200 per kW. The equivalent figure for a nuclear plant like
+Hinkley Point is £6,000-£8,000 per kW. For an offshore wind farm it’s
+around £3,000-£4,000 per kW. However, when it comes to the running costs
 or marginal costs of these technologies, the pattern reverses. Wind
 farms don’t require fuel. Nuclear fuel is usually under £10 per megawatt
 hour of power generated. Gas power even at today’s relatively low prices
 costs upwards of £60-£80 per megawatt hour, given CCGTs are at best 55%
 efficient and power stations face carbon taxes as well.</p>
-<p>###Energy Networks Separate from the cost of generating electricity,
-There are profound differences in the cost of the network and
-infrastructure needed to support a renewables Oriented grid. Wind and
-Solar are less dense in terms of their footprint on the ground than
-traditional large scale power stations. They they also tend to be much
-further from natural centres of demand in big cities, Partly because
-Land prices are higher around cities and partly because the windiest
-places tend to be quite remote isolated and either high up offshore or
-coastal. An access factor in the UK is the role of NIMBYs in deterring
-many renewable projects from less isolated parts of England.</p>
+<h3 id="energy-networks">Energy Networks</h3>
+<p>Separate from the cost of generating electricity, there are profound
+differences in the cost of the network and infrastructure needed to
+support a renewables oriented grid. Wind and Solar are less dense in
+terms of their footprint on the ground than traditional large scale
+power stations. They also tend to be much further from natural centres
+of demand in big cities, partly because land prices are higher around
+cities and partly because the windiest places tend to be quite remote
+isolated and either high up offshore or coastal. An access factor in the
+UK is the role of NIMBYs in deterring many renewable projects from less
+isolated parts of England.</p>
 <p>Either way, renewables end up needing more miles of electricity
 cables, pylons and substations to run the grid than would be needed from
 traditional fossil fuels. And the cost of building this infrastructure
@@ -3456,10 +3493,10 @@ interest rate that actually matters</h2>
 <p>One common misunderstanding with interest rates is to ignore the
 impact of inflation. If interest rates are 6% (called nominal rates),
 but inflation is running at 5%, then in real-terms, interest rates are
-only 1%. Viewed this this lens, real interest rates across the 2010-21
-period were not just low, but for much of the period negative,
-particularly following the monetary and quantitiative interventions
-followint the financial crash, eurozone crisis, Brexit vote and
+only 1%. Viewed through this lens, real interest rates across the
+2010-21 period were not just low, but for much of the period negative,
+particularly following the monetary and quantitative interventions
+following the financial crash, eurozone crisis, Brexit vote and
 pandemic.</p>
 <p>This perspective shines a different perspective on the consequential
 2021-2 period, when the reopening post-pandemic hit a massive
@@ -3720,6 +3757,8 @@ to imported LNG.</p>
 in the heat of the shale gas debate. But it’s crucial: if your goal is
 to reduce emissions, then replacing high-carbon imports with
 lower-carbon domestic production makes sense.</p>
+<p>NOTE: what about other environmental concerns: water consumption,
+pollution etc?</p>
 <p>The environmental benefits of gas go beyond just direct emissions
 comparisons. Natural gas is fundamentally a transition fuel - much
 cleaner than oil or coal, but still a fossil fuel that we’ll eventually
@@ -3852,7 +3891,7 @@ occur between sectors like power generation and agriculture, rather than
 being specific or imposing constraints on a specific sector to play a
 minimum role. Economists like this arrangement because it allows for
 flexibility and market forces to guide where investment gets the most
-efficient payback with respect to the emissions avoided. So, it
+efficient payback with respect to the emissions avoided. So, if
 emissions reductions are much cheaper and easier in let’s say power
 generation compared to aviation (which still relies almost 100% on
 aviation kerosene as a fuel), then this allows for the aviation sector
@@ -3868,23 +3907,23 @@ power.</p>
 <p>The EU renewable electricity obligations are particularly strict and
 binding because they are binding individually on each member state and
 don’t allow trading of obligations between each other. So a member state
-like France, which has &gt;x% of power generation from nuclear power, is
-nonetheless obliged to achieve over x% of generation from new renewable
-technologies like wind and solar. While some wind and solar projects are
-merited in France, the French grid is relatively saturated by its
-nuclear generation, and in many instances in summer, the French grid
-operator is effectively curtailing (or turning down) nuclear generation
-purely to accomodate solar PV (and wind) generation on the grid, which
-are needed in sufficient quantities across the year to meet France’s EU
-renewables target of x% from reneables by the year x. In actual fact,
-this whole excercise is rather pointless, because the emissions from
-solar and wind are similar to those from the French nuclear plant,
-especially at the margin when the nuclear plant might well be turned on
-anyway.</p>
+like France, which has &gt;x% of (TODO: number and source) power
+generation from nuclear power, is nonetheless obliged to achieve over x%
+of generation from new renewable technologies like wind and solar. While
+some wind and solar projects are merited in France, the French grid is
+relatively saturated by its nuclear generation, and in many instances in
+summer, the French grid operator is effectively curtailing (or turning
+down) nuclear generation purely to accommodate solar PV (and wind)
+generation on the grid, which are needed in sufficient quantities across
+the year to meet France’s EU renewables target of x% from renewables by
+the year x (TODO: number and source). In actual fact, this whole
+exercise is rather pointless, because the emissions from solar and wind
+are similar to those from the French nuclear plant, especially at the
+margin when the nuclear plant might well be turned on anyway.</p>
 <p>The short answer is that, while it’s safe, turning down nuclear
-generatio for France is pretty pointless, in most cases the only way to
+generation for France is pretty pointless, in most cases the only way to
 do it involves blowing large amounts of steam into the atmosphere to
-disappate the heat generated by the reactor. France might just as well
+dissipate the heat generated by the reactor. France might just as well
 curtail its solar generation, but for the obligation the EU imposes on
 it to generate a certain fraction of its electricity specifically from
 renewable generation. There is almost no additional marginal emissions
@@ -3892,14 +3931,14 @@ of carbon from the nuclear generation.</p>
 <p>Another inefficiency of national targets is the inability of EU
 member states to outsource renewable generation to other countries. For
 example, there is x GW of solar PV capacity in Germany, but only x GW in
-Spain and x GW in Italy. This is despite both Spain and Italy being
-signficantly sunnier than Germany. Had Germany found a way to invest in
-solar PV generation across Spain, it could have invested in assets that
-yielded x kwh of carbon free electricity a year, compared to a maxium of
-about x kwh per year in Southern Germany. EU emissions as a whole could
-have been reduced at lesser overall cost or expense to EU households and
-businesses. However, national priorities continue to take precedence
-over broader EU objectives.</p>
+Spain and x GW in Italy (TODO: number and source). This is despite both
+Spain and Italy being significantly sunnier than Germany. Had Germany
+found a way to invest in solar PV generation across Spain, it could have
+invested in assets that yielded x kWh of carbon free electricity a year,
+compared to a maximum of about x kWh per year in Southern Germany. EU
+emissions as a whole could have been reduced at lesser overall cost or
+expense to EU households and businesses. However, national priorities
+continue to take precedence over broader EU objectives.</p>
 <h2 id="uk-emission-targets">UK Emission Targets</h2>
 <p>The UK is actually doing quite well on each of the shorter term
 emission targets it has signed up to:</p>
@@ -3912,7 +3951,7 @@ target.</strong></p>
 was previously bound by the EU’s 2020 climate and energy package, which
 included a 20% reduction in greenhouse gas emissions, 20% renewable
 energy share, and 20% improvement in energy efficiency compared to 1990
-levels. <strong>Status: Met emissions target (43% reduction), exceeded
+levels. <strong>Status: Net emissions target (43% reduction), exceeded
 renewable target (42% share), exceeded efficiency target (24-26%
 improvement).</strong></p>
 <p><strong>Paris Agreement</strong> - The international climate accord
@@ -3943,10 +3982,10 @@ committed to ending the sale of new petrol and diesel cars and vans by
 originally set by the Conservative government in 2020 and has been
 maintained by Labour, aiming to accelerate the transition to electric
 vehicles.</p>
-<p><strong>Net Zero 2050</strong> - This is by far the biggest, most
+<p><strong>Net-Zero 2050</strong> - This is by far the biggest, most
 ambitious and most long-term target, encompassing all the others as
 intermediate stepping stones. The legally binding target under the
-Climate Change Act 2008 (amended 2019) requires achieving net zero
+Climate Change Act 2008 (amended 2019) requires achieving net-zero
 greenhouse gas emissions across the entire UK economy by 2050. This
 covers all sectors including power, transport, buildings, industry, and
 agriculture. The intermediate targets we’ve already hit and in some
@@ -3970,81 +4009,84 @@ generation mix shows wind and gas as joint first/second (each around
 30-35%), followed by nuclear (15%), imports (10-15%), and solar (5-10%).
 Power consumption in 2024 was also around 15% lower than 1990,
 reflecting energy efficiency improvements like LED lighting and general
-appliances. <strong>Transport</strong> - Has seen the least progress on
-emissions reduction, with only a 3% decline since 1990. Electrification
-remains minimal: electric vehicles accounted for just 2% of the UK car
-fleet in 2024, and electric trucks and buses are virtually non-existent.
-This is despite significant efficiency improvements in internal
-combustion engines - modern petrol, diesel and aviation engines are
-20-30% more efficient than their 1990s counterparts. However, these
-efficiency gains have been largely offset by continued growth in
-transport volumes - passenger car traffic increased by 25% between 1990
-and 2019, while flight passenger numbers more than doubled. The sector’s
-emissions have been stubbornly resistant to policy interventions, with
-road transport still responsible for around 90% of transport emissions
-and aviation for most of the rest. <strong>Buildings</strong> - Have
-seen moderate progress with emissions falling by around 25% since 1990,
-though this masks significant variation between domestic and commercial
-properties. Domestic buildings have achieved the most improvement
-through better insulation, more efficient boilers, and the gradual
-phase-out of coal and oil heating. However, progress has been uneven -
-while new builds are well insulated, the UK’s ageing housing stock
-remains a major challenge. Around 85-90% of homes are heated with
-natural gas, with gas boilers remaining the dominant heating system and
-heat pumps accounting for less than 1% of domestic heating systems
-despite generous government subsidies. Commercial buildings have in some
-ways fared better, with many already using air conditioning (HVAC)
-systems for heating and cooling which have automatically benefitted from
-the improvements in power generation. However many older commercial
-buildings remain poorly insulated by international standards, and the
-prevalence of renting creates little incentive for landlords to invest
-in energy efficiency upgrades. The policy inconsistency is striking -
-domestic buildings face no carbon pricing on their gas consumption,
-while large commercial buildings are subject to the Climate Change Levy,
-creating a perverse incentive to keep gas boilers in homes while
-commercial properties face pressure to electrify.
-<strong>Industry</strong> - Has seen significant progress with emissions
-falling by around 45% since 1990, though this masks dramatic variation
-between sectors and the reality of offshoring. Heavy industry like
-steel, cement and chemicals has achieved improvement through process
-efficiency gains, fuel switching from coal to gas, and the closure of
-some of the most carbon-intensive facilities. However, much of this
-apparent progress reflects the offshoring of carbon-intensive production
-to countries with lower environmental standards - Britain’s steel,
-cement and chemical production has declined significantly since 1990,
-while imports from high-emission countries have increased. The sector’s
-emissions have been more responsive to policy interventions than
-transport or buildings, but this is partly because carbon pricing and
-efficiency standards made it cheaper to import than produce
+appliances.</p>
+<p><strong>Transport</strong> - Has seen the least progress on emissions
+reduction, with only a 3% decline since 1990. Electrification remains
+minimal: electric vehicles accounted for just 2% of the UK car fleet in
+2024, and electric trucks and buses are virtually non-existent. This is
+despite significant efficiency improvements in internal combustion
+engines - modern petrol, diesel and aviation engines are 20-30% more
+efficient than their 1990s counterparts. However, these efficiency gains
+have been largely offset by continued growth in transport volumes -
+passenger car traffic increased by 25% between 1990 and 2019, while
+flight passenger numbers more than doubled. The sector’s emissions have
+been stubbornly resistant to policy interventions, with road transport
+still responsible for around 90% of transport emissions and aviation for
+most of the rest.</p>
+<p><strong>Buildings</strong> - Have seen moderate progress with
+emissions falling by around 25% since 1990, though this masks
+significant variation between domestic and commercial properties.
+Domestic buildings have achieved the most improvement through better
+insulation, more efficient boilers, and the gradual phase-out of coal
+and oil heating. However, progress has been uneven - while new builds
+are well insulated, the UK’s ageing housing stock remains a major
+challenge. Around 85-90% of homes are heated with natural gas, with gas
+boilers remaining the dominant heating system and heat pumps accounting
+for less than 1% of domestic heating systems despite generous government
+subsidies. Commercial buildings have in some ways fared better, with
+many already using air conditioning (HVAC) systems for heating and
+cooling which have automatically benefited from the improvements in
+power generation. However, many older commercial buildings remain poorly
+insulated by international standards, and the prevalence of renting
+creates little incentive for landlords to invest in energy efficiency
+upgrades. The policy inconsistency is striking - domestic buildings face
+no carbon pricing on their gas consumption, while large commercial
+buildings are subject to the Climate Change Levy, creating a perverse
+incentive to keep gas boilers in homes while commercial properties face
+pressure to electrify.</p>
+<p><strong>Industry</strong> - Has seen significant progress with
+emissions falling by around 45% since 1990, though this masks dramatic
+variation between sectors and the reality of offshoring. Heavy industry
+like steel, cement and chemicals has achieved improvement through
+process efficiency gains, fuel switching from coal to gas, and the
+closure of some of the most carbon-intensive facilities. However, much
+of this apparent progress reflects the offshoring of carbon-intensive
+production to countries with lower environmental standards - Britain’s
+steel, cement and chemical production has declined significantly since
+1990, while imports from high-emission countries have increased. The
+sector’s emissions have been more responsive to policy interventions
+than transport or buildings, but this is partly because carbon pricing
+and efficiency standards made it cheaper to import than produce
 domestically. The high cost of deep decarbonisation technologies like
 hydrogen and carbon capture remains a significant barrier, while
-offshoring continues to shift emissions rather than eliminate them.
-<strong>Agriculture</strong> - Has seen modest progress with emissions
-falling by around 15% since 1990, though this masks significant changes
-in both production methods and consumption patterns. The sector has
-achieved improvements through better fertiliser management, reduced
-methane emissions from livestock, and some efficiency gains in crop
-production. However, progress has been uneven - while some farmers have
-adopted more sustainable practices, others continue with intensive
-methods that maximise yields at the expense of environmental impact. The
-most significant change has been in dietary habits, with per capita meat
-consumption declining by around 15% since 1990, particularly red meat,
-which has the highest carbon footprint. However, this reduction has been
-partially offset by population growth and increased consumption of dairy
-products. Much of the apparent progress reflects the offshoring of food
-production to countries with lower environmental standards, with UK food
-self-sufficiency declining from around 75% in 1990 to under 60% today.
-The sector’s emissions have been relatively resistant to policy
-interventions, with the post-Brexit Environmental Land Management scheme
-replacing the EU’s Common Agricultural Policy but still struggling to
-balance food production with environmental goals. The continued tax
-breaks on red diesel for agricultural machinery actively encourage
-high-emission practices, while the high cost of transitioning to
-regenerative farming practices and the lack of carbon pricing on
-agricultural emissions remain significant barriers to faster
-decarbonisation. <strong>Waste</strong> - Has seen significant progress
-with emissions falling by around 60% since 1990, though this masks
-important distinctions between different types of emissions and broader
+offshoring continues to shift emissions rather than eliminate them.</p>
+<p><strong>Agriculture</strong> - Has seen modest progress with
+emissions falling by around 15% since 1990, though this masks
+significant changes in both production methods and consumption patterns.
+The sector has achieved improvements through better fertiliser
+management, reduced methane emissions from livestock, and some
+efficiency gains in crop production. However, progress has been uneven -
+while some farmers have adopted more sustainable practices, others
+continue with intensive methods that maximise yields at the expense of
+environmental impact. The most significant change has been in dietary
+habits, with per capita meat consumption declining by around 15% since
+1990, particularly red meat, which has the highest carbon footprint.
+However, this reduction has been partially offset by population growth
+and increased consumption of dairy products. Much of the apparent
+progress reflects the offshoring of food production to countries with
+lower environmental standards, with UK food self-sufficiency declining
+from around 75% in 1990 to under 60% today. The sector’s emissions have
+been relatively resistant to policy interventions, with the post-Brexit
+Environmental Land Management scheme replacing the EU’s Common
+Agricultural Policy but still struggling to balance food production with
+environmental goals. The continued tax breaks on red diesel for
+agricultural machinery actively encourage high-emission practices, while
+the high cost of transitioning to regenerative farming practices and the
+lack of carbon pricing on agricultural emissions remain significant
+barriers to faster decarbonisation.</p>
+<p><strong>Waste</strong> - Has seen significant progress with emissions
+falling by around 60% since 1990, though this masks important
+distinctions between different types of emissions and broader
 environmental benefits. The sector has achieved dramatic reductions in
 methane emissions from landfill through improved gas capture systems and
 the gradual phase-out of organic waste disposal. Methane is the same
@@ -4065,7 +4107,7 @@ truly sustainable waste management.</p>
 <h2 id="decarbonisation-of-power-generation-is-broader">Decarbonisation
 of power generation is broader</h2>
 <p>The stark variation in progress between sectors reveals a fundamental
-challenge for the UK’s net zero ambitions. While some sectors like power
+challenge for the UK’s net-zero ambitions. While some sectors like power
 generation have achieved dramatic emissions reductions, others like
 transport and buildings remain stubbornly resistant to policy
 interventions. This uneven progress suggests that the UK has exhausted
@@ -4104,7 +4146,7 @@ potentially derailing progress on power sector emissions. UK data
 centres already consume around 15 TWh annually - equivalent to 5% of
 total electricity demand - and this could triple by 2030 as AI
 applications scale up, adding another 30 TWh of demand that wasn’t
-factored into net zero planning.</li>
+factored into net-zero planning.</li>
 <li>The shift toward gas for power generation coincided with the decline
 of domestic reserves in the North Sea and closure of UK coal pits. Even
 with Clean Power 2030, unless there is a rapid acceleration of Building
@@ -4119,9 +4161,9 @@ supplies were frequently disrupted by industrial action in the
 15 years, coal plants were decommissioned across Britain. These moments
 were significant for the workforce and local communities, marking the
 end of decades of industrial heritage.</p>
-<h4 id="non-carbon-emissions">Non Carbon Emissions</h4>
+<h4 id="non-carbon-emissions">Non-Carbon Emissions</h4>
 <p>In some instances, coal plants were retired earlier than expected
-primarilly due to local air pollution concerns rather than climate
+primarily due to local air pollution concerns rather than climate
 change. Cockenzie near Edinburgh closed in 2013 after failing LCPD
 compliance on sulphur dioxide and nitrogen oxide emissions, while
 Kingsnorth in Kent (30 miles from London) was mothballed in 2012 rather
@@ -4225,11 +4267,11 @@ when they’re used and what weather conditions prevail at that moment. A
 heat pump running on a cold, still winter evening might be powered 80%
 by gas and 20% by renewables, while the same heat pump on a windy spring
 afternoon might run 90% on renewables.</p>
-<p>On average for a heatpump, a recent <a
+<p>On average for a heat pump, a recent <a
 href="https://www.nber.org/system/files/working_papers/w33036/w33036.pdf">study</a>
 by academics working for Octopus Energy estimated the current reduction
 in gas usage being around 90%. That figure accorded with rough
-hyptothetical calculations I did on my own home (about 85%); and the
+hypothetical calculations I did on my own home (about 85%); and the
 saving figure will trend up to reach 100% as the rest of the grid
 decarbonises. For the UK’s energy security as a net importer of gas this
 is a big improvement; and heating buildings accounts for around 40% of
@@ -4268,7 +4310,7 @@ electrification, while also boosting consumer confidence by addressing
 the fear - however well-founded - that heat pumps might not work in all
 conditions. This inertia was and still is an important decision factor,
 similar to range anxiety with EVs.</p>
-<p>Another hybrid approach keeps the existing combi boiler for hot water
+<p>Another hybrid approach keeps the existing combi-boiler for hot water
 while adding air-to-air heat pumps for space heating and cooling. This
 gives homeowners unlimited hot water on demand without sacrificing floor
 space to a water cylinder. The air-to-air system - essentially
@@ -4277,7 +4319,7 @@ cooling in summer, making it particularly attractive for urban
 properties like small flats and terraced houses that often overheat
 during warm weather.</p>
 <p>Regrettably, the Government hasn’t yet considered either of these
-hybrid options, though it is considering air to air heatpumps for
+hybrid options, though it is considering air-to-air heat pumps for
 properties with an electric cylinder or way of heating water.</p>
 <p><strong>The perfection trap</strong> This obsession with achieving
 perfect, 100% renewable electricity before electrifying other sectors
@@ -4321,7 +4363,7 @@ electrification that begins immediately is better than perfect
 electrification that never starts.</p>
 <p>This is not an argument for abandoning climate ambitions or accepting
 continued fossil fuel dependence. Rather, it’s a recognition that the
-path to net zero requires balancing environmental goals with practical
+path to net-zero requires balancing environmental goals with practical
 constraints, economic realities, and human welfare considerations. The
 UK’s current approach of eliminating coal entirely while building
 massive offshore wind capacity has created a system that’s both more
@@ -4345,4 +4387,20 @@ answer lies not in waiting for perfect solutions, but in embracing the
 messy, incremental reality of energy transitions. Britain’s energy
 future depends on choosing pragmatism over perfectionism, and progress
 over purity.</p>
+<hr />
+<h1 id="chapter-21-glossary">Chapter 21: Glossary</h1>
+<h2 id="acronyms">Acronyms</h2>
+<h3 id="cbam---carbon-border-adjustment-mechanism">CBAM - Carbon Border
+Adjustment Mechanism</h3>
+<h3 id="ccgt---combined-cycle-gas-turbine">CCGT - Combined Cycle Gas
+Turbine</h3>
+<h3 id="cegb---central-electricity-generating-board">CEGB - Central
+Electricity Generating Board</h3>
+<h3 id="cfd---contracts-for-difference">CfD - Contracts for
+Difference</h3>
+<h3 id="kwh---kilo-watt-hour">kWh - Kilo Watt hour</h3>
+<h3 id="lcoe---levelised-cost-of-electricity">LCOE - Levelised Cost of
+Electricity</h3>
+<h3 id="roc---renewable-obligation-certificates">ROC - Renewable
+Obligation Certificates</h3>
 <hr />
