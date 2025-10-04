@@ -20,7 +20,14 @@ const SEO_CONFIG = {
     keywords: 'UK energy policy, British electricity system, energy grid, renewable energy, energy markets, energy regulation, energy infrastructure, energy economics, policy analysis, energy transition, grid balancing, energy subsidies, energy pricing, energy storage, smart grid, energy efficiency, climate policy, carbon pricing, energy security',
     author: 'Ben Watts',
     publisher: 'Ben Watts',
-    image: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-cover.png',
+    images: {
+        // Primary image (current cover)
+        primary: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-cover.png',
+        // Social media optimized images (when available)
+        socialOG: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-social-og.png',
+        socialTwitter: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-social-twitter.png',
+        socialSquare: 'https://benjaminwatts.github.io/watts-wrong/assets/covers/watts-wrong-social-square.png'
+    },
     twitterHandle: '@BenjaminWatts',
     language: 'en-GB'
 };
@@ -460,7 +467,11 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
     const pageDescription = description || SEO_CONFIG.description;
     const pageTitle = isChapter ? `${title} - ${BOOK_TITLE}` : title;
     const pageUrl = `${SEO_CONFIG.baseUrl}${url}`;
-    const pageImage = image || SEO_CONFIG.image;
+    
+    // Use optimized social media images when available, fallback to primary image
+    const pageImage = image || SEO_CONFIG.images.primary;
+    const ogImage = image || SEO_CONFIG.images.socialOG || SEO_CONFIG.images.primary;
+    const twitterImage = image || SEO_CONFIG.images.socialTwitter || SEO_CONFIG.images.primary;
     
     return `
     <!-- SEO Meta Tags -->
@@ -481,8 +492,10 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
     <meta property="og:title" content="${pageTitle}">
     <meta property="og:description" content="${pageDescription}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${pageImage}">
-    <meta property="og:image:alt" content="${BOOK_TITLE} book cover">
+    <meta property="og:image" content="${ogImage}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="${BOOK_TITLE} book cover - Britain's energy system analysis">
     <meta property="og:site_name" content="${BOOK_TITLE}">
     <meta property="og:locale" content="en_GB">
     ${isChapter ? `<meta property="article:author" content="${SEO_CONFIG.author}">` : ''}
@@ -493,8 +506,8 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
     <meta name="twitter:creator" content="${SEO_CONFIG.twitterHandle}">
     <meta name="twitter:title" content="${pageTitle}">
     <meta name="twitter:description" content="${pageDescription}">
-    <meta name="twitter:image" content="${pageImage}">
-    <meta name="twitter:image:alt" content="${BOOK_TITLE} book cover">
+    <meta name="twitter:image" content="${twitterImage}">
+    <meta name="twitter:image:alt" content="${BOOK_TITLE} book cover - Britain's energy system analysis">
     
     <!-- Additional Meta Tags -->
     <meta name="theme-color" content="#1E3A8A">
@@ -518,7 +531,7 @@ function generateSEOMetaTags(title, description, url, image, isChapter = false) 
             "name": "${SEO_CONFIG.publisher}"
         },
         "url": "${pageUrl}",
-        "image": "${pageImage}",
+        "image": "${ogImage}",
         "inLanguage": "${SEO_CONFIG.language}",
         "datePublished": "2024-01-01",
         "dateModified": "${new Date().toISOString().split('T')[0]}",

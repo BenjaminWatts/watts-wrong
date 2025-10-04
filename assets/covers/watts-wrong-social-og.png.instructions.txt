@@ -1,0 +1,16 @@
+# Open Graph (Facebook, LinkedIn) - 1200x630px
+# Source: /Users/benjaminwatts/watts-wrong/assets/covers/watts-wrong-cover.png
+# Target dimensions: 1200x630 pixels
+# 
+# Instructions for creating this image:
+# 1. Open the source image in your image editor
+# 2. Crop/resize to 1200x630 pixels
+# 3. Ensure the main elements (lightbulb, wind turbines, text) are visible
+# 4. Save as PNG with good quality
+# 5. Optimize file size (aim for < 500KB)
+#
+# Recommended tools:
+# - Canva: https://www.canva.com/
+# - GIMP: https://www.gimp.org/
+# - ImageMagick: convert /Users/benjaminwatts/watts-wrong/assets/covers/watts-wrong-cover.png -resize 1200x630! watts-wrong-social-og.png
+# - Squoosh: https://squoosh.app/
