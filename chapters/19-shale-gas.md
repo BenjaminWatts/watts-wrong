@@ -6,9 +6,92 @@ Shale gas is one of those energy topics that gets people really worked up. As so
 
 What's particularly frustrating about Britain's shale gas story is that it never really got a fair hearing. The debate was so polarised that reasonable discussion became impossible. And in the end, we threw away a potential source of domestic energy that could have made us more secure and wealthier, without really understanding what we were giving up.
 
+## Comparing North Sea and Shale Gas Resources
+
+Before we discuss why shale gas mattered, it's worth understanding what Britain had to choose from in terms of domestic energy resources. The choice wasn't just between shale gas and imports - it was between different types of domestic production.
+
+The North Sea has been Britain's energy lifeline for nearly 50 years, but it's rapidly running dry. Since oil and gas production began in the 1970s, the UK sector has produced somewhere in the region of 45 billion barrels of oil equivalent. Production peaked around 2000 at 4.4 million barrels per day, making Britain a significant energy exporter. In the 1990s, the UK was over 100% self-sufficient in oil and gas - we produced more than we consumed and exported the surplus.
+
+That golden age didn't last. Production has declined relentlessly since 2000, falling from 4.4 million barrels per day to around 1 million barrels per day by 2024 - a drop of roughly 77%. Britain became a net energy importer in 2004, and our self-sufficiency has collapsed. For gas specifically, we went from 99% self-sufficiency in 1998 to just 43% by 2017, and it's fallen further since. We now import over half our gas, and that figure is rising every year as North Sea production declines.
+
+Here's the remarkable thing: Britain's gas consumption has actually fallen by about 37% since 2000, driven by improved energy efficiency, warmer winters, and the shift to renewables for electricity generation. We're using much less gas than we did at the turn of the century. Yet despite this massive reduction in demand, we've still become heavily dependent on imports because domestic production fell even faster - collapsing by around 64% over the same period. This is the scale of the North Sea decline: even with consumption falling dramatically, we can't keep up with the loss of domestic supply.
+
+The North Sea's remaining reserves tell an interesting story. As of 2024-25, the UK sector contains approximately 7.5 billion barrels of oil equivalent (BOE) in remaining recoverable reserves. But here's the crucial detail that often gets overlooked: the split between oil and gas matters enormously for Britain's energy transition.
+
+Based on Norwegian North Sea data (which provides the best proxy for UK reserves composition), the remaining offshore reserves are roughly 60% oil and 40% gas. For the UK's 7.5 billion BOE, this translates to approximately:
+- 4.5 billion barrels of oil
+- 3.0 billion BOE of gas (equivalent to about 5,300 TWh, or roughly 7 years of current UK gas demand)
+
+But here's the crucial point: those "7 years of gas" won't actually be extracted over 7 years. North Sea gas fields have natural decline rates of around 9% per year, and mature fields are already past their peak production. UK gas production has fallen from about 108 billion cubic metres (bcm) per year in 2000 to roughly 35-39 bcm/year in 2023. Without massive new investment - which the government is actively discouraging by banning new exploration licenses - production will continue declining.
+
+In practice, these reserves will likely be extracted over 15-25 years, with production falling continuously throughout that period. By 2030, North Sea gas production could be down to 25-30 bcm/year. By 2040, it could be 15-20 bcm/year or lower. The reserves don't run out suddenly; they dwindle away over decades as fields deplete and fewer new fields come online to replace them. This means Britain will be importing an ever-increasing share of its gas needs - currently around 50%, but potentially 70-80% or more by the 2030s.
+
+Now compare this to Britain's prospective shale gas reserves. The British Geological Survey's 2013 assessment estimated the Bowland-Hodder formation alone contained gas in place equivalent to about 380,000 TWh, with recoverable reserves potentially ranging from 38,000-76,000 TWh using conservative recovery rates of 10-20%. To put this in perspective, that's equivalent to 50-100 years of Britain's current annual gas consumption of approximately 750 TWh.
+
+Think about what this means: Britain's shale gas potential in the Bowland-Hodder formation alone was roughly 7-14 times larger than the remaining North Sea gas reserves. But here's a crucial caveat: we don't actually know for certain what the full composition of Britain's shale resources would have been. The Bowland formation was assessed primarily for gas potential, but the Weald Basin in the south showed signs of oil-bearing shale (the Kimmeridge Clay formation). Without proper exploration, we never definitively established whether Britain's shale resources were predominantly gas, predominantly oil, or some mix of both.
+
+What we can say is that the most extensively studied formation - Bowland-Hodder - appeared to be gas-rich rather than oil-rich, which from an energy transition perspective would have been more valuable than oil. But this is one of the frustrating aspects of Britain's shale story: we banned it before we really understood what we had.
+
+## Why the oil-gas split matters
+
+For Britain's energy future, gas is fundamentally more valuable than oil - not because gas is inherently better, but because of how we use energy and how electrification changes everything. Understanding this requires looking at both carbon emissions and the transition to electric vehicles.
+
+First, the basic carbon math: natural gas emits approximately 29% less CO₂ than oil per unit of energy when burned. For heating oil specifically, gas produces about 202g CO₂/kWh compared to oil's 284g CO₂/kWh. But the real difference emerges when you consider what we use these fuels for.
+
+We import virtually all our transport fuel anyway (petrol and diesel), so North Sea oil mainly helps our balance of payments but doesn't directly improve our energy security for the things that matter most: heating homes and generating electricity. And here's where the oil-gas split becomes crucial for the transition to clean energy.
+
+Consider electric vehicles. A typical petrol car emits around 350g CO₂ per mile over its lifetime (including manufacturing and fuel production). An electric vehicle emits around 200g CO₂ per mile over its lifetime - a roughly 43% reduction. But these figures mask something important: the EV's emissions depend entirely on how its electricity is generated.
+
+In the UK, gas-fired power stations provide around 35-40% of our electricity generation. These modern Combined Cycle Gas Turbine (CCGT) plants produce electricity at roughly 350-400g CO₂/kWh. The current UK grid average is around 150-180g CO₂/kWh when you blend gas with renewables, nuclear, and other sources. An EV charging from this grid uses about 0.2-0.25 kWh per mile, resulting in operational emissions of 30-45g CO₂/mile - far lower than a petrol car's 180-200g CO₂/mile from fuel combustion alone.
+
+This is why domestic gas matters for the transition to EVs. Even when the electricity comes partly from gas, electrification delivers massive emissions reductions. A petrol car burning oil-based fuel at 40mpg produces direct emissions around 190g CO₂/mile. An EV charged from gas-fired electricity (at the worst case 400g CO₂/kWh) still only produces about 80-100g CO₂/mile - a 50-60% reduction.
+
+The mathematics are similar for heat pumps. A gas boiler at 90% efficiency uses gas at roughly 202g CO₂/kWh of heat delivered (224g ÷ 0.9). A heat pump at 350% efficiency uses electricity at 150g CO₂/kWh (grid average), delivering heat at just 43g CO₂/kWh - a reduction of about 79%. Even if that electricity came entirely from gas generation at 400g CO₂/kWh, the heat pump would still deliver heat at 114g CO₂/kWh - a 44% improvement over a gas boiler.
+
+This is why gas reserves are more valuable than oil reserves for Britain's energy transition: gas enables electrification that dramatically reduces emissions, while oil locks us into high-carbon transport. Domestic gas provides the flexible, dispatchable power generation that makes renewable electricity viable - keeping the lights on when the wind drops and the sun doesn't shine. This in turn makes EVs, heat pumps, and other electric technologies practical and low-carbon.
+
+Of course, even with a 100% renewable grid, EVs still have embedded carbon from manufacturing - roughly 8-12 tonnes of CO₂ for battery production, plus emissions from steel, aluminum, and component manufacturing. But over a vehicle's 150,000-mile lifetime, this manufacturing burden (equivalent to about 50-80g CO₂/mile) is far smaller than the 180-200g CO₂/mile from burning petrol.
+
+The North Sea's 60% oil, 40% gas split is therefore worse for the energy transition than if it were reversed. We need gas to enable electrification; we're stuck with oil that perpetuates high-carbon transport. Britain's shale resources appeared to be predominantly gas, not oil - making them far more valuable for achieving our climate goals while maintaining energy security.
+
+The North Sea's remaining reserves are declining fast - production has fallen from around 108 billion cubic metres per year in 2000 to about 35 bcm/year in 2023. At current production rates and with new field developments, the remaining 5,300 TWh of North Sea gas might last 15-20 years. But production will continue declining as fields deplete, meaning we'll be importing an ever-larger share of our gas needs.
+
+Shale gas, on the other hand, could have provided 38,000-76,000 TWh of recoverable gas - potentially equivalent to 50-100 years of Britain's current gas consumption, though obviously production would have ramped up gradually and wouldn't have met 100% of demand. More importantly, it appeared to be predominantly gas rather than oil, directly addressing our most critical energy security vulnerability.
+
+## The security of supply problem
+
+Britain's approach to energy security reveals a fundamental misunderstanding of risk. We maintain large strategic reserves of the energy we care less about, while having virtually no storage capacity for the energy we depend on most.
+
+Consider the numbers: Britain holds strategic oil stocks equivalent to 90 days of net imports - a requirement under International Energy Agency and EU agreements. This means that if oil imports were completely cut off tomorrow, we'd have roughly three months of supply to work with. Add in the fuel sitting in vehicle tanks across the country (roughly 1.5-2 billion litres, equivalent to another 6-8 days of consumption), and Britain has a reasonable buffer against oil supply disruptions.
+
+But here's the thing: oil supply disruptions, while inconvenient, wouldn't be catastrophic for most Britons. Petrol prices would spike, driving would become expensive, and we'd face economic disruption. But our homes would stay warm, our lights would stay on, and most people could survive by reducing car journeys, working from home, or using public transport.
+
+Now compare this to our gas storage capacity: approximately 3.2 billion cubic metres, equivalent to just 7.5 days of peak winter demand. During the winter of 2023/24, our entire gas storage capacity provided only 7% of total winter demand. The rest had to come from continuous imports via pipelines from Norway and LNG shipments from Qatar and the United States.
+
+Think about what this means in practice. If Britain lost access to gas imports during a cold snap in January, we'd have about a week before storage ran dry. Within days, 85% of British homes would lose heating. Gas-fired power stations, which provide around 40% of our electricity and the critical backup for when wind and solar aren't producing, would shut down. Hospitals, schools, offices, and factories would go cold. Unlike oil, where there are alternatives and workarounds, there's no quick substitute for gas in heating and power generation.
+
+The disparity becomes even more striking when you compare Britain to other European countries. The EU collectively maintains gas storage equivalent to around 20% of annual demand - meaning countries like Germany, France, and Italy have storage capacity equivalent to 60-90+ days of consumption. Britain has one of the lowest gas storage capacities in Europe, despite being one of the most dependent on gas for heating.
+
+This vulnerability isn't theoretical. Britain's largest gas storage facility, Rough, was closed in 2017, cutting our storage capacity by more than half. It reopened in 2022, but its operator, Centrica, has warned it may close again without government support. If Rough closes permanently, Britain's gas storage would fall to just a few days of peak winter demand.
+
+So Britain's energy security picture looks like this:
+
+- **Oil**: 90 days strategic storage + 6-8 days in vehicle tanks = ~96-98 days total
+- **Gas**: 7.5 days storage at peak winter demand (12.9 days average demand)
+
+We have comfortable reserves of oil, which we mainly import for transport anyway and where alternatives exist. But we have barely a week's supply of gas, which heats most homes, provides backup power, and has no realistic short-term alternatives at scale.
+
+This is the context that makes the shale gas ban so baffling. Britain sat on potential gas reserves equivalent to 50-100 years of consumption - resources that could have dramatically improved our energy security - and chose instead to remain dependent on continuous imports with virtually no storage buffer. We prioritised maintaining large reserves of the less critical fuel while accepting extreme vulnerability in the fuel that matters most.
+
+And it's not just about storage capacity. Domestic gas production provides inherent security - you can't have your supply cut off by foreign governments, pipeline sabotage, or shipping disruptions. Even if we'd only developed enough shale gas to meet 20-30% of demand, it would have provided a crucial security buffer during supply crises.
+
+The February 2022 spike in gas prices after Russia's invasion of Ukraine showed exactly how vulnerable Britain is. With minimal storage and heavy import dependence, UK gas prices shot up faster than almost anywhere else in Europe. Households saw energy bills double or triple. The government spent tens of billions subsidising energy costs. All because we had no domestic production cushion and no storage capacity to weather the storm.
+
 ## Why shale gas mattered
 
 Britain has been importing more and more gas over the years. We used to produce most of what we needed from the North Sea, but that's been declining since around 2000. These days, about half our gas comes from abroad - mostly from Norway via pipeline, but also from the US and Qatar as liquefied natural gas (LNG).
+
+The irony is painful: we banned shale gas development while sitting on gas reserves potentially 7-14 times larger than what remains in the North Sea. Instead of developing these domestic resources, we're importing American shale gas that's been liquefied, shipped 4,000 miles across the Atlantic, and regasified - adding significant emissions and cost at every step.
 
 When you buy energy from abroad, you're not just spending money - you're also missing out on all the economic benefits that would come from producing it at home. Every pound spent on imported gas is a pound that doesn't create British jobs, doesn't generate British tax revenue, and doesn't build British infrastructure.
 
